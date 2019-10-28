@@ -2,11 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About</title>
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Pragmatic | About </title>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>About | Pragmatic</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="About" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:5001/about.html" />
+<meta property="og:url" content="http://localhost:5001/about.html" />
+<meta property="og:site_name" content="Pragmatic" />
+<script type="application/ld+json">
+{"headline":"About","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:5001/assets/images/logo.png"}},"@type":"WebPage","url":"http://localhost:5001/about.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
   <body>
     <div class="nav">
-        <nav>
+        <nav id="nav">
     
         <a href="/" >
             Home
@@ -16,13 +32,89 @@
             About
         </a>
     
+        <a href="/blog.html" >
+            Blog
+        </a>
+    
+        <a href="/projects.html" >
+            Projects
+        </a>
+    
+    <div class="Burger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </nav>
     </div>
     <main class="page-content" aria-label="Content">
-        <h1 id="about-page">About page</h1>
+        <h1 id="about-pragmatic">About Pragmatic</h1>
+<p>Pragmatic is a <strong>simple, well-designed  and customizable</strong> <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and you’ll be all ready to start your website.
+<img src="/assets/images/about.png" alt="about" /></p>
 
-<p>This page tells you a little bit about me.</p>
+<p>This theme if full of powerful features you can use:</p>
+
+<p><img src="/assets/images/responsive.svg" alt="responsive design" class="icons" /></p>
+<h2 id="responsive-design">Responsive Design</h2>
+<p>Pragmatic adapts to the layout and works on mobile, computer and tablet.</p>
+
+<p><img src="/assets/images/layouts.svg" alt="layouts" class="icons" /></p>
+<h2 id="projects-and-posts-layouts">Projects and posts layouts</h2>
+<p>All you need to do is add your posts and projects files, and they will be showcased in a well thought-out and appealing manner.</p>
+
+<p><img src="/assets/images/docs.svg" alt="documentation" class="icons" /></p>
+<h2 id="clear-documentation">Clear documentation</h2>
+<p>The <a href="#" target="_blank" rel="noopener">project</a> documentation is simple and guides you every step of the way. You can also find more detailed tutorials <a href="#" target="_blank" rel="noopener">on my blog</a>.</p>
+
+<p><img src="/assets/images/shares.svg" alt="social buttons" class="icons" /></p>
+<h2 id="built-in-social-media-buttons">Built in social media buttons</h2>
+<p>Our social media icons will make it easier to link to your online presence.</p>
+
+<p><img src="/assets/images/seo.svg" alt="seo" class="icons" /></p>
+<h2 id="seo-friendly">SEO friendly</h2>
+<p>We’ve optimized your website for higher rankings on search engines like google.</p>
+
+<p><img src="/assets/images/comments.svg" alt="comments" class="icons" /></p>
+<h2 id="disqus-comments">Disqus comments</h2>
+<p>WEe provide integration with the commenting service platform Disqus,although if your site is oriented towards tech, the opensource tool<a href="https://github.com/gitalk/gitalk" rel="noopener" target="_blank">Gitalk </a> is recommended.</p>
+
+<p><img src="/assets/images/analytics.svg" alt="analytics" class="icons" /></p>
+<h2 id="google-analytics">Google Analytics</h2>
+<p>Our theme’s structure provides easy setup of Google Analytics.</p>
+
+<p>You can use the template for commercial or personal projects and you can <a href="#">hire me if you need extra support.</a></p>
+
 
     </main>
+    <br>
+    <!--<div id="container">
+<div class="footer">
+  <h2>Pragmatic</h2>
+  <div id="share">
+    <a target="_blank" href="https://facebook.com/user" class="fa fa-facebook" rel="noopener"></a>
+    <a href="https://twitter.com/user" target="_blank" rel="noopener" class="fa fa-twitter"></a>
+    <a href="https://linkedin.com/in/user" target="_blank" class="fa fa-linkedin"></a>
+    <a target="_blank" href="https://github.com/user" class="fa fa-github" rel="noopener"></a>
+    <a target="_blank" href="https://dribbble.com/user" class="fa fa-dribbble" rel="noopener"></a>
+    
+    
+    
+    
+</div>
+</div>
+</div>-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  document.querySelector('.Burger').addEventListener('click', function () {
+    document.querySelector('#nav').classList.toggle('is-open');
+    //document.body.classList.toggle('menu-open');
+  });
+  // }
+</script>
+
   </body>
 </html>

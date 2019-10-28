@@ -1,4 +1,51 @@
 ---
 layout: default
+title: home
 ---
-<h1>Hey</h1>
+<div class="mast" data-aos="fade-down">
+    <img class="avatar" src={{ site.avatar }}>
+    <br>
+    {% if site.logo %}
+        <img src="{{ site.logo }}" alt="{{ site.title }} logo">
+    {% else %}
+        <h1>{{ site.title }}</h1>
+    {% endif %}
+    <p>{{ site.bio }}</p>
+    {% include social.html %}
+    <br>
+    <a class="more-button" href="/about">Learn More</a>
+</div>
+<br>
+<div class="content">
+    <div class="posts">
+        <h2>Posts</h2>
+        {% for post in site.posts limit: 3 %}
+            <li>
+                <h2><a href="{{ post.url }}">{{ post.title }} - {{ post.date }}</a></h2>
+                <p>{{ post.excerpt }}</p>
+            </li>
+        {% endfor %}
+        {% if site.posts.length > 3 %}
+            <a class="more-button" href="/blog" >See More</a>
+        {% endif %}
+    </div>
+    <div class="projects">
+    <h2>Projects</h2>
+        {% for project in site.projects limit: 2 %}
+        
+            <a href={{ project.url }}>
+                <figure >
+                    <img src={{ project.feature_img }} alt={{ project.name }}>
+                    <figcaption>
+                        <h2>{{ project.name }}</h2>
+                        <h3>{{ project.description }}</h3>
+                    </figcaption>
+                </figure>
+            </a>
+            <br>
+        {% endfor %}
+        {% if site.projects.length > 2 %}
+            <a class="more-button" href="/projects">See More</a>
+        {% endif %}
+    </div>
+</div>

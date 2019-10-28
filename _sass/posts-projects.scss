@@ -1,0 +1,29 @@
+.project {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;    
+}
+.date {
+    color: $pale_violet
+}
+#project-list {
+    figure {
+    width: 80%;
+    margin-top: 40px;
+    }
+    h3 {
+        color: black;
+    }
+    img {
+        width: 50%;
+    }
+    .left {
+        float: left;
+    }
+    figcaption {
+        width: 30%; 
+    }
+    .right {
+        float: right;
+    }
+}

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div id="project-list">
+<h1>Projects</h1>
+{% for project in site.projects %}
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == "even" %}
+      <figure class="project right" data-aos="fade-left">
+        <figcaption>
+          <h2>{{ project.name }}</h2>
+          <h3>{{ project.description }}</h3>
+          <br>  
+          <a href="{{ project.url }}" class="more-button">View</a>
+          {% if project.link %}
+            <a href="{{ project.link }}" class="more-button" target="_blank">View Website</a>
+          {% endif %}
+        </figcaption>
+        <img src="{{ project.feature_img }}" alt="{{ project.name }}">
+        </figure>
+      {% else %}
+        <figure class="project left" data-aos="fade-right">
+          <img src="{{ project.feature_img }}" alt="{{ project.name }}">
+          <figcaption>
+            <h2>{{ project.name }}</h2>
+            <h3>{{ project.description }}</h3>
+            <br>
+            <a href="{{ project.url }}" class="more-button">View</a>
+            {% if project.link %}
+              <a href="{{ project.link }}" class="more-button" target="_blank">Live</a>
+            {% endif %}
+          </figcaption>
+        </figure>
+      {% endif}   
+{% endfor %}
+{% endfor %}
+</div>

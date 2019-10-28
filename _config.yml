@@ -1,0 +1,44 @@
+# Website info
+title: Pragmatic
+bio: 'Minimal jekyll theme for bloggers'
+#email: 
+# avatar image and about image
+avatar: /assets/images/me.svg
+about_image: /assets/images/about.png
+logo: /assets/images/logo.png   # if you have one
+# tinyletter newsletter if you have one
+#tinyletter:
+social_links:
+  twitter: user
+  github:  user
+  facebook: user
+  github: user
+  linkedin: user
+  dribbble: user
+    # flickr:   user
+    # instagram: user
+    # pinterest: user
+    # youtube: user
+  
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

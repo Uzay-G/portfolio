@@ -1,0 +1,19 @@
+I"à<h1 id="about-pragmatic">About Pragmatic</h1>
+<p>Pragmatic is a <strong>simple, well-designed  and customizable</strong> <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and youâ€™ll be all ready to start your website.</p>
+
+<p>This theme if full of powerful features you can use:</p>
+<ul>
+  <li>responsive design</li>
+  <li>projects and posts layouts</li>
+  <li>detailed <a href="#" target="_blank" rel="noopener">documentation</a></li>
+  <li>Built-in social media buttons</li>
+  <li>SEO friendly</li>
+  <li>Disqus comments although for developers, <a href="https://github.com/gitalk/gitalk" rel="noopener" target="_blank">is recommended.</a></li>
+  <li>Google Analytics</li>
+</ul>
+
+<p>You can use the template for commercial or personal projects and you can &lt;a href=&gt;</p>
+<div class="about">
+<img src="/assets/images/about.png" alt="about" />
+</div>
+:ET

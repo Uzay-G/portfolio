@@ -1,0 +1,28 @@
+I"ø<h1 id="about-pragmatic">About Pragmatic</h1>
+<p>Pragmatic is a <strong>simple, well-designed  and customizable</strong> <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and youâ€™ll be all ready to start your website.
+<img src="/assets/images/about.png" alt="about" /></p>
+
+<p>This theme if full of powerful features you can use:</p>
+
+<p><img src="/assets/images/responsive.svg" alt="responsive design" class="icons" /></p>
+<h2 id="responsive-design">Responsive Design</h2>
+<p>Pragmatic adapts to the layout and works on mobile, computer and tablet.</p>
+
+<p><img src="/assets/images/layouts.svg" alt="layouts" class="icons" /></p>
+<h2 id="projects-and-posts-layouts">Projects and posts layouts</h2>
+<p>All you need to do is add your posts and projects files, and they will be showcased in a well thought-out and appealing manner.</p>
+
+<p><img src="/assets/images/docs.svg" alt="documentation" class="icons" /></p>
+<h2 id="clear-documentation">Clear documentation</h2>
+<p>The <a href="#" target="_blank" rel="noopener">project</a> documentation is simple and guides you every step of the way. You can also find more detailed tutorials <a href="#" target="_blank" rel="noopener">on my blog</a>.
+<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjI1NnB4IiBoZWlnaHQ9IjI1NnB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+Cgk8Zz4KCQk8cGF0aCBkPSJNMTI4LDguNSBDMTk0LDguNSAyNDcuNCw2MS45IDI0Ny40LDEyNy44IEMyNDcuNCwxOTMuNyAxOTQsMjQ3LjIgMTI4LDI0Ny4yIEM2MiwyNDcuMiA4LjYsMTkzLjggOC42LDEyNy45IEM4LjYsNjIgNjIsOC41IDEyOCw4LjUgTDEyOCw4LjUgTDEyOCw4LjUgWiIgZmlsbD0iI0U3NEQ4OSI+PC9wYXRoPgoJCTxwYXRoIGQ9Ik0xMjgsMjU1LjcgQzU3LjQsMjU1LjcgMCwxOTguNCAwLDEyNy45IEMwLDU3LjMgNTcuNCwwIDEyOCwwIEMxOTguNiwwIDI1Niw1Ny4zIDI1NiwxMjcuOCBDMjU2LDE5OC4zIDE5OC42LDI1NS43IDEyOCwyNTUuNyBMMTI4LDI1NS43IEwxMjgsMjU1LjcgWiBNMjM1LjksMTQ1LjMgQzIzMi4yLDE0NC4xIDIwMi4xLDEzNS4yIDE2Ny44LDE0MC42IEMxODIuMSwxNzkuOCAxODcuOSwyMTEuOCAxODksMjE4LjQgQzIxMy42LDIwMS45IDIzMS4xLDE3NS43IDIzNS45LDE0NS4zIEwyMzUuOSwxNDUuMyBMMjM1LjksMTQ1LjMgWiBNMTcwLjcsMjI4LjUgQzE2OS4xLDIxOC45IDE2Mi43LDE4NS41IDE0Ny40LDE0NS43IEMxNDcuMiwxNDUuOCAxNDYuOSwxNDUuOSAxNDYuNywxNDUuOSBDODUsMTY3LjQgNjIuOSwyMTAuMSA2MC45LDIxNC4xIEM3OS40LDIyOC41IDEwMi43LDIzNy4xIDEyOCwyMzcuMSBDMTQzLjEsMjM3LjIgMTU3LjYsMjM0LjEgMTcwLjcsMjI4LjUgTDE3MC43LDIyOC41IEwxNzAuNywyMjguNSBaIE00Ni44LDIwMSBDNDkuMywxOTYuOCA3OS4zLDE0Ny4yIDEzNS43LDEyOC45IEMxMzcuMSwxMjguNCAxMzguNiwxMjggMTQwLDEyNy42IEMxMzcuMywxMjEuNCAxMzQuMywxMTUuMiAxMzEuMSwxMDkuMSBDNzYuNSwxMjUuNCAyMy41LDEyNC43IDE4LjcsMTI0LjYgQzE4LjcsMTI1LjcgMTguNiwxMjYuOCAxOC42LDEyNy45IEMxOC43LDE1NiAyOS4zLDE4MS42IDQ2LjgsMjAxIEw0Ni44LDIwMSBMNDYuOCwyMDEgWiBNMjEsMTA1LjYgQzI1LjksMTA1LjcgNzAuOSwxMDUuOSAxMjIuMSw5Mi4zIEMxMDQsNjAuMSA4NC40LDMzLjEgODEuNiwyOS4yIEM1MC45LDQzLjYgMjguMSw3MS44IDIxLDEwNS42IEwyMSwxMDUuNiBMMjEsMTA1LjYgWiBNMTAyLjQsMjEuOCBDMTA1LjQsMjUuOCAxMjUuMyw1Mi44IDE0My4yLDg1LjcgQzE4Mi4xLDcxLjEgMTk4LjUsNDkuMSAyMDAuNSw0Ni4zIEMxODEuMiwyOS4yIDE1NS44LDE4LjggMTI4LDE4LjggQzExOS4yLDE4LjggMTEwLjYsMTkuOSAxMDIuNCwyMS44IEwxMDIuNCwyMS44IEwxMDIuNCwyMS44IFogTTIxMi42LDU4LjkgQzIxMC4zLDYyIDE5Miw4NS41IDE1MS42LDEwMiBDMTU0LjEsMTA3LjIgMTU2LjYsMTEyLjUgMTU4LjksMTE3LjggQzE1OS43LDExOS43IDE2MC41LDEyMS42IDE2MS4zLDEyMy40IEMxOTcuNywxMTguOCAyMzMuOCwxMjYuMiAyMzcuNCwxMjYuOSBDMjM3LjEsMTAxLjIgMjI3LjksNzcuNSAyMTIuNiw1OC45IEwyMTIuNiw1OC45IEwyMTIuNiw1OC45IFoiIGZpbGw9IiNCMjIxNUEiPjwvcGF0aD4KCTwvZz4KPC9zdmc+" alt="social media" /></p>
+<ul>
+  <li>Built-in social media buttons</li>
+  <li>SEO friendly</li>
+  <li>Disqus comments although for developers, <a href="https://github.com/gitalk/gitalk" rel="noopener" target="_blank">Gitalk </a> is recommended.</li>
+  <li>Google Analytics</li>
+</ul>
+
+<p>You can use the template for commercial or personal projects and you can <a href="#">hire me if you need extra support.</a></p>
+
+:ET

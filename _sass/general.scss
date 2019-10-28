@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+}
+p, li  {
+    font-family: $text-font;
+    font-size: 17px;
+}
+h3, h2, h1 {
+    font-family: $bold-font;
+    font-weight: normal;
+    margin: 0;
+}
+button {
+    font-family: $bold-font
+}
+
+figure img, {
+    height: inherit;
+}
+a {
+    color: $pale_violet;
+}
+.fa {
+	font-size: 30px;
+	padding: 10px;
+	width: 30px;
+	text-decoration: none;
+	transition: all 1s;
+    color: #504658
+}
+.fa:hover {
+    opacity: 0.65;
+    box-shadow: 0 0 1px 7px #c6cbef
+}
+.page-content {
+    width: 80%;
+    margin: auto;
+
+}

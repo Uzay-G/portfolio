@@ -1,0 +1,22 @@
+@media only screen and (max-width: 450px) {
+    .content {
+        flex-direction: column;
+        width: 100%;
+        .projects, .posts {
+            width: 90%;
+            text-align: center;
+            margin: auto;
+        }
+        .projects img {
+            width: 100%;
+        }
+    }
+    #project-list {
+        .project {
+            flex-direction: column;
+        }
+        .project, img, figcaption {
+            width: 100%;
+        }
+    }
+}

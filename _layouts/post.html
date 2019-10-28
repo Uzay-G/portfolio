@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<br>
+<h1>{{ page.title }} by </h1>
+<p class="date">{{ page.date | date_to_string }} - {{ page.author }}</p>
+{% capture words %}
+  {{ page.content | number_of_words | minus: 250 }}
+{% endcapture %}
+{% unless words contains "-" %}
+  {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
+{% endunless %}
+{{ content }}

@@ -1,0 +1,61 @@
+.mast {
+    text-align: center;
+    .avatar {
+        width: 200px;
+        border-radius: 400px;
+    }
+    p {
+        font-size: 25px;
+        margin: 10px 0px 15px 0px
+    }
+    h1 {
+        margin:20px 0px 7px 0px;
+    }
+}
+    .more-button {
+        background: #484c7f;
+        padding: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        font-family: $bold-font
+    }
+.content {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 94%;
+    .projects {
+        width: 50%;
+    }
+    h3 {
+        color: black;
+    }
+    .posts {
+        text-align: left;
+        width: 45%;
+        padding-right: 5%;
+    }
+    .projects {
+        text-align: right;
+    }
+    figure {
+        margin: auto;
+    }
+    figure img {
+        width: 100%;
+    }
+    figcaption {
+    border-color: #504658;
+    border-width: 0px 3px 3px 3px;
+    border-style: solid;
+    margin: auto;
+    width: 78%;
+    padding: 1px 10%;
+    }
+    figure:hover {
+    transition: box-shadow 2s;
+    box-shadow: 0px 3px 23px -10px gray
+    }
+}
