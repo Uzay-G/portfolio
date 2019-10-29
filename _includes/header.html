@@ -1,15 +1,24 @@
+
 <nav id="nav">
-    {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-            {{ item.name }}
-        </a>
-    {% endfor %}
+    
+    <a href="/"><img src="{{ site.logo }}" alt="{{ site.title }} logo" id="logo"></a>
     <div class="Burger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="links-container">
+                {% for item in site.data.navigation %}
+                    <a class="nav-links hover-underline" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+                        {{ item.name }}
+                    </a>
+                {% endfor %}
+            </div>
+    <div class="overlay">
+    
+</div>
+
 </nav>

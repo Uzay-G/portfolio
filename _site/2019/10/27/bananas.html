@@ -15,49 +15,59 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa." />
 <meta property="og:description" content="A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa." />
-<link rel="canonical" href="http://localhost:5001/2019/10/27/bananas.html" />
-<meta property="og:url" content="http://localhost:5001/2019/10/27/bananas.html" />
+<link rel="canonical" href="http://localhost:4000/2019/10/27/bananas.html" />
+<meta property="og:url" content="http://localhost:4000/2019/10/27/bananas.html" />
 <meta property="og:site_name" content="Pragmatic" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-10-27T00:00:00+02:00" />
 <script type="application/ld+json">
-{"headline":"Bananas","dateModified":"2019-10-27T00:00:00+02:00","datePublished":"2019-10-27T00:00:00+02:00","author":{"@type":"Person","name":"jill"},"description":"A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:5001/assets/images/logo.png"},"name":"jill"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:5001/2019/10/27/bananas.html"},"@type":"BlogPosting","url":"http://localhost:5001/2019/10/27/bananas.html","@context":"https://schema.org"}</script>
+{"headline":"Bananas","dateModified":"2019-10-27T00:00:00+02:00","datePublished":"2019-10-27T00:00:00+02:00","author":{"@type":"Person","name":"jill"},"description":"A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"jill"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/10/27/bananas.html"},"@type":"BlogPosting","url":"http://localhost:4000/2019/10/27/bananas.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
 </head>
   <body>
     <div class="nav">
-        <nav id="nav">
+        
+<nav id="nav">
     
-        <a href="/" >
-            Home
-        </a>
-    
-        <a href="/about.html" >
-            About
-        </a>
-    
-        <a href="/blog.html" >
-            Blog
-        </a>
-    
-        <a href="/projects.html" >
-            Projects
-        </a>
-    
+    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
     <div class="Burger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="links-container">
+                
+                    <a class="nav-links hover-underline" href="/about.html" >
+                        About
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/blog.html" >
+                        Blog
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/projects.html" >
+                        Projects
+                    </a>
+                
+            </div>
+    <div class="overlay">
+    
+</div>
+
 </nav>
+
     </div>
     <main class="page-content" aria-label="Content">
         <br>
-<h1>Bananas by </h1>
+<h1>Bananas</h1>  
+
+  <span class="tag">fruit</span>
+
+  <span class="tag">food</span>
+
 <p class="date">27 Oct 2019 - jill</p>
 
 
@@ -70,33 +80,17 @@ and firmness, but is usually elongated and curved, with soft flesh rich in
 starch covered with a rind, which may be green, yellow, red, purple, or brown
 when ripe.</p>
 
+<br>
     </main>
     <br>
-    <!--<div id="container">
-<div class="footer">
-  <h2>Pragmatic</h2>
-  <div id="share">
-    <a target="_blank" href="https://facebook.com/user" class="fa fa-facebook" rel="noopener"></a>
-    <a href="https://twitter.com/user" target="_blank" rel="noopener" class="fa fa-twitter"></a>
-    <a href="https://linkedin.com/in/user" target="_blank" class="fa fa-linkedin"></a>
-    <a target="_blank" href="https://github.com/user" class="fa fa-github" rel="noopener"></a>
-    <a target="_blank" href="https://dribbble.com/user" class="fa fa-dribbble" rel="noopener"></a>
-    
-    
-    
-    
-</div>
-</div>
-</div>-->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-  document.querySelector('.Burger').addEventListener('click', function () {
-    document.querySelector('#nav').classList.toggle('is-open');
-    //document.body.classList.toggle('menu-open');
-  });
-  // }
-</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      document.querySelector('.Burger').addEventListener('click', function () {
+        document.querySelector('.nav').classList.toggle('is-open');
+        document.querySelector(".nav").classList.toggle('overlay-open');
+      });
+    </script>
 
   </body>
 </html>

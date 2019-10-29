@@ -2,7 +2,10 @@
 layout: default
 ---
 <br>
-<h1>{{ page.title }} by </h1>
+<h1>{{ page.title }}</h1>  
+{% for tag in page.tags %}
+  <span class="tag">{{ tag }}</span>
+{% endfor %}
 <p class="date">{{ page.date | date_to_string }} - {{ page.author }}</p>
 {% capture words %}
   {{ page.content | number_of_words | minus: 250 }}
@@ -11,3 +14,7 @@ layout: default
   {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
 {% endunless %}
 {{ content }}
+<br>
+{%- if site.disqus.shortname -%}
+{%- include disqus_comments.html -%}
+{%- endif -%}

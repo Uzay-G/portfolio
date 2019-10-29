@@ -14,7 +14,7 @@ button {
     font-family: $bold-font
 }
 
-figure img, {
+figure img {
     height: inherit;
 }
 a {
@@ -37,3 +37,25 @@ a {
     margin: auto;
 
 }
+.tag {
+     color: #8186d5;
+     font-family: Titillium Web, sans-serif;
+     padding: 1px 3px;
+     background: #f9fce1;
+}
+blockquote {
+	border-left-width: 4px;
+    margin: 15px auto;
+    border-left: 2px solid #2A2F36;
+    padding: 3px 0 3px 15px;
+    font-weight: 300;
+    letter-spacing: -.02em;
+    line-height: 1.6;
+    width: 96%;
+}
+blockquote p {
+    font-size: 25px;
+}
+html {
+    font-size: 0.8rem;
+  }

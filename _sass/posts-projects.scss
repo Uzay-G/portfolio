@@ -9,13 +9,14 @@
 #project-list {
     figure {
     width: 80%;
-    margin-top: 40px;
+    margin: 20px 0px;
     }
     h3 {
         color: black;
     }
     img {
         width: 50%;
+        padding: 20px 0px;
     }
     .left {
         float: left;
@@ -26,4 +27,8 @@
     .right {
         float: right;
     }
+}
+.post-list {
+    list-style-type: none;
+    padding: 0;
 }

@@ -8,7 +8,7 @@ layout: default
     {% if thecycle == "even" %}
       <figure class="project right" data-aos="fade-left">
         <figcaption>
-          <h2>{{ project.name }}</h2>
+          <a href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
           <h3>{{ project.description }}</h3>
           <br>  
           <a href="{{ project.url }}" class="more-button">View</a>
@@ -22,7 +22,7 @@ layout: default
         <figure class="project left" data-aos="fade-right">
           <img src="{{ project.feature_img }}" alt="{{ project.name }}">
           <figcaption>
-            <h2>{{ project.name }}</h2>
+          <a href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
             <h3>{{ project.description }}</h3>
             <br>
             <a href="{{ project.url }}" class="more-button">View</a>

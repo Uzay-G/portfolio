@@ -1,9 +1,54 @@
 .current {
     color: red
 }
+.overlay-open {
+  .overlay {
+    opacity: 1;
+    width: 100%;
+    display: block;
+  }
+  .Burger span {
+    background: white;
+  }
+  #nav .nav-links {
+    opacity: 1;
+  }
+}
+#nav {
+  width:80%;
+  margin:auto;
+  text-align: right;
+  font-size: 1.2rem;
+  .nav-links {
+    padding: 5px;
+    font-size: 25px;
+    font-family: $bold_font;
+    opacity: 1;
+    color: black;
+  }
+  #logo {
+    float: left;
+  }
+}
+.overlay {
+  height: 100%;
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: opacity 0.5s
+}
+
 // Header
 .Burger {
-  position: relative;
+  z-index: 1;
+  position: absolute;
+  top: 12px;
+  right: 25px;
   display: block;
   width: 2.5rem;
   height: 2rem;
@@ -97,4 +142,33 @@
     @media (min-width: 450px) {
         display: none;
   }
+}
+.hover-underline:hover::before, .hvr-underline-from-center:focus::before, .hvr-underline-from-center:active::before {
+	left: 0;
+	right: 0;
+}
+.hover-underline::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 51%;
+	right: 51%;
+	top: 31px;
+	height: 2px;
+	background: black;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.hover-underline {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
 }

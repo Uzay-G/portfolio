@@ -12,50 +12,54 @@
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="About" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:5001/about.html" />
-<meta property="og:url" content="http://localhost:5001/about.html" />
+<link rel="canonical" href="http://localhost:4000/about.html" />
+<meta property="og:url" content="http://localhost:4000/about.html" />
 <meta property="og:site_name" content="Pragmatic" />
 <script type="application/ld+json">
-{"headline":"About","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:5001/assets/images/logo.png"}},"@type":"WebPage","url":"http://localhost:5001/about.html","@context":"https://schema.org"}</script>
+{"headline":"About","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@type":"WebPage","url":"http://localhost:4000/about.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
 </head>
   <body>
     <div class="nav">
-        <nav id="nav">
+        
+<nav id="nav">
     
-        <a href="/" >
-            Home
-        </a>
-    
-        <a href="/about.html" class="current">
-            About
-        </a>
-    
-        <a href="/blog.html" >
-            Blog
-        </a>
-    
-        <a href="/projects.html" >
-            Projects
-        </a>
-    
+    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
     <div class="Burger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="links-container">
+                
+                    <a class="nav-links hover-underline" href="/about.html" class="current">
+                        About
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/blog.html" >
+                        Blog
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/projects.html" >
+                        Projects
+                    </a>
+                
+            </div>
+    <div class="overlay">
+    
+</div>
+
 </nav>
+
     </div>
     <main class="page-content" aria-label="Content">
-        <h1 id="about-pragmatic">About Pragmatic</h1>
+        <p><img src="/assets/images/about.png" alt="about" /></p>
+<h1 id="about-pragmatic">About Pragmatic</h1>
 <p>Pragmatic is a <strong>simple, well-designed  and customizable</strong> <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and you’ll be all ready to start your website.
-<img src="/assets/images/about.png" alt="about" /></p>
-
-<p>This theme if full of powerful features you can use:</p>
+This theme if full of powerful features you can use:</p>
 
 <p><img src="/assets/images/responsive.svg" alt="responsive design" class="icons" /></p>
 <h2 id="responsive-design">Responsive Design</h2>
@@ -63,7 +67,7 @@
 
 <p><img src="/assets/images/layouts.svg" alt="layouts" class="icons" /></p>
 <h2 id="projects-and-posts-layouts">Projects and posts layouts</h2>
-<p>All you need to do is add your posts and projects files, and they will be showcased in a well thought-out and appealing manner.</p>
+<p>All you need to do is add your posts and projects files, and they will be showcased in a well thought-out and appealing manner. You can even assign <strong>value</strong> to your projects to decide which ones will appear highest!</p>
 
 <p><img src="/assets/images/docs.svg" alt="documentation" class="icons" /></p>
 <h2 id="clear-documentation">Clear documentation</h2>
@@ -79,42 +83,25 @@
 
 <p><img src="/assets/images/comments.svg" alt="comments" class="icons" /></p>
 <h2 id="disqus-comments">Disqus comments</h2>
-<p>WEe provide integration with the commenting service platform Disqus,although if your site is oriented towards tech, the opensource tool<a href="https://github.com/gitalk/gitalk" rel="noopener" target="_blank">Gitalk </a> is recommended.</p>
+<p>We provide integration with the commenting service platform Disqus,although if your site is oriented towards tech, the opensource tool <a href="https://github.com/gitalk/gitalk" rel="noopener" target="_blank">Gitalk </a> is recommended.</p>
 
 <p><img src="/assets/images/analytics.svg" alt="analytics" class="icons" /></p>
 <h2 id="google-analytics">Google Analytics</h2>
 <p>Our theme’s structure provides easy setup of Google Analytics.</p>
 
-<p>You can use the template for commercial or personal projects and you can <a href="#">hire me if you need extra support.</a></p>
+<p>If you buy the template, I can provide you with help on the best way to setup your website.</p>
 
 
     </main>
     <br>
-    <!--<div id="container">
-<div class="footer">
-  <h2>Pragmatic</h2>
-  <div id="share">
-    <a target="_blank" href="https://facebook.com/user" class="fa fa-facebook" rel="noopener"></a>
-    <a href="https://twitter.com/user" target="_blank" rel="noopener" class="fa fa-twitter"></a>
-    <a href="https://linkedin.com/in/user" target="_blank" class="fa fa-linkedin"></a>
-    <a target="_blank" href="https://github.com/user" class="fa fa-github" rel="noopener"></a>
-    <a target="_blank" href="https://dribbble.com/user" class="fa fa-dribbble" rel="noopener"></a>
-    
-    
-    
-    
-</div>
-</div>
-</div>-->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-  document.querySelector('.Burger').addEventListener('click', function () {
-    document.querySelector('#nav').classList.toggle('is-open');
-    //document.body.classList.toggle('menu-open');
-  });
-  // }
-</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      document.querySelector('.Burger').addEventListener('click', function () {
+        document.querySelector('.nav').classList.toggle('is-open');
+        document.querySelector(".nav").classList.toggle('overlay-open');
+      });
+    </script>
 
   </body>
 </html>
