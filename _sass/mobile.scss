@@ -37,6 +37,8 @@
             width: 90%;
             text-align: center;
             margin: auto;
+            padding: 0;
+            margin-top: 20px;
         }
         .projects img {
             width: 100%;
@@ -68,6 +70,15 @@
         color: #818181;
         padding: 8px;
         transition: 0.5s;
+    }
+    .content-container {
+      width: 100%;
+    }    
+    .page-content {
+      width: 90%;
+    }
+    #nav {
+      width: 90%;
     }
 }
 

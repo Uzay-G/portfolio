@@ -18,7 +18,13 @@ h2 {
     font-size: 30px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 25px;
+}
+h4 {
+    font-size: 19px;
+}
+h5 {
+    font-size: 18px;
 }
 h6, h5, h4, h3, h2, h1 {
     font-family: $bold-font;
@@ -66,13 +72,16 @@ figure img {
 .page-content {
     width: 80%;
     margin: auto;
-
+    img {
+        max-width: 100%;
+    }
 }
 // tags for posts
 .tag {
      color: #8186d5;
      font-family: Titillium Web, sans-serif;
      padding: 1px 3px;
+     font-size: 15px;
      background: #f9fce1;
 }
 
@@ -84,4 +93,8 @@ figure img {
     font-size: 20px;
     color: white;
     font-family: $bold-font
+}
+body, html {
+    padding: 0;
+    margin: 0;
 }

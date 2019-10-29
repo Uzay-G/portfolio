@@ -83,7 +83,11 @@ h1 { font-size: 38px; }
 
 h2 { font-size: 30px; }
 
-h3 { font-size: 20px; }
+h3 { font-size: 25px; }
+
+h4 { font-size: 19px; }
+
+h5 { font-size: 18px; }
 
 h6, h5, h4, h3, h2, h1 { font-family: Staatliches, cursive; font-weight: normal; margin: 0; }
 
@@ -101,9 +105,13 @@ figure img { height: inherit; }
 
 .page-content { width: 80%; margin: auto; }
 
-.tag { color: #8186d5; font-family: Titillium Web, sans-serif; padding: 1px 3px; background: #f9fce1; }
+.page-content img { max-width: 100%; }
+
+.tag { color: #8186d5; font-family: Titillium Web, sans-serif; padding: 1px 3px; font-size: 15px; background: #f9fce1; }
 
 .more-button { background: #484c7f; padding: 5px; border: none; font-size: 20px; color: white; font-family: Staatliches, cursive; }
+
+body, html { padding: 0; margin: 0; }
 
 .project { display: flex; margin: auto; justify-content: space-between; }
 
@@ -138,11 +146,14 @@ figure img { height: inherit; }
 .overlay-open #nav .nav-links { opacity: 1; }
 
 @media only screen and (max-width: 450px) { .content { flex-direction: column; width: 100%; }
-  .content .projects, .content .posts { width: 90%; text-align: center; margin: auto; }
+  .content .projects, .content .posts { width: 90%; text-align: center; margin: auto; padding: 0; margin-top: 20px; }
   .content .projects img { width: 100%; }
   #project-list .project { flex-direction: column; }
   #project-list .project, #project-list img, #project-list figcaption { width: 100%; }
   #links-container { position: absolute; z-index: 1; left: 0; right: 0; top: 25%; /* 25% from the top */ width: 100px; /* 100% width */ text-align: center; /* Centered text/links */ margin: auto; }
-  #nav .nav-links { opacity: 0; color: #818181; padding: 8px; transition: 0.5s; } }
+  #nav .nav-links { opacity: 0; color: #818181; padding: 8px; transition: 0.5s; }
+  .content-container { width: 100%; }
+  .page-content { width: 90%; }
+  #nav { width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

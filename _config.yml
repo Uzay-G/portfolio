@@ -1,23 +1,22 @@
 # Website info
-title: Pragmatic
-bio: 'Minimal jekyll theme for bloggers'
-blog_description: Documentation for the Pragmatic theme
+title: UZPG
+bio: Developer & Designer
+blog_description: This is a blog about webdev, computer science and opensource. I’ll be writing about all the interesting technology that powers our world and how it can make us think and create new things.
 #email: 
 # image paths
 # you can create your avatar at https://getavataaars.com/
-avatar: /assets/images/avataar.svg
+avatar: /assets/images/avatar.svg
 
 # optional about image
 about_image: /assets/images/about.png
-logo: /assets/images/logo.png   # if you have one
+#logo: /assets/images/logo.png   # if you have one
 
 social_links:
-  twitter: user
-  github:  user
-  facebook: user
-  github: user
-  linkedin: user
-  dribbble: user
+  #twitter: user
+  github: Uzay-G
+  #facebook: user
+  #linkedin: user
+  #dribbble: user
     # flickr:   user
     # instagram: user
     # pinterest: user

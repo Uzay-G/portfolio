@@ -1,22 +1,26 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="/assets/css/dracula.css">   
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>Pragmatic | Blog </title>
+    <link rel="stylesheet" href="/assets/css/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
+    <title>UZPG | Blog </title>
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Blog | Pragmatic</title>
+<title>Blog | UZPG</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Blog" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/blog.html" />
-<meta property="og:url" content="http://localhost:4000/blog.html" />
-<meta property="og:site_name" content="Pragmatic" />
+<link rel="canonical" href="http://localhost:5001/blog.html" />
+<meta property="og:url" content="http://localhost:5001/blog.html" />
+<meta property="og:site_name" content="UZPG" />
 <script type="application/ld+json">
-{"headline":"Blog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"@type":"WebPage","url":"http://localhost:4000/blog.html","@context":"https://schema.org"}</script>
+{"headline":"Blog","@type":"WebPage","url":"http://localhost:5001/blog.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 </head>
   <body>
@@ -25,7 +29,7 @@
 <nav id="nav">
     <a href="/">
         
-            <img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo">
+            <h2 id="logo">UZPG</h2>
         
     </a>
     <div class="Burger">
@@ -50,6 +54,10 @@
                         Projects
                     </a>
                 
+                    <a class="nav-links hover-underline" href="http://tinyletter.com/uzpg" >
+                        Newsletter
+                    </a>
+                
             </div>
     <div class="overlay">
     
@@ -65,26 +73,45 @@
 <ul class="post-list">
   
     <li data-aos="fadein">
-      <h2><a href="/2019/10/27/bananas.html">Bananas - Oct 27, 2019</a></h2>
+      <h2><a href="/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html">From Zero to Hero: Coding a blog in Jekyll - Sep 26, 2019</a></h2>
       
-        <span class="tag">fruit</span>
-      
-        <span class="tag">food</span>
-      
-      <p><p>A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+      <p><p>I’ve been asked quite a few times online for help on creating static sites with generators like jekyll and what are the best ways to host them. So, I have decided to write a series of blog posts that will detail how to fully create, setup and deploy your own <a href="https://scotch.io/bar-talk/5-reasons-static-sites-rock" target="_blank" rel="noopener">static</a> blog built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>. We will use a customizable theme and for hosting, we’ll go with <a href="https://netlify.com" target="_blank" rel="noopener">Netlify</a>’s free tier.</p>
 </p>
     </li>
   
     <li data-aos="fadein">
-      <h2><a href="/2019/10/26/kiwi.html">Kiwi - Oct 26, 2019</a></h2>
+      <h2><a href="/design/learning/tech-tutorials/2019/09/22/design-preloader.html">Learn how to code a well-designed pre-loader - Sep 22, 2019</a></h2>
       
-        <span class="tag">fruit</span>
+      <p><p>Preloaders are essential for websites that contain many images, videos or any other data-consuming files. A loader lets your users know that something is happening behind the screen and they are not just looking at a dead website. This tutorial will teach you how to code an engaging pre-loader using css animations and how to make it work with your own site.</p>
+</p>
+    </li>
+  
+    <li data-aos="fadein">
+      <h2><a href="/learning/2019/09/20/project-euler.html">Project Euler - Improve your coding skills while having a blast - Sep 20, 2019</a></h2>
       
-        <span class="tag">food</span>
+      <p><p><a target="_blank" href="https://projecteuler.net/">Project Euler</a> is a free platform named after famous mathematician Leonhard Euler that provides a large series of computer programming problems that challenge your problem-solving skills.</p>
+</p>
+    </li>
+  
+    <li data-aos="fadein">
+      <h2><a href="/webdev/python/2019/09/10/useful-github-tools-and-libraries.html">Useful tools and repositories for development open-sourced on github - Sep 10, 2019</a></h2>
       
-      <p><p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.</p>
+        <span class="tag">learning</span>
+      
+        <span class="tag">github</span>
+      
+      <p><p>Github is a marvelous tools that allows developers to host their code for free online on repositories. This code is often open-source, which means it encourages open collaboration and use. Open-source is an amazing aspect of software development that has led to the creation of numerous creative projects (libs, frameworks, packages…). Today we’ll be looking at which useful repositories can help you for web development and computer science</p>
+</p>
+    </li>
+  
+    <li data-aos="fadein">
+      <h2><a href="/webdev/python/2019/09/04/welcome-to-my-blog.html">Welcome to this blog! - Sep 4, 2019</a></h2>
+      
+        <span class="tag">beginning</span>
+      
+        <span class="tag">blog</span>
+      
+      <p><p>Hey, this is going to be a simple coding blog built with Jekyll and Netlify. I hope my content will interest you and teach you new things about software development and its industry!</p>
 </p>
     </li>
   

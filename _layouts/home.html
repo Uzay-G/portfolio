@@ -18,8 +18,8 @@ title: home
 <br>
 <div class="content">
     <div class="posts">
-        <h2>Posts</h2>
-        {% for post in site.posts limit: 3 %}
+        <h2>Posts</h2><br>
+        {% for post in site.posts limit: 2 %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: site.date_format }}</a></h2>
                 {% for tag in post.tags %}
@@ -28,12 +28,13 @@ title: home
                 <p>{{ post.excerpt }}</p>
             </li>
         {% endfor %}
-        {% if site.posts.length > 3 %}
+        {% if site.posts.size > 2 %}
             <a class="more-button" href="/blog" >See More</a>
         {% endif %}
     </div>
+    <br>
     <div class="projects">
-    <h2>Projects</h2>
+    <h2>Projects</h2><br>
         {% for project in site.projects limit: 2 %}
         
             <a href={{ project.url }}>
@@ -47,8 +48,9 @@ title: home
             </a>
             <br>
         {% endfor %}
-        {% if site.projects.length > 2 %}
+        {% if site.projects.size > 2 %}
             <a class="more-button" href="/projects">See More</a>
         {% endif %}
+        
     </div>
 </div>

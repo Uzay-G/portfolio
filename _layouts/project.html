@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
+<br><br>
 <div class="content-container">
     <div class="project-masthead">
-        <img class="project-img" src={{ page.feature_img }} alt={{ page.name }}>
         <h1>{{ page.name }}</h1> 
         {% if page.dates %}
             <h3 class="date">{{ page.dates }}</h3>
         {% endif %}
+        <img class="project-img" src={{ page.feature_img }} alt={{ page.name }}>
+
     </div>
+
     {{ content }}
 </div>

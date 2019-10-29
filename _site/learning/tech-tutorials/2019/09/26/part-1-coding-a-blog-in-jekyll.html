@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/dracula.css">   
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
+    <title>UZPG | From Zero to Hero: Coding a blog in Jekyll </title>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>From Zero to Hero: Coding a blog in Jekyll | UZPG</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="From Zero to Hero: Coding a blog in Jekyll" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been asked quite a few times online for help on creating static sites with generators like jekyll and what are the best ways to host them. So, I have decided to write a series of blog posts that will detail how to fully create, setup and deploy your own static blog built with Jekyll. We will use a customizable theme and for hosting, we’ll go with Netlify’s free tier." />
+<meta property="og:description" content="I’ve been asked quite a few times online for help on creating static sites with generators like jekyll and what are the best ways to host them. So, I have decided to write a series of blog posts that will detail how to fully create, setup and deploy your own static blog built with Jekyll. We will use a customizable theme and for hosting, we’ll go with Netlify’s free tier." />
+<link rel="canonical" href="http://localhost:5001/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html" />
+<meta property="og:url" content="http://localhost:5001/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html" />
+<meta property="og:site_name" content="UZPG" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-26T00:00:00+02:00" />
+<script type="application/ld+json">
+{"headline":"From Zero to Hero: Coding a blog in Jekyll","dateModified":"2019-09-26T00:00:00+02:00","datePublished":"2019-09-26T00:00:00+02:00","description":"I’ve been asked quite a few times online for help on creating static sites with generators like jekyll and what are the best ways to host them. So, I have decided to write a series of blog posts that will detail how to fully create, setup and deploy your own static blog built with Jekyll. We will use a customizable theme and for hosting, we’ll go with Netlify’s free tier.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:5001/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html"},"@type":"BlogPosting","url":"http://localhost:5001/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+  <body>
+    <div class="nav">
+        
+<nav id="nav">
+    <a href="/">
+        
+            <h2 id="logo">UZPG</h2>
+        
+    </a>
+    <div class="Burger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="links-container">
+                
+                    <a class="nav-links hover-underline" href="/about.html" >
+                        About
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/blog.html" >
+                        Blog
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="/projects.html" >
+                        Projects
+                    </a>
+                
+                    <a class="nav-links hover-underline" href="http://tinyletter.com/uzpg" >
+                        Newsletter
+                    </a>
+                
+            </div>
+    <div class="overlay">
+    
+</div>
+</nav>
+    </div>
+    <br><br><br>
+    <main class="page-content" aria-label="Content">
+        <div class="content-container">
+<br>
+<h1>From Zero to Hero: Coding a blog in Jekyll</h1>  
+
+<p class="date">26 Sep 2019</p>
+
+
+<p>4 minute read</p>
+
+<p>I’ve been asked quite a few times online for help on creating static sites with generators like jekyll and what are the best ways to host them. So, I have decided to write a series of blog posts that will detail how to fully create, setup and deploy your own <a href="https://scotch.io/bar-talk/5-reasons-static-sites-rock" target="_blank" rel="noopener">static</a> blog built with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>. We will use a customizable theme and for hosting, we’ll go with <a href="https://netlify.com" target="_blank" rel="noopener">Netlify</a>’s free tier.</p>
+
+<p>At the end of the series, our blog should have:</p>
+<ul>
+  <li>a functional contact form</li>
+  <li>an email newsletter</li>
+  <li>a categories widget</li>
+  <li>comments</li>
+  <li>pretty much all the neat functionalities you can have on a blog.</li>
+</ul>
+
+<p>We will initially set this up using free services or plans, but you can always upgrade if you need more features.</p>
+
+<p>I am really excited about this and I hope you find the series useful. This post will explain how the site will work and how to install the software we will need.</p>
+
+<h2 id="what-are-static-sites">What are static sites</h2>
+<p>As opposed to <a href="https://en.wikipedia.org/wiki/Dynamic_web_page" target="_blank" rel="noopener">dynamic websites</a>, static sites do not use server-side scripting and they display the prebuilt files you host on the website. This means that the content shown to every user will be the same and that, technically, the website does not have a database (hosts like netlify provide ways to bypass this and even let you create contact forms that are then sent to you!). Static sites generators help you render dynamic content on your static webpage in a clean and efficient way.</p>
+
+<h3 id="benefits">Benefits</h3>
+<p>Static sites are more <strong>quicker, more secure and much easier to code and handle</strong> than dynamic websites. Static site generators like Jekyll are more and more popular because of how simple they are to use especially with blogs.</p>
+
+<p>We will be using Netlify because it provides tons of decent features in its free tier and has continuous deployment with Github.</p>
+
+<p>Jekyll simplifies the efficient creation of beautiful static sites and runs on Ruby. It allows you to have absolute control on your blog without resorting to an often restrictive CMS like Wordpress.</p>
+<h2 id="setup">Setup</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+  <li>Follow the instructions at <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" target="_blank" rel="noopener"><strong>Git version control tool</strong> </a> from sections 1.1 to 1.6 if you don’t know what git is or if you haven’t already installed it.</li>
+  <li><a href="https://github.com" target="_blank" rel="noopener">Github</a> account</li>
+  <li><a href="https://www.ruby-lang.org/en/downloads/" target="_blank" rel="noopener"> <strong>Ruby programming language here</strong></a></li>
+  <li><a href="https://rubygems.org/pages/download" target="_blank" rel="noopener"><strong>Ruby package manager RubyGems</strong> here</a>.</li>
+</ul>
+
+<p>These are essential to using the Jekyll static site manager that allows you to efficiently code and design your website.</p>
+
+<p>Now let’s run this command into your terminal to get Jekyll (keep in mind that this will only work if you have ruby and rubygems):</p>
+<pre><code>gem install jekyll bundler</code></pre>
+<p>This command installs jekyll using the rubygems package manager which is like pip in python.</p>
+
+<p>Alright, now that we’ve installed the necessary software, we can start working on our website.</p>
+<pre><code>jekyll new your_blog
+cd your_blog
+bundle exec jekyll serve
+</code></pre>
+<p>These commands tell Jekyll to create the skeleton structure of our blog in the “your_blog” directory using the base jekyll theme named <a href="https://github.com/jekyll/minima" target="_blank" rel="noopener">Minima</a>.
+We will use this simple yet sleek template to build our blog, step by step.</p>
+
+<p>The last command then installs all extra gems required by jekyll and locally serves your website. If you go to https://localhost:4000 you’ll see the generated website.</p>
+
+<p><img src="/assets/images/first_server.png" alt="preview initial deploy" title="Deploy" />
+As you can see, the generated site already has a header, an about page, a footer and even one post. This is all part of the Minima theme which we will customize to our needs.</p>
+
+<h3 id="github-repository-and-hosting-with-netlify">Github Repository and Hosting with Netlify</h3>
+<p>We will be using the git version control to update and handle our website (check out this <a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener">git cheatsheet</a> if your knowledge of git commands is rusty).</p>
+
+<p>Start by logging into your github account and creating a new repository by clicking the plus button in the top right corner. When prompted, select the following settings:</p>
+
+<p><img src="/assets/images/git-settings.png" alt="github settings" /></p>
+
+<p>Then follow the instructions to create the repository from command line by entering the commands in your blog directory but instead of running <code>git add README.md</code> run <code>git add .</code></p>
+
+<p>Now that we have a working repository, we will want to actually host our site using <a href="https://netlify.com" target="_blank" rel="noopener">Netlify</a>. Sign up using your github account and then click the “New site from Git button”. Choose continuous deployment from Github, select your blog repository and pick these settings:</p>
+
+<p><img src="/assets/images/deploy_settings.png" alt="deploy settings" /></p>
+
+<p>Finish it off by clicking “Deploy site”.</p>
+
+<p>There we go!! The first deploy might take some time but when it’s completed, your site will be available online.
+For now, the website is merely a template. In part 2, we will customize it and explore how you can add posts.</p>
+
+<p>If you encountered any problems, post a comment down below. You can <a href="https://tinyletter.com/etherio" rel="noopener">subscribe</a> to get an email whenever I add to the blog series.</p>
+
+<br><div id="gitalk-container"></div>
+  <a class="u-url" href="/learning/tech-tutorials/2019/09/26/part-1-coding-a-blog-in-jekyll.html" hidden></a>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '2ffe7aa22ffa7d8d98f4',
+      clientSecret: 'e89e37fad7595b9aaa43141970ba7c85d941b285',
+      repo: 'etherio-comments',
+      owner: 'Uzay-G',
+      admin: ['Uzay-G'],
+      id: '2019-09-26 00:00:00 +0200',//location.pathname,
+      distractionFreeMode: false  // Facebook-like distraction free mode
+    })
+    
+    gitalk.render('gitalk-container')
+    </script>
+</article>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="/assets/javascript/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</div>
+    </main>
+    <br>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/assets/javascript/app.js"></script>
+  </body>
+</html>

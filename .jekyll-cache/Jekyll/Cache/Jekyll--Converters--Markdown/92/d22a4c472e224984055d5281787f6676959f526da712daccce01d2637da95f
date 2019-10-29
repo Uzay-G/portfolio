@@ -1,0 +1,19 @@
+I"�<h1>About Me</h1>
+
+<p>I am a passionate and young developer/designer that absolutely loves coding and sharing that with others through my blog. I hope you like this minimalist site aimed at those interested in web development and computer science.</p>
+
+<p>Some repositories I love:</p>
+<div id="git-container">
+<div class="github-card" data-github="pallets/flask" data-width="400" data-height="299" data-theme="medium"></div>
+<div class="github-card" data-github="explosion/spacy" data-width="400" data-height="" data-theme="medium"></div>
+<div class="github-card" data-github="jekyll/jekyll" data-width="400" data-height="299" data-theme="medium"></div>
+</div>
+
+<p>I try my best to create interesting and educative content but I’m often working on new tools and projects.</p>
+
+<h3 id="lets-work-together">Let’s work together</h3>
+<p>I am available for work so don’t hesitate to <a href="#">contact</a> me!</p>
+
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+:ET
