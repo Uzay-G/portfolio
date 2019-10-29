@@ -105,6 +105,8 @@ figure img { height: inherit; }
 
 .fa:hover { opacity: 0.65; box-shadow: 0 0 1px 4px #c6cbef; }
 
+#logo { max-width: 140px; }
+
 .page-content { width: 80%; margin: auto; }
 
 .page-content img { max-width: 100%; }

@@ -3,6 +3,7 @@ title: Projects
 layout: default
 ---
 <div id="project-list">
+  <br>
 <h1>Projects</h1>
 {% for project in site.projects %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -14,7 +15,7 @@ layout: default
           <br>  
           <a href="{{ project.url }}" class="more-button">View</a>
           {% if project.link %}
-            <a href="{{ project.link }}" class="more-button" target="_blank">View Website</a>    
+            <a href="{{ project.link }}" class="more-button" target="_blank">Livex</a>    
             <br><br> 
             {% endif %}
             {% if project.github %}
@@ -37,9 +38,8 @@ layout: default
             {% endif %}
             {% if project.github %}
                 <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
-            {% endif %}
+            {% endif %} 
         </figure>
-      {% endif}   
-{% endfor %}
+      {% endif %}   
 {% endfor %}
 </div>
