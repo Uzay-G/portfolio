@@ -1,4 +1,5 @@
 ---
+title: Projects
 layout: default
 ---
 <div id="project-list">
@@ -13,8 +14,12 @@ layout: default
           <br>  
           <a href="{{ project.url }}" class="more-button">View</a>
           {% if project.link %}
-            <a href="{{ project.link }}" class="more-button" target="_blank">View Website</a>
-          {% endif %}
+            <a href="{{ project.link }}" class="more-button" target="_blank">View Website</a>    
+            <br><br> 
+            {% endif %}
+            {% if project.github %}
+                <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
+            {% endif %}
         </figcaption>
         <img src="{{ project.feature_img }}" alt="{{ project.name }}">
         </figure>
@@ -28,8 +33,11 @@ layout: default
             <a href="{{ project.url }}" class="more-button">View</a>
             {% if project.link %}
               <a href="{{ project.link }}" class="more-button" target="_blank">Live</a>
+              <br><br>               
             {% endif %}
-          </figcaption>
+            {% if project.github %}
+                <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
+            {% endif %}
         </figure>
       {% endif}   
 {% endfor %}

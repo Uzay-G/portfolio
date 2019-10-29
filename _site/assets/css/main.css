@@ -5,6 +5,8 @@
 
 #nav #logo { float: left; }
 
+.nav { margin-top: 4px; }
+
 .Burger { z-index: 1; position: absolute; top: 12px; right: 25px; display: block; width: 2.5rem; height: 2rem; cursor: pointer; transform: rotate(0deg); transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.5s; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
 .Burger span { display: block; position: absolute; height: .2rem; width: 50%; background: black; opacity: 1; transform: rotate(0deg); transition: all .25s ease-in-out; }
@@ -112,6 +114,14 @@ figure img { height: inherit; }
 .more-button { background: #484c7f; padding: 5px; border: none; font-size: 20px; color: white; font-family: Staatliches, cursive; }
 
 body, html { padding: 0; margin: 0; }
+
+@keyframes shake { from, to { transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate3d(-10px, 0, 0); }
+  20%, 40%, 60%, 80% { transform: translate3d(10px, 0, 0); } }
+
+.shake { animation-name: shake; }
+
+.animated { animation-duration: 1s; animation-fill-mode: both; }
 
 .project { display: flex; margin: auto; justify-content: space-between; }
 
