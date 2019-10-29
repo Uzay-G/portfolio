@@ -1,11 +1,18 @@
+// Projects css
 .project {
     display: flex;
     margin: auto;
     justify-content: space-between;    
 }
-.date {
-    color: $pale_violet
+.project-img {
+    max-width: 70%;
+    margin: auto;
+    min-width: 50%;
 }
+.project-masthead {
+    text-align: center;
+}
+// "/projects" page
 #project-list {
     figure {
     width: 80%;
@@ -28,7 +35,19 @@
         float: right;
     }
 }
+
+// posts css rules
 .post-list {
     list-style-type: none;
     padding: 0;
+}
+
+// both
+.date {
+    color: $pale_violet;
+    font-family: $text_font;
+}
+.content-container {
+    width: 75%;
+    margin: auto;
 }

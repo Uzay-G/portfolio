@@ -23,8 +23,11 @@
     <div class="nav">
         
 <nav id="nav">
-    
-    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
+    <a href="/">
+        
+            <img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo">
+        
+    </a>
     <div class="Burger">
             <span></span>
             <span></span>
@@ -51,12 +54,13 @@
     <div class="overlay">
     
 </div>
-
 </nav>
-
     </div>
+    <br><br><br>
     <main class="page-content" aria-label="Content">
-        <p><img src="/assets/images/about.png" alt="about" /></p>
+        
+<p><img src="/assets/images/about.png" alt="about" /></p>
+
 <h1 id="about-pragmatic">About Pragmatic</h1>
 <p>Pragmatic is a <strong>simple, well-designed  and customizable</strong> <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and you’ll be all ready to start your website.
 This theme if full of powerful features you can use:</p>
@@ -95,13 +99,6 @@ This theme if full of powerful features you can use:</p>
     </main>
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      document.querySelector('.Burger').addEventListener('click', function () {
-        document.querySelector('.nav').classList.toggle('is-open');
-        document.querySelector(".nav").classList.toggle('overlay-open');
-      });
-    </script>
-
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>

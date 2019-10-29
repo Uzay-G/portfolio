@@ -1,19 +1,4 @@
-.current {
-    color: red
-}
-.overlay-open {
-  .overlay {
-    opacity: 1;
-    width: 100%;
-    display: block;
-  }
-  .Burger span {
-    background: white;
-  }
-  #nav .nav-links {
-    opacity: 1;
-  }
-}
+// navbar
 #nav {
   width:80%;
   margin:auto;
@@ -30,20 +15,9 @@
     float: left;
   }
 }
-.overlay {
-  height: 100%;
-  position: fixed; /* Stay in place */
-  left: 0;
-  top: 0;
-  display: none;
-  width: 100%;
-  opacity: 0;
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: opacity 0.5s
-}
 
-// Header
+
+// Burger menu on mobile
 .Burger {
   z-index: 1;
   position: absolute;
@@ -143,6 +117,8 @@
         display: none;
   }
 }
+
+// menu hover effect
 .hover-underline:hover::before, .hvr-underline-from-center:focus::before, .hvr-underline-from-center:active::before {
 	left: 0;
 	right: 0;

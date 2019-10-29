@@ -23,8 +23,11 @@
     <div class="nav">
         
 <nav id="nav">
-    
-    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
+    <a href="/">
+        
+            <img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo">
+        
+    </a>
     <div class="Burger">
             <span></span>
             <span></span>
@@ -51,19 +54,17 @@
     <div class="overlay">
     
 </div>
-
 </nav>
-
     </div>
+    <br><br><br>
     <main class="page-content" aria-label="Content">
-        <blockquote>
-  <p>"Style is to forget all styles" - Jules Renard</p>
-</blockquote>
-<h1>Latest Posts</h1>
+        <h1>Blog</h2>
+
+<h3>Documentation for the Pragmatic theme</h3>
 
 <ul class="post-list">
   
-    <li>
+    <li data-aos="fadein">
       <h2><a href="/2019/10/27/bananas.html">Bananas - Oct 27, 2019</a></h2>
       
         <span class="tag">fruit</span>
@@ -75,7 +76,7 @@ of large herbaceous flowering plants in the genus Musa.</p>
 </p>
     </li>
   
-    <li>
+    <li data-aos="fadein">
       <h2><a href="/2019/10/26/kiwi.html">Kiwi - Oct 26, 2019</a></h2>
       
         <span class="tag">fruit</span>
@@ -91,13 +92,6 @@ berry of several species of woody vines in the genus Actinidia.</p>
     </main>
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      document.querySelector('.Burger').addEventListener('click', function () {
-        document.querySelector('.nav').classList.toggle('is-open');
-        document.querySelector(".nav").classList.toggle('overlay-open');
-      });
-    </script>
-
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>

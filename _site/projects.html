@@ -23,8 +23,11 @@
     <div class="nav">
         
 <nav id="nav">
-    
-    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
+    <a href="/">
+        
+            <img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo">
+        
+    </a>
     <div class="Burger">
             <span></span>
             <span></span>
@@ -51,10 +54,9 @@
     <div class="overlay">
     
 </div>
-
 </nav>
-
     </div>
+    <br><br><br>
     <main class="page-content" aria-label="Content">
         <div id="project-list">
 <h1>Projects</h1>
@@ -93,13 +95,6 @@
     </main>
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      document.querySelector('.Burger').addEventListener('click', function () {
-        document.querySelector('.nav').classList.toggle('is-open');
-        document.querySelector(".nav").classList.toggle('overlay-open');
-      });
-    </script>
-
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>

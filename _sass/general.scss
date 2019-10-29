@@ -1,51 +1,34 @@
+// typography
+html {
+    font-size: 0.8rem;
+  }
+
 a {
     text-decoration: none;
+    color: $pale_violet;
 }
 p, li  {
     font-family: $text-font;
     font-size: 17px;
 }
-h3, h2, h1 {
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+h6, h5, h4, h3, h2, h1 {
     font-family: $bold-font;
     font-weight: normal;
     margin: 0;
 }
-button {
-    font-family: $bold-font
-}
 
-figure img {
-    height: inherit;
-}
-a {
-    color: $pale_violet;
-}
-.fa {
-	font-size: 30px;
-	padding: 10px;
-	width: 30px;
-	text-decoration: none;
-	transition: all 1s;
-    color: #504658
-}
-.fa:hover {
-    opacity: 0.65;
-    box-shadow: 0 0 1px 7px #c6cbef
-}
-.page-content {
-    width: 80%;
-    margin: auto;
-
-}
-.tag {
-     color: #8186d5;
-     font-family: Titillium Web, sans-serif;
-     padding: 1px 3px;
-     background: #f9fce1;
-}
 blockquote {
 	border-left-width: 4px;
-    margin: 15px auto;
+    margin: 15px 0;
     border-left: 2px solid #2A2F36;
     padding: 3px 0 3px 15px;
     font-weight: 300;
@@ -56,6 +39,49 @@ blockquote {
 blockquote p {
     font-size: 25px;
 }
-html {
-    font-size: 0.8rem;
-  }
+
+button {
+    font-family: $bold-font
+}
+
+figure img {
+    height: inherit;
+}
+
+// font-awesome icons
+.fa {
+	font-size: 30px;
+	padding: 10px;
+	width: 30px;
+	text-decoration: none;
+	transition: all 1s;
+    color: #504658
+}
+.fa:hover {
+    opacity: 0.65;
+    box-shadow: 0 0 1px 4px #c6cbef
+}
+
+// main page content
+.page-content {
+    width: 80%;
+    margin: auto;
+
+}
+// tags for posts
+.tag {
+     color: #8186d5;
+     font-family: Titillium Web, sans-serif;
+     padding: 1px 3px;
+     background: #f9fce1;
+}
+
+// Learn more, View and Live buttons
+.more-button {
+    background: $dark_blue;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-family: $bold-font
+}

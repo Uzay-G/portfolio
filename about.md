@@ -2,8 +2,10 @@
 layout: default
 title: About
 ---
-
+{% if site.about_image %}
 <img src="{{ site.about_image }}" alt="about">
+{% endif %}
+
 # About Pragmatic
 Pragmatic is a **simple, well-designed  and customizable** <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll </a>theme that you can use for free! Just fork this <a href="#" target="_blank" rel="nooper">Github repository</a> and you'll be all ready to start your website.
 This theme if full of powerful features you can use:

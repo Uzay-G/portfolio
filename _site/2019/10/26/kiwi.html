@@ -28,8 +28,11 @@
     <div class="nav">
         
 <nav id="nav">
-    
-    <a href="/"><img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo"></a>
+    <a href="/">
+        
+            <img src="/assets/images/logo.png" alt="Pragmatic logo" id="logo">
+        
+    </a>
     <div class="Burger">
             <span></span>
             <span></span>
@@ -56,12 +59,12 @@
     <div class="overlay">
     
 </div>
-
 </nav>
-
     </div>
+    <br><br><br>
     <main class="page-content" aria-label="Content">
-        <br>
+        <div class="content-container">
+<br>
 <h1>Kiwi</h1>  
 
   <span class="tag">fruit</span>
@@ -80,17 +83,10 @@ diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
 texture, with a sweet and unique flavor.</p>
 
-<br>
+<br></div>
     </main>
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      document.querySelector('.Burger').addEventListener('click', function () {
-        document.querySelector('.nav').classList.toggle('is-open');
-        document.querySelector(".nav").classList.toggle('overlay-open');
-      });
-    </script>
-
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>

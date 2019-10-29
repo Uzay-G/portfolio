@@ -1,7 +1,12 @@
 
 <nav id="nav">
-    
-    <a href="/"><img src="{{ site.logo }}" alt="{{ site.title }} logo" id="logo"></a>
+    <a href="/">
+        {% if site.logo %}
+            <img src="{{ site.logo }}" alt="{{ site.title }} logo" id="logo">
+        {% else %}
+            <h2>{{ site.title }}</h2>
+        {% endif %}
+    </a>
     <div class="Burger">
             <span></span>
             <span></span>
@@ -20,5 +25,4 @@
     <div class="overlay">
     
 </div>
-
 </nav>

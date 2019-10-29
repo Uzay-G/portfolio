@@ -5,18 +5,12 @@
     <div class="nav">
         {% include header.html %}
     </div>
+    <br><br><br>
     <main class="page-content" aria-label="Content">
         {{ content }}
     </main>
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      document.querySelector('.Burger').addEventListener('click', function () {
-        document.querySelector('.nav').classList.toggle('is-open');
-        document.querySelector(".nav").classList.toggle('overlay-open');
-      });
-    </script>
-
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>
