@@ -127,7 +127,7 @@ body, html { padding: 0; margin: 0; }
 
 .project { display: flex; margin: auto; justify-content: space-between; }
 
-.project-img { max-width: 70%; margin: auto; min-width: 50%; }
+.project-img { max-width: 70%; margin: auto; min-width: 50%; max-height: 450px; }
 
 .project-masthead { text-align: center; }
 

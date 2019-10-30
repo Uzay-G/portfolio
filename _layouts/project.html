@@ -8,8 +8,10 @@ layout: default
         {% if page.dates %}
             <h3 class="date">{{ page.dates }}</h3>
         {% endif %}
-        <img class="project-img" src={{ page.feature_img }} alt={{ page.name }}>
-
+        <p>Pragmatic is an efficient and well-designed theme built with Jekyll. It was based off of my portfolio design.
+            You can learn more about it on its <a href="http://pragmatic.uzpg.me/about">about page.</a>
+        </p>
+        <img class="project-img" src="{{ page.feature_img }}" alt="{{ page.name }}">
     </div>
 
     {{ content }}

@@ -4,6 +4,6 @@ description: A weekly tech newsletter that fetches the best content from sites l
 feature_img: /assets/images/synop.svg
 dates: September 2019 - now
 # You can assign value to your projects, the lower the value, the higher the project will be
-value: 1
+value: 10
 link: https://metadigest.tech   
 ---
