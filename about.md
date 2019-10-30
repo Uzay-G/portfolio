@@ -19,6 +19,6 @@ Some repositories I love:
 I try my best to create interesting and educative content but I'm often working on new tools and projects.
 
 ### Let's work together
-I am available for work so don't hesitate to <a href="#">contact</a> me!
+I am available for work so don't hesitate to <a href="/contact">contact</a> me!
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

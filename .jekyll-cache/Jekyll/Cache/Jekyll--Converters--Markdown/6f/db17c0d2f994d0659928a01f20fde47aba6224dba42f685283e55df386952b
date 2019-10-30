@@ -1,0 +1,21 @@
+I"ö<div id="contact">
+<div class="contact-line line-1"></div>
+<h2>Contact</h2>
+<div class="contact-line line-2"></div>
+Thanks for your interest! Fill out this form and I'll answer shortly.
+<form action="https://formspree.io/xaywlkdv" method="POST">
+  <label>
+    Your email:
+    <input type="text" name="_replyto" />
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+</div>
+:ET

@@ -1,0 +1,16 @@
+I"„<p>Thanks for your interest! Fill out this form and Iâ€™ll answer shortly.</p>
+<form action="https://formspree.io/xaywlkdv" method="POST">
+  <label>
+    Your email:
+    <input type="text" name="_replyto" />
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+:ET

@@ -1,0 +1,15 @@
+I"å<div id="contact">
+<div class="contact-line line-1"></div>
+<h2>Contact</h2>
+<div class="contact-line line-2"></div>
+
+<p>Thanks for your interest! Fill out this form and I'll answer shortly.</p>
+
+<form action="https://formspree.io/xaywlkdv" method="POST">
+  <input type="email" name="_replyto" placeholder="email" />
+  <div class="contact-line"></div>
+  <textarea name="message" placeholder="message"></textarea>
+  &lt;button type="submit" class="&gt;Send&lt;/button&gt;
+</form>
+</div>
+:ET

@@ -125,6 +125,28 @@ body, html { padding: 0; margin: 0; }
 
 .animated { animation-duration: 1s; animation-fill-mode: both; }
 
+#contact { text-align: center; width: 70%; margin: auto; }
+
+#contact .contact-line { width: 60px; margin: auto; height: 4px; background: #6807f9; }
+
+#contact .line-1 { margin-right: 50%; }
+
+#contact .line-2 { margin-left: 50%; }
+
+#contact input, #contact textarea, #contact button { display: block; margin: 10px auto; }
+
+#contact button { padding: 7px 16px; }
+
+#contact textarea { height: 200px; }
+
+#contact input { height: 25px; }
+
+#contact textarea, #contact input { border: 2.5px solid #c6cbef; width: 50%; box-shadow: none; border-radius: 5px; transition: border 1s; }
+
+#contact textarea::placeholder, #contact input::placeholder { color: #6807f9; font-family: Titillium Web, sans-serif; font-size: 17px; padding: 0; margin: 0; }
+
+#contact textarea:focus, #contact input:focus { border-color: #484c7f; }
+
 .project { display: flex; margin: auto; justify-content: space-between; }
 
 .project-img { max-width: 70%; margin: auto; min-width: 50%; max-height: 450px; }
@@ -166,6 +188,8 @@ body, html { padding: 0; margin: 0; }
   #nav .nav-links { opacity: 0; color: #818181; padding: 8px; transition: 0.5s; }
   .content-container { width: 100%; }
   .page-content { width: 90%; }
-  #nav { width: 90%; } }
+  #nav { width: 90%; }
+  #contact { width: 90%; }
+  #contact input, #contact textarea { width: 80%; } }
 
 /*# sourceMappingURL=main.css.map */

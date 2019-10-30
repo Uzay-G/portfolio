@@ -134,3 +134,52 @@ body, html {
     animation-fill-mode: both;
   }
   
+#contact {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    .contact-line {
+        width: 60px;
+        margin: auto;
+        height: 4px;
+        background: $pale_violet;
+    }
+    .line-1 {
+        
+        margin-right: 50%;
+    }
+    .line-2 {
+        margin-left: 50%;
+    
+    }
+    input, textarea, button {
+        display: block;
+        margin: 10px auto;
+    }
+    button {
+        padding: 7px 16px;
+    }
+    textarea {
+        height:200px;
+    }
+    input {
+        height: 25px;
+    }
+    textarea, input {
+        border: 2.5px solid #c6cbef;
+        width: 50%;
+        box-shadow: none;
+        border-radius: 5px;
+        transition: border 1s;
+        &::placeholder {
+            color: $pale_violet;
+            font-family: $text-font;
+            font-size: 17px;
+            padding: 0;
+            margin: 0;
+        }
+        &:focus {
+            border-color: #484c7f
+        }
+    }
+}
