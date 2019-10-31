@@ -1,6 +1,6 @@
 ---
 title: "From Zero to Hero: Coding a blog in Jekyll"
-category: [learning, tech-tutorials]
+tags: [learning, tech-tutorials, jekyll]
 layout: post
 ---
 

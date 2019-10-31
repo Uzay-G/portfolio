@@ -183,3 +183,22 @@ body, html {
         }
     }
 }
+
+@keyframes up {
+    100% {transform: translateY(-20px); background: #ff8080
+    }
+}
+#dos {animation-delay: 1.7s}
+#tres {animation-delay: 3.4s}
+#loader {display: flex; justify-content: center; align-items: center}
+.circles {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 20px;
+    background:white;
+    animation: up 1s infinite;
+    animation-direction: alternate
+}
+
