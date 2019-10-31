@@ -14,6 +14,9 @@ You can listen to it here:
 - <a href="https://www.npr.org/2019/02/28/699096835/squarespace-anthony-casalena" target="_blank" rel="noopener">Squarespace - Anthony Casalena</a> details how Casalena built this huge company and the **many** stresses he had to endure (especially the problems caused by server failure).
 <iframe src="https://www.npr.org/player/embed/699096835/699509919" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
 
+- <a href="https://www.npr.org/2018/07/27/633164558/slack-flickr-stewart-butterfield" target="_blank" rel="noopener">Slack & Flickr - Stuart Butterfield</a> interviews Butterfield about how not once, but twice, he managed to pivot his failing startup into the huges companies that are now Slack and Flickr.
+<iframe src="https://www.npr.org/player/embed/633164558/633172089" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
+
 ## Talk Python to me by Michael Kennedy
 <a href="https://talkpython.fm/" target="_blank" rel="noopener">This show</a> is a weekly podcast about Python that covers everything from its packages, frameworks and the people who built them. It interviews Python personalities and developers and is really helpful for Python developers whether you're interested in web development, robotics or data science.
 
