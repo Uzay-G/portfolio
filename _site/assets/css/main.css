@@ -125,13 +125,13 @@ body, html { padding: 0; margin: 0; }
 
 .animated { animation-duration: 1s; animation-fill-mode: both; }
 
+.contact-line { width: 60px; height: 4px; margin: 5px; background: #6807f9; }
+
+.line-1 { margin: auto; margin-right: 50%; }
+
+.line-2 { margin: auto; margin-left: 50%; }
+
 #contact { text-align: center; width: 70%; margin: auto; }
-
-#contact .contact-line { width: 60px; margin: auto; height: 4px; background: #6807f9; }
-
-#contact .line-1 { margin-right: 50%; }
-
-#contact .line-2 { margin-left: 50%; }
 
 #contact input, #contact textarea, #contact button { display: block; margin: 10px auto; }
 
@@ -158,7 +158,7 @@ body, html { padding: 0; margin: 0; }
 
 .circles { width: 20px; height: 20px; margin-left: 2px; margin-right: 2px; border-radius: 20px; background: white; animation: up 1s infinite; animation-direction: alternate; }
 
-.bookmarks a { font-size: 20px; padding-bottom: 8px; }
+.bookmarks a { font-size: 20px; padding-bottom: 8px; font-family: Titillium Web, sans-serif; }
 
 .project { display: flex; margin: auto; justify-content: space-between; }
 
@@ -204,5 +204,3 @@ body, html { padding: 0; margin: 0; }
   #nav { width: 90%; }
   #contact { width: 90%; }
   #contact input, #contact textarea { width: 80%; } }
-
-/*# sourceMappingURL=main.css.map */

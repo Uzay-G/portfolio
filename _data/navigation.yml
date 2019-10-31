@@ -5,9 +5,9 @@
   link: /blog.html
 - name: Projects
   link: /projects.html
+- name: Bookmarked
+  link: bookmarks.html
 - name: Contact
   link: /contact.html
 - name: Newsletter
   link: http://tinyletter.com/uzpg
-- name: bookmarks
-  link: bookmarks.html

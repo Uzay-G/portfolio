@@ -133,25 +133,26 @@ body, html {
     animation-duration: 1s;
     animation-fill-mode: both;
   }
-  
+
+  .contact-line {
+    width: 60px;
+    height: 4px;
+    margin: 5px;
+    background: $pale_violet;
+}
+.line-1 {
+    margin: auto;
+    margin-right: 50%;
+}
+.line-2 {
+    margin: auto;
+    margin-left: 50%;
+
+}
 #contact {
     text-align: center;
     width: 70%;
     margin: auto;
-    .contact-line {
-        width: 60px;
-        margin: auto;
-        height: 4px;
-        background: $pale_violet;
-    }
-    .line-1 {
-        
-        margin-right: 50%;
-    }
-    .line-2 {
-        margin-left: 50%;
-    
-    }
     input, textarea, button {
         display: block;
         margin: 10px auto;
@@ -206,5 +207,6 @@ body, html {
     a {
         font-size: 20px;
         padding-bottom: 8px;
+        font-family: $text-font
     }
 }
