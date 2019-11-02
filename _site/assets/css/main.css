@@ -197,10 +197,12 @@ body, html { padding: 0; margin: 0; }
   .content .projects img { width: 100%; }
   #project-list .project { flex-direction: column; }
   #project-list .project, #project-list img, #project-list figcaption { width: 100%; }
-  #links-container { position: absolute; z-index: 1; left: 0; right: 0; top: 25%; /* 25% from the top */ width: 100px; /* 100% width */ text-align: center; /* Centered text/links */ margin: auto; }
+  #links-container { position: absolute; z-index: 1; left: 0; right: 0; top: 25%; /* 25% from the top */ width: 130px; /* 100% width */ text-align: center; /* Centered text/links */ margin: auto; }
   #nav .nav-links { opacity: 0; color: #818181; padding: 8px; transition: 0.5s; }
   .content-container { width: 100%; }
   .page-content { width: 90%; }
   #nav { width: 90%; }
   #contact { width: 90%; }
   #contact input, #contact textarea { width: 80%; } }
+
+/*# sourceMappingURL=main.css.map */

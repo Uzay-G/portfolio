@@ -27,7 +27,7 @@ Their recent episode about designing a <a href="https://spec.fm/podcasts/design-
 
 ## To be continuous
 ![to be continuous logo](https://www.heavybit.com/wp-content/uploads/2016/04/to-be-continuous-1024x1024.jpg)
-<a href="https://www.heavybit.com/library/podcasts/to-be-continuous/" target="_blank" rel="noopener">This software development podcast</a> is hosted by the founder of <a href="https://circleci.com/" target="_blank" rel="noopener">CircleCI</a> and <a href="https://launchdarkly.com/" target="_blank" rel="noopener">LaunchDarkly</a>. I enjoy it because of the casual caramaderie between the two hosts as they explore subjects like open source, startups and the current trends in the tech industry. 
+<a href="https://www.heavybit.com/library/podcasts/to-be-continuous/" target="_blank" rel="noopener">This software development podcast</a> is hosted by the founder of <a href="https://circleci.com/" target="_blank" rel="noopener">CircleCI</a> and <a href="https://launchdarkly.com/" target="_blank" rel="noopener">LaunchDarkly</a>. I enjoy it because of the casual camaraderie between the two hosts as they explore subjects like open source, startups and the current trends in the tech industry. 
 
 I loved their episode <a href="https://www.heavybit.com/library/podcasts/to-be-continuous/ep-52-a-closer-look-at-open-source-today/" target="_blank" rel="noopener">A Closer Look at Open Source Today</a> that evoked the changes in the open source landscape and the difficulties for open source maintainers to support themselves.
 
