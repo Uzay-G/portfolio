@@ -3,7 +3,7 @@ rvm:
   - 2.6.3
 
 before_install:
-  - npm install write-good
+  - npm install -g write-good
 install: gem install jekyll jekyll-seo-tag 
 
 script: write-good _posts/*.md
