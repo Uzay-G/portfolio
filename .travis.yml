@@ -3,7 +3,7 @@ rvm:
   - 2.6.3
 
 before_install:
-  - npm install yaspeller -g
+  - npm install write-good
 install: gem install jekyll jekyll-seo-tag 
 
-script: yaspeller "_posts/*.md"
+script: write-good _posts/*.md
