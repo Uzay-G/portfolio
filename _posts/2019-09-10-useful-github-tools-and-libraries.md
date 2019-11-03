@@ -4,7 +4,7 @@ title:  Useful tools and repositories for development open-sourced on github
 categories: [webdev, python]
 tags: [learning, github]
 ---
-Github is a marvelous tools that allows developers to host their code for free online on repositories. This code is often open-source, which means it encourages open collaboration and use. Open-source is an amazing aspect of software development that has led to the creation of numerous creative projects (libs, frameworks, packages...). Today we'll be looking at which useful repositories can help you for web development and computer science
+Github is a marvelous tools that allows developers to host their code for free online on repositories. This code is often open-source, which means it encourages open collaboration and use. Open-source is a great aspect of software development that has led to the creation of several free projects (libs, frameworks, packages...). Today we'll be looking at which useful repositories can help you for web development and computer science
 
 <center>
 <img alt="github logo" src="/assets/images/githublogo.svg">
@@ -13,7 +13,7 @@ Github is a marvelous tools that allows developers to host their code for free o
 ### Style
 ![animate.css](/assets/images/animate.jpg)
 #### <a target="_blank" href="https://github.com/daneden/animate.css">Animate.css</a>
-<a target="_blank" href="https://github.com/daneden/animate.css">Animate.css</a> is a helpful css repo that lets you easily add animations to your code by simply adding a class to the element you wish to style. I really recommend it because its animations are very appealing and setup is quick and easy.<br>
+<a target="_blank" href="https://github.com/daneden/animate.css">Animate.css</a> is a helpful css repo that lets you add animations to your code by simply adding a class to the element you wish to style. I recommend it because its animations are very appealing and setup is quick and easy.<br>
 
 
 <center>
@@ -25,7 +25,7 @@ This <a target="_blank" href="https://github.com/gilbarbara/logos">repository</a
 <center>
 <img alt="loaders" src="/assets/images/loader.png"></center><br>
 #### Loaders 
-<a target="_blank" href="https://github.com/ConnorAtherton/loaders.css">Loaders.css</a> is a collection of nice and well-designed loaders built entirely with css. They have some really cool designs so you should check it out!
+<a target="_blank" href="https://github.com/ConnorAtherton/loaders.css">Loaders.css</a> is a collection of nice and well-designed loaders built entirely with css. They have some    cool designs so you should check it out!
 
 There are also some interesting css frameworks that are a base on which you can build your site, packaged with the styles people often use on certain elements of their site. The most popular are <a target="_blank" href="https://github.com/twbs/bootstrap">Bootstrap</a> and <a target="_blank" href="https://github.com/zurb/foundation-sites"> Foundation</a>.
 
@@ -36,7 +36,7 @@ There are also some interesting css frameworks that are a base on which you can 
 </center>
 
 #### Zepto.js
-<a target="_blank" href="https://github.com/madrobby/zepto">Zepto.js</a> is a minimalist javascript library that can help you simplify your js code immensely. It's simple to use and is very similar to JQuery.
+<a target="_blank" href="https://github.com/madrobby/zepto">Zepto.js</a> is a minimalist javascript library that can help you simplify your js code immensely. It's simple to use and is similar to JQuery.
 
 <center>
 <img src="/assets/images/modernizr.png" style="border-radius:10%;"></center>
@@ -51,7 +51,7 @@ There are also some interesting css frameworks that are a base on which you can 
 
 <center><img src="https://camo.githubusercontent.com/9c24355bb3afbff914503b663ade7beb341079fa/68747470733a2f2f6e6f64656a732e6f72672f7374617469632f696d616765732f6c6f676f2d6c696768742e737667" alt="node"></center>
 #### Node.js
-<a target="_blank" href="https://github.com/nodejs/node">Nodejs</a> is a very popular tool you probably already know about that lets you use javascript on your server instead of your browser.
+<a target="_blank" href="https://github.com/nodejs/node">Nodejs</a> is a popular tool you probably already know about that lets you use javascript on your server instead of your browser.
 <br>
 
 You can also check this <a target="_blank" href="https://github.com/sorrycc/awesome-javascript">awesome-javascript github repository that lists tons of other fun tools with js.
@@ -68,7 +68,7 @@ You can also check this <a target="_blank" href="https://github.com/sorrycc/awes
 
 <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.probytes.net%2Fwp-content%2Fuploads%2F2018%2F10%2Fflask-logo-png-transparent.png&f=1&nofb=1" alt="flask logo" height="250"><br>
 
-<a  href="https://github.com/pallets/flask" target="_blank">Flask</a> is a lightweight framework for Python which you can build webapps with. It's very simple to use and get started. This <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" target="_blank">tutorial</a> does a really good job of covering the basics. <br>
+<a  href="https://github.com/pallets/flask" target="_blank">Flask</a> is a lightweight framework for Python which you can build webapps with. It's simple to use and get started with. This <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world" target="_blank">tutorial</a> does a good job of covering the basics. <br>
 
 <center><img src="/assets/images/spacy.jpg" alt="spacy logo"></center><br>
 

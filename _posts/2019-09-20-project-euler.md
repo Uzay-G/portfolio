@@ -14,7 +14,7 @@ After you sign up, you can try to complete almost 700 different problems. You wi
 
 ![leonhard euler](https://upload.wikimedia.org/wikipedia/commons/d/d7/Leonhard_Euler.jpg)
 
-**Over 900 000 users** have finished at least one of the many levels that are added about every two weeks. If you like challenging yourself in computer science and mathematics, you will really love this website.
+**Over 900 000 users** have finished at least one of the many levels that are added about every two weeks. If you like challenging yourself in computer science and mathematics, you will love this website.
 <br>
 Let's look at one of the first, beginner exercises:
 The instructions are:<br>
