@@ -6,4 +6,4 @@ before_install:
   - npm install proofreader -g
 install: gem install jekyll jekyll-seo-tag 
 
-script: proofreader -l _posts/*.md
+script: proofreader -f _posts/*.md
