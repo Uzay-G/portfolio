@@ -3,7 +3,7 @@ rvm:
   - 2.6.3
 
 before_install:
-  - npm install proofreader -g
+  - npm install yaspeller -g
 install: gem install jekyll jekyll-seo-tag 
 
-script: proofreader -f _posts/*.md
+script: yaspeller "_posts/*.md"
