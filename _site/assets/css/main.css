@@ -184,6 +184,10 @@ body, html { padding: 0; margin: 0; }
 
 .content-container { width: 75%; margin: auto; }
 
+.web-links { display: flex; width: 100%; justify-content: center; }
+
+.web-links a { margin: 8px; }
+
 .overlay { height: 100%; position: fixed; /* Stay in place */ left: 0; top: 0; display: none; width: 100%; opacity: 0; background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */ overflow-x: hidden; /* Disable horizontal scroll */ transition: opacity 0.5s; }
 
 .overlay-open .overlay { opacity: 1; width: 100%; display: block; }

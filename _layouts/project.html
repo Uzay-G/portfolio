@@ -8,9 +8,15 @@ layout: default
         {% if page.dates %}
             <h3 class="date">{{ page.dates }}</h3>
         {% endif %}
-        <p>Pragmatic is an efficient and well-designed theme built with Jekyll. It was based off of my portfolio design.
-            You can learn more about it on its <a href="http://pragmatic.uzpg.me/about">about page.</a>
-        </p>
+        <div class="web-links">
+            {% if page.link %}
+                <a href="{{ project.link }}" class="more-button" target="_blank">Website</a>
+            {% endif %}
+            {% if page.github %}
+                    <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
+            {% endif %} 
+        </div>
+        <br>
         <img class="project-img" src="{{ page.feature_img }}" alt="{{ page.name }}">
     </div>
 
