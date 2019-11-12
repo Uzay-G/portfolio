@@ -12,7 +12,6 @@ Some repositories I love:
 <a href="https://github.com/pallets/flask" target="_blank" rel="noopener"><img src="https://gh-card.dev/repos/pallets/flask.svg"></a>
 <a href="https://github.com/explosion/spacy" target="_blank" rel="noopener"><img src="https://gh-card.dev/repos/explosion/spacy.svg"></a>
 <a href="https://github.com/sass/sass" target="_blank" rel="noopener"><img src="https://gh-card.dev/repos/sass/sass.svg"></a>
-<a href="https://github.com/gitalk/gitalk" target="_blank" rel="noopener"><img src="https://gh-card.dev/repos/gitalk/gitalk.svg"></a>
 <a href="https://github.com/highlightjs/highlight.js" target="_blank" rel="noopener"><img src="https://gh-card.dev/repos/highlightjs/highlight.js.svg"></a>
 </div>
 
