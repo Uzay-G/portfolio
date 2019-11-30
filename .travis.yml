@@ -1,4 +1,6 @@
-script: yaspeller "_posts/*.md" &&  npx write-good _posts/*.md
+script:
+  - yaspeller "_posts/*.md" 
+  - npx write-good _posts/*.md
 
 language: ruby
 rvm:
