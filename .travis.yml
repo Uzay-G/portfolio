@@ -1,6 +1,8 @@
 script: yaspeller "_posts/*.md" &&  npx write-good _posts/*.md
 
-
+language: ruby
+rvm:
+  - 2.6.3
 
 before_install:
   - npm install yaspeller -g
