@@ -160,6 +160,8 @@ body, html { padding: 0; margin: 0; }
 
 .bookmarks a { font-size: 20px; padding-bottom: 8px; font-family: Titillium Web, sans-serif; }
 
+code { color: #e83e8c; word-break: break-word; }
+
 .project { display: flex; margin: auto; justify-content: space-between; }
 
 .project-img { max-width: 70%; margin: auto; min-width: 50%; max-height: 450px; }

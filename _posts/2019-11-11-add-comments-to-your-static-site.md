@@ -12,7 +12,8 @@ Usually, blogs store comment data inside their server database. You can't do tha
 <a href="https://utteranc.es/" target="_blank" rel="noopener">Utterances</a> is a great comment plugin built on Github issues. It creates an issue on github for your posts and then adds your website's comments to the issues. All your commenters need to do is sign in on Github.
 Obviously, you should only do this if your blog is about software development or a related subject otherwise none of your readers will have Github accounts.
 
-I love this solution because it's an opensource and lightweight tool that doesn't harm the user experience. It's a simple option and it has a beautiful user interface which you can see down in the comment section.
+I love this solution because it's an opensource and lightweight tool that doesn't harm the user experience. It's a simple option and it has a beautiful user interface which you can see down below.
+![utterance ui](/assets/images/utterance.png)
 
 How to get it setup:
 1. Create a public "myblog-comments" repository on Github

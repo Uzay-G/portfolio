@@ -1,0 +1,8 @@
+I"�<p>Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use <a href="https://www.thoughtworks.com/continuous-integration" target="_blank" rel="noopener">Continuous Integration</a> to find spelling mistakes in your posts and even get tips on how to improve your writing.</p>
+
+<p>Continous Integration is software that verifies your code based on certain criteria every time you push to your repository. In this case, every time you push to your blog repo you will receive a warning with all the mistakes in your posts.</p>
+
+<p>So, of course, you need to be using repositories and <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" rel="noopener">version control</a> to host your code otherwise this will not work. We will be using the Travis CI continuous integration software.</p>
+
+<p>If you’re blog repository is public, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free.</p>
+:ET

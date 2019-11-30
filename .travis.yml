@@ -1,9 +1,8 @@
-language: ruby
-rvm:
-  - 2.6.3
+script: yaspeller "_posts/*.md" &&  npx write-good _posts/*.md
+
+
 
 before_install:
   - npm install yaspeller -g
-install: gem install jekyll jekyll-seo-tag 
 
-script: yaspeller "_posts/*.md"
+
