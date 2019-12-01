@@ -8,7 +8,7 @@ Continous Integration is software that verifies your code based on certain crite
 
 So, of course, you need to be using repositories and <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" rel="noopener">version control</a> to host your code otherwise this will not work. We will be using the Travis CI continuous integration software. 
 
-If you're blog repository is public or if you're a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if your repo is private.
+If your blog repository is public or if you're a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if your repo is private.
 
 All right, now we need to configure our <code>.travis.yml</code> file. This file tells our Continuous Integration platform to execute certain commands on our code. If any errors are detected, you should receive a warning and you can get more details by looking at the <code>build log</code> on the travis site.
 
@@ -71,4 +71,4 @@ d term2 to the answer if it is even else add 0
 
 Pretty cool right! This has been so useful for me to see what my mistakes or possible improvements. I hope you got it work and you can always comment down below if there was a problem. 
 
-You can also subscribe to my <a href="https://tinyletter.com/uzpg">newsletter</a> if you want to get tips about how you can code your static site and make it work even better.
+You can also subscribe to my [weekly customizable newsletter](http://metadigest.uzpg.me) if you want to get a digest of the most interesting and popular articles about technology.

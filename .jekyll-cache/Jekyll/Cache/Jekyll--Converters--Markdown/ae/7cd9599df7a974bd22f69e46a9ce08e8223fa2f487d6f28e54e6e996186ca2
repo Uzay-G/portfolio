@@ -1,10 +1,10 @@
-I"�<p>Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use <a href="https://www.thoughtworks.com/continuous-integration" target="_blank" rel="noopener">Continuous Integration</a> to find spelling mistakes in your posts and even get tips on how to improve your writing.</p>
+I"<p>Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use <a href="https://www.thoughtworks.com/continuous-integration" target="_blank" rel="noopener">Continuous Integration</a> to find spelling mistakes in your posts and even get tips on how to improve your writing.</p>
 
 <p>Continous Integration is software that verifies your code based on certain criteria every time you push to your repository. In this case, every time you push to your blog repo you will receive a warning with all the mistakes in your posts.</p>
 
 <p>So, of course, you need to be using repositories and <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" rel="noopener">version control</a> to host your code otherwise this will not work. We will be using the Travis CI continuous integration software.</p>
 
-<p>If you’re blog repository is public or if you’re a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if you’re repo is private.</p>
+<p>If your blog repository is public or if you’re a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if your repo is private.</p>
 
 <p>All right, now we need to configure our <code>.travis.yml</code> file. This file tells our Continuous Integration platform to execute certain commands on our code. If any errors are detected, you should receive a warning and you can get more details by looking at the <code>build log</code> on the travis site.</p>
 
@@ -64,4 +64,8 @@ d term2 to the answer if it is even else add 0
 "it is" is wordy or unneeded on line 39 at column 33
 -------------
 </code></pre>
+
+<p>Pretty cool right! This has been so useful for me to see what my mistakes or possible improvements. I hope you got it work and you can always comment down below if there was a problem.</p>
+
+<p>You can also subscribe to my <a href="http://metadigest.uzpg.me">weekly customizable newsletter</a> if you want to get a digest of the most interesting and popular articles about technology.</p>
 :ET

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/assets/css/dracula.css">   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/18bf0be4f4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/css/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
     <title>UZPG | Implement automatic spellchecking on your static blog </title>
@@ -16,13 +16,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use Continuous Integration to find spelling mistakes in your posts and even get tips on how to improve your writing." />
 <meta property="og:description" content="Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use Continuous Integration to find spelling mistakes in your posts and even get tips on how to improve your writing." />
-<link rel="canonical" href="http://localhost:4000/2019/11/30/spellchecking-on-static.html" />
-<meta property="og:url" content="http://localhost:4000/2019/11/30/spellchecking-on-static.html" />
+<link rel="canonical" href="http://localhost:3000/2019/11/30/spellchecking-on-static.html" />
+<meta property="og:url" content="http://localhost:3000/2019/11/30/spellchecking-on-static.html" />
 <meta property="og:site_name" content="UZPG" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-11-30T00:00:00+01:00" />
 <script type="application/ld+json">
-{"headline":"Implement automatic spellchecking on your static blog","dateModified":"2019-11-30T00:00:00+01:00","datePublished":"2019-11-30T00:00:00+01:00","description":"Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use Continuous Integration to find spelling mistakes in your posts and even get tips on how to improve your writing.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/11/30/spellchecking-on-static.html"},"@type":"BlogPosting","url":"http://localhost:4000/2019/11/30/spellchecking-on-static.html","@context":"https://schema.org"}</script>
+{"headline":"Implement automatic spellchecking on your static blog","dateModified":"2019-11-30T00:00:00+01:00","datePublished":"2019-11-30T00:00:00+01:00","description":"Have you ever made a huge spelling error on your blog and never noticed? It’s a common mistake I’ve done because errors are hard to check for in markdown files. This post will teach you how to use Continuous Integration to find spelling mistakes in your posts and even get tips on how to improve your writing.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:3000/2019/11/30/spellchecking-on-static.html"},"@type":"BlogPosting","url":"http://localhost:3000/2019/11/30/spellchecking-on-static.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 </head>
   <body>
@@ -93,7 +93,7 @@
 
 <p>So, of course, you need to be using repositories and <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" rel="noopener">version control</a> to host your code otherwise this will not work. We will be using the Travis CI continuous integration software.</p>
 
-<p>If you’re blog repository is public or if you’re a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if your repo is private.</p>
+<p>If your blog repository is public or if you’re a <a href="https://education.github.com/pack" target="_blank" rel="noopener">student</a>, all you have to do is go their <a href="https://travis-ci.org/getting_started" target="_blank" rel="noopener">getting started docs</a> to set it up for free. If you host your code on a private repo, you can use their platform only for the first 100 builds and then you need to pay a monthly fee. Sign in with Github and add your repo <a href="https://travis-ci.com/" target="_blank" rel="noopener">here</a> if your repo is private.</p>
 
 <p>All right, now we need to configure our <code>.travis.yml</code> file. This file tells our Continuous Integration platform to execute certain commands on our code. If any errors are detected, you should receive a warning and you can get more details by looking at the <code>build log</code> on the travis site.</p>
 
@@ -156,7 +156,7 @@ d term2 to the answer if it is even else add 0
 
 <p>Pretty cool right! This has been so useful for me to see what my mistakes or possible improvements. I hope you got it work and you can always comment down below if there was a problem.</p>
 
-<p>You can also subscribe to my <a href="https://tinyletter.com/uzpg">newsletter</a> if you want to get tips about how you can code your static site and make it work even better.</p>
+<p>You can also subscribe to my <a href="http://metadigest.uzpg.me">weekly customizable newsletter</a> if you want to get a digest of the most interesting and popular articles about technology.</p>
 
 <br>
 <script src="https://utteranc.es/client.js"
