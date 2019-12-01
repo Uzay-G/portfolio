@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 script:
+=======
+script: 
+>>>>>>> a11d2ba608d35e372f78c397639e95b31df952b5
   - yaspeller "_posts/*.md" 
   - npx write-good _posts/*.md
 
@@ -8,3 +12,8 @@ rvm:
 
 before_install:
   - npm install yaspeller -g
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a11d2ba608d35e372f78c397639e95b31df952b5

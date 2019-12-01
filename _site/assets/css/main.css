@@ -101,9 +101,9 @@ button { font-family: Staatliches, cursive; }
 
 figure img { height: inherit; }
 
-.fa { font-size: 30px; padding: 10px; width: 30px; text-decoration: none; transition: all 1s; color: #504658; }
+.fas, .fab { font-size: 30px; padding: 10px; width: 30px; text-decoration: none; transition: all 1s; color: #504658; }
 
-.fa:hover { opacity: 0.65; box-shadow: 0 0 1px 4px #c6cbef; }
+.fa:hover, .fab:hover { opacity: 0.65; box-shadow: 0 0 1px 4px #c6cbef; }
 
 #logo { max-width: 140px; }
 
@@ -159,6 +159,8 @@ body, html { padding: 0; margin: 0; }
 .circles { width: 20px; height: 20px; margin-left: 2px; margin-right: 2px; border-radius: 20px; background: white; animation: up 1s infinite; animation-direction: alternate; }
 
 .bookmarks a { font-size: 20px; padding-bottom: 8px; font-family: Titillium Web, sans-serif; }
+
+code { color: #e83e8c; word-break: break-word; }
 
 .project { display: flex; margin: auto; justify-content: space-between; }
 
