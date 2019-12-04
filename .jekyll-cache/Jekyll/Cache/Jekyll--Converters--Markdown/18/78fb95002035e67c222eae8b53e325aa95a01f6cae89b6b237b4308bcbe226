@@ -1,0 +1,24 @@
+I"5<p>A collection of the little features and design aspects I’ve noticed are becoming more and more prominent in web design. I’ve also included beautiful examples and links to tutorials where you can learn how to replicate these patterns.</p>
+
+<h2 id="scrolling-effects">Scrolling Effects</h2>
+<p>There are several scrolling effects becoming more and more popular. One of them which is appealing but a bit over-used is when content fades into view as you scroll. You can see examples <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener">here</a>. I think these are interesting and I even have them on my site but understand why people might say they are becoming a bit repetitive.</p>
+
+<p>Another scroll effect is <a href="https://www.w3schools.com/howto/howto_css_parallax.asp">parallax scrolling</a>. Honestly, I don’t really appreciate this one but it’s becoming more and more ubiquitous. It’s a technique where the background images scroll down slower than the main page content to create a sensation of depth on the two-dimensional website.
+I think it can be done <a href="https://davideperozzi.com/" target="_blank" rel="noopener">well</a> but sometimes I feel it doesn’t add anything to the UI.</p>
+
+<p><img src="/assets/images/vinc.png" alt="vincent saisset portfolio" />
+<em>Screenshot from <a href="https://www.vincentsaisset.com/" target="_blank" rel="noopener">https://www.vincentsaisset.com/</a></em>
+I truly recommend you check this one out because it uses scrolling to provide a very unique and interesting UX.</p>
+
+<p><img src="/assets/images/vinc2.png" alt="vincent saisset portfolio" /></p>
+
+<h2 id="webgl-and-3d-graphics">WebGL and 3D graphics</h2>
+
+<ul>
+  <li>Scroll effects</li>
+  <li>design illustrations</li>
+  <li>minimalism</li>
+  <li>webgl</li>
+  <li>background illustrations</li>
+</ul>
+:ET

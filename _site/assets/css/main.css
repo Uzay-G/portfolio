@@ -180,7 +180,11 @@ code { color: #e83e8c; word-break: break-word; }
 
 #project-list .right { float: right; }
 
-.post-list { list-style-type: none; padding: 0; }
+.post-list { list-style-type: none; padding: 0; display: flex; width: 100%; flex-wrap: wrap; margin: auto; /* .left { height: 500px; } .right { height: 350px; }*/ }
+
+.post-list li { width: 50%; }
+
+.post-list img { padding: 40px; max-height: 300px; }
 
 .date { color: #6807f9; font-family: Titillium Web, sans-serif; }
 

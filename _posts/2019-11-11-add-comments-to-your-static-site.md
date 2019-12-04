@@ -2,6 +2,8 @@
 layout: post
 title: How to add a comments section to your static blog
 tags: [learning, static]
+image: https://my.remarkbox.com/static/img/remarkbox-logo.png
+alt: remarkbox logo
 ---
 
 Usually, blogs store comment data inside their server database. You can't do that with static websites but there are many tools that can help you solve this problem and create discussion around your posts. This article will guide you through some ways you can add these comments for free.
@@ -13,7 +15,7 @@ Usually, blogs store comment data inside their server database. You can't do tha
 Obviously, you should only do this if your blog is about software development or a related subject otherwise none of your readers will have Github accounts.
 
 I love this solution because it's an opensource and lightweight tool that doesn't harm the user experience. It's a simple option and it has a beautiful user interface which you can see down below.
-![utterance ui](/assets/images/utterance.png)
+![utterance ui](/assets/images/utterance.PNG)
 
 How to get it setup:
 1. Create a public "myblog-comments" repository on Github

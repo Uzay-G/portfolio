@@ -41,6 +41,24 @@
 .post-list {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    li {
+        width: 50%;
+    }
+    img {
+        padding: 40px;
+        max-height: 300px;
+    }
+    /*
+    .left {
+        height: 500px;
+    }
+    .right {
+        height: 350px;
+    }*/
 }
 
 // both
