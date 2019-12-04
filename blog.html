@@ -12,12 +12,16 @@ title: Blog
 {% endif %}
 <ul class="post-list">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: site.date_format }}</a></h2>
-      {% for tag in post.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
-      <p data-aos="fadein">{{ post.excerpt }}</p>
+    <li {% cycle "class='left'", "class='right'" %}>
+      <figure>
+        <img src="{{ post.image }}" alt="{{ post.image_alt }}">
+        <figcaption><h2><a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: site.date_format }}</a></h2>
+        {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </figcaption>
+      <!-- <p data-aos="fadein">{{ post.excerpt }}</p>-->
+      </figure>
     </li>
   {% endfor %}
 </ul>
