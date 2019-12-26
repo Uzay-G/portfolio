@@ -67,6 +67,6 @@ To finish this article, here are some appealing websites and portfolios I've fou
 ![pecko portfolio](/assets/images/petar.png)
 - <a href="https://burakaslan.me/" target="_blank" rel="noopener">https://burakaslan.me/</a>
 
-If you have any other interesting ones I'd love it if you could link them down below and you can also subscribe to my [customizable newsletter](https://metadigest.uzpg.me) if you want to hear more news about design.
+If you have any other interesting ones I'd love it if you could link them down below and you can also subscribe to my [customizable newsletter](http://metadigest.uzpg.me) if you want to hear more news about design.
 
 I hope you enjoyed it!
