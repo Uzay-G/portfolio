@@ -16,14 +16,17 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Podcasts can be fascinating, they are also sometimes very dull. I’ve listened to many on my daily commute and here are some of those that caught my interest the most or taught me new things about design, programming and entrepreneurship." />
 <meta property="og:description" content="Podcasts can be fascinating, they are also sometimes very dull. I’ve listened to many on my daily commute and here are some of those that caught my interest the most or taught me new things about design, programming and entrepreneurship." />
-<link rel="canonical" href="http://0.0.0.0:4000/2019/10/31/interesting-podcasts.html" />
-<meta property="og:url" content="http://0.0.0.0:4000/2019/10/31/interesting-podcasts.html" />
+<link rel="canonical" href="http://localhost:4000/2019/10/31/interesting-podcasts.html" />
+<meta property="og:url" content="http://localhost:4000/2019/10/31/interesting-podcasts.html" />
 <meta property="og:site_name" content="UZPG" />
+<meta property="og:image" content="https://is2-ssl.mzstatic.com/image/thumb/Podcasts113/v4/40/b9/e3/40b9e34e-224a-9448-8858-1b60c34de1da/mza_1480841263198296123.jpg/1200x630wp.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-10-31T00:00:00+00:00" />
+<meta property="article:published_time" content="2019-10-31T00:00:00+01:00" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2019/10/31/interesting-podcasts.html"},"@type":"BlogPosting","url":"http://0.0.0.0:4000/2019/10/31/interesting-podcasts.html","headline":"Interesting Podcasts for developers, designers and entrepreneurs","dateModified":"2019-10-31T00:00:00+00:00","datePublished":"2019-10-31T00:00:00+00:00","description":"Podcasts can be fascinating, they are also sometimes very dull. I’ve listened to many on my daily commute and here are some of those that caught my interest the most or taught me new things about design, programming and entrepreneurship.","@context":"https://schema.org"}</script>
+{"dateModified":"2019-10-31T00:00:00+01:00","datePublished":"2019-10-31T00:00:00+01:00","description":"Podcasts can be fascinating, they are also sometimes very dull. I’ve listened to many on my daily commute and here are some of those that caught my interest the most or taught me new things about design, programming and entrepreneurship.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/10/31/interesting-podcasts.html"},"@type":"BlogPosting","url":"http://localhost:4000/2019/10/31/interesting-podcasts.html","image":"https://is2-ssl.mzstatic.com/image/thumb/Podcasts113/v4/40/b9/e3/40b9e34e-224a-9448-8858-1b60c34de1da/mza_1480841263198296123.jpg/1200x630wp.png","headline":"Interesting Podcasts for developers, designers and entrepreneurs","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 </head>
   <body>
     <div class="nav">
@@ -127,19 +130,28 @@ You can listen to it here:</li>
 <p>I hope you enjoy the podcasts and I’d love to hear about which ones you listen to and why you like them!</p>
 
 <br>
-<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
-<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
-<applause-button style="width: 58px; height: 58px" color="#5d5b6a"/>
+<hr id="bottom" style="visibility: hidden;">
+<br>
+<button class="fa fa-comments" onClick="commentTo()"></button>
+
 <script src="https://utteranc.es/client.js"
         repo="Uzay-G/uzpg-comments"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script></article>
-
-<script src="/assets/javascript/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+</script>
+<applause-button color="#5d5b6a"/></article>
+<script src="/assets/javascript/highlight.pack.js">
+  </script>
+<script>
+  hljs.initHighlightingOnLoad();
+  function commentTo() {
+    document.getElementById('bottom').scrollIntoView();
+    document.querySelector(".fa-comments").style.opacity = "0"
+  }
+  
+  </script>
 </div>
 
     </main>

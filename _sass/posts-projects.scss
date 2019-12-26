@@ -61,6 +61,7 @@
     }*/
 }
 
+
 // both
 .date {
     color: $pale_violet;
@@ -77,4 +78,19 @@
     a {
         margin: 8px;
     }
+}
+applause-button, .fa-comments {
+    position: fixed !important;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+.fa-comments {
+    top: 30%;
+    border: none;
+    background: none;
+    transition: opacity 1s;
+}
+applause-button {
+    top: 24%;
 }

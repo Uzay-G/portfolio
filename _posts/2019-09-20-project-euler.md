@@ -3,6 +3,8 @@ layout: post
 categories: [learning]
 tags: [programming, problem-solving]
 title: Project Euler - Improve your coding skills while having a blast
+image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsmexyyweby.files.wordpress.com%2F2012%2F09%2Feuler_portrait.png%3Fw%3D630&f=1&nofb=1
+image_alt: leonhard euler
 ---
 <a target="_blank" href="https://projecteuler.net/">Project Euler</a> is a free platform named after famous mathematician Leonhard Euler that provides a large series of computer programming problems that challenge your problem-solving skills.
 

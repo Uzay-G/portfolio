@@ -2,6 +2,8 @@
 layout: post
 title: Learn how to code a well-designed pre-loader
 tags: [learning, design, tech-tutorials]
+image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdesire4travels.com%2Fimg%2Fgif.gif&f=1&nofb=1
+image_alt: preloader
 ---
 
 Preloaders are essential for websites that contain many images, videos or any other data-consuming files. A loader lets your users know that something is happening behind the screen and they are not just looking at a dead website. This tutorial will teach you how to code an engaging pre-loader using css animations and how to make it work with your own site.

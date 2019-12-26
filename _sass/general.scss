@@ -63,7 +63,7 @@ figure img {
 	transition: all 1s;
     color: #504658
 }
-.fa:hover, .fab:hover {
+.fa:hover:not(.fa-comments), .fab:hover {
     opacity: 0.65;
     box-shadow: 0 0 1px 4px #c6cbef
 }

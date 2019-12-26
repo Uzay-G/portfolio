@@ -14,12 +14,14 @@
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="From Zero to Hero: Coding a blog in Jekyll" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://0.0.0.0:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html" />
-<meta property="og:url" content="http://0.0.0.0:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html" />
+<link rel="canonical" href="http://localhost:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html" />
 <meta property="og:site_name" content="UZPG" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://0.0.0.0:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html","headline":"From Zero to Hero: Coding a blog in Jekyll","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/working-on/2019-09-26-part-1-coding-a-blog-in-jekyll.html","headline":"From Zero to Hero: Coding a blog in Jekyll","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
 </head>
   <body>
     <div class="nav">
@@ -156,19 +158,28 @@ For now, the website is merely a template. In part 2, we will customize it and e
 <p>If you encountered any problems, post a comment down below. You can <a href="https://tinyletter.com/etherio" rel="noopener">subscribe</a> to get an email whenever I add to the blog series.</p>
 
 <br>
-<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
-<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
-<applause-button style="width: 58px; height: 58px" color="#5d5b6a"/>
+<hr id="bottom" style="visibility: hidden;">
+<br>
+<button class="fa fa-comments" onClick="commentTo()"></button>
+
 <script src="https://utteranc.es/client.js"
         repo="Uzay-G/uzpg-comments"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script></article>
-
-<script src="/assets/javascript/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+</script>
+<applause-button color="#5d5b6a"/></article>
+<script src="/assets/javascript/highlight.pack.js">
+  </script>
+<script>
+  hljs.initHighlightingOnLoad();
+  function commentTo() {
+    document.getElementById('bottom').scrollIntoView();
+    document.querySelector(".fa-comments").style.opacity = "0"
+  }
+  
+  </script>
 </div>
 
     </main>

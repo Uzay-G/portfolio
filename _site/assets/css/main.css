@@ -103,7 +103,7 @@ figure img { height: inherit; }
 
 .fas, .fab { font-size: 30px; padding: 10px; width: 30px; text-decoration: none; transition: all 1s; color: #504658; }
 
-.fa:hover, .fab:hover { opacity: 0.65; box-shadow: 0 0 1px 4px #c6cbef; }
+.fa:hover:not(.fa-comments), .fab:hover { opacity: 0.65; box-shadow: 0 0 1px 4px #c6cbef; }
 
 #logo { max-width: 140px; }
 
@@ -194,6 +194,12 @@ code { color: #e83e8c; word-break: break-word; }
 
 .web-links a { margin: 8px; }
 
+applause-button, .fa-comments { position: fixed !important; left: 100px; width: 40px; height: 40px; }
+
+.fa-comments { top: 30%; border: none; background: none; transition: opacity 1s; }
+
+applause-button { top: 24%; }
+
 .overlay { height: 100%; position: fixed; /* Stay in place */ left: 0; top: 0; display: none; width: 100%; opacity: 0; background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */ overflow-x: hidden; /* Disable horizontal scroll */ transition: opacity 0.5s; }
 
 .overlay-open .overlay { opacity: 1; width: 100%; display: block; }
@@ -213,6 +219,8 @@ code { color: #e83e8c; word-break: break-word; }
   .page-content { width: 90%; }
   #nav { width: 90%; }
   #contact { width: 90%; }
-  #contact input, #contact textarea { width: 80%; } }
+  #contact input, #contact textarea { width: 80%; }
+  .fa-comments { display: none; }
+  applause-button { position: relative !important; margin: 5px; margin-top: -310px; text-align: left; margin-left: -100px; } }
 
 /*# sourceMappingURL=main.css.map */
