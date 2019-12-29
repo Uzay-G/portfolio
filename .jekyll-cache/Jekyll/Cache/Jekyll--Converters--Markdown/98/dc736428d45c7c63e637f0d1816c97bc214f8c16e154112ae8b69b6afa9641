@@ -1,8 +1,0 @@
-I"V<p>This post is a recap of everything I’ve learned and done in 2019, the progress and learning I’ve accomplished and the projects I was and am building.</p>
-
-<p>This year is the one I truly started programming. It all started on a rainy day in January when I was sitting at my desk with an English assignment. What I had to do was robotically scan a text for <a href="https://literarydevices.net/" target="_blank" rel="noopener">literary techniques</a> and to be honest, I was downright bored out of my mind. So, although my coding knowledge was <strong>very limited</strong>. I had the idea to build a website that  scan a text and return all literary techniques so <strong>no one would have to do this again</strong>. And for a novice programmer, that is a <strong>difficult task</strong>. But the fact that I had this motivation is what allowed me to get somewhere with this project although it is now deprecated. You can view the codebase for the project named Litscan <a href="https://github.com/Uzay-G/Litscan">on Github</a> (keep in mind I was a beginner if you look at it :] ).</p>
-
-<p>Although the project did not get to deployment or production, I am so happy I did it because it sparked my interest in coding and taught me so much! I went from coding static html pages all the wayto learning <a href="https://en.wikipedia.org/wiki/Natural_language_processing">NLP</a> and building my first webserver.</p>
-
-<p>Working on this and learning about all the components taught me took a bit of time but I then did an internship at <a href="https://www.tweag.io/">Tweag</a> with the help of [Matthias Meschede]</p>
-:ET

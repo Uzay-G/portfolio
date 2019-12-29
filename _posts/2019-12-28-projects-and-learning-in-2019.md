@@ -1,5 +1,9 @@
 ---
 title: What I've built and what I've learned in 2019
+layout: post
+tags: [learning]
+image: /assets/images/github-graph-2019.png
+image_alt: github contributions
 ---
 ![github contributions](/assets/images/github-graph-2019.png)
 
@@ -11,7 +15,7 @@ Although the project did not get to deployment or production, I am so happy I di
 
 Working on this and learning about all the components took a bit of time but I then did an internship at [Tweag](https://www.tweag.io/). I was mentored by [Matthias Meschede](https://github.com/mmesch) and [Arnaud Spiwack](https://github.com/aspiwack/) and I also had the opportunity to learn from [Guillaume Bouchard](https://github.com/guibou) and [Kris Jenkins](https://github.com/krisajenkins). They opened my eyes to what it's like being a professional developer and different paths you can take to become one.
 
-I then started completing the open source [Odin Project](https://theodinproject.com) curriculum for web development. It's an awesome resource built with teh help of volunteers and open source maintainers. I recommend it and I believe it's one of the best resources to get from zero to hero in webdev. It made me discover Ruby and it's Rails framework that I love using. It also introduced me to the world of [open source](https://opensource.guide/how-to-contribute) and developed my knowledge of git.
+I then started completing the open source [Odin Project](https://theodinproject.com) curriculum for web development. It's an awesome resource built with the help of volunteers and open source maintainers. I recommend it and I believe it's one of the best resources to get from zero to hero in webdev. It made me discover Ruby and it's Rails framework that I love using. It also introduced me to the world of [open source](https://opensource.guide/how-to-contribute) and developed my knowledge of git.
 
 As a part of this curriculum, I followed Michael Hartl's in-depth [Ruby On Rails tutorial](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/beginning). Once again, I decided to apply the methods of [project based learning](https://www.pblworks.org/what-is-pbl). Instead of building the sample app of the book, I decided to follow the same outline but instead build [Metadigest](http://metadigest.uzpg.me?ref=blog). Metadigest is a newsletter I built in Rails that scrapes different APIs to get the the most popular tech content for the week. I then curate these articles and send the digest! Through this, I learned about encryption, api requests and also how to setup a production rails website with an AWS ec2 container.
 
@@ -24,7 +28,7 @@ Flash forward to now, I'm learning a lot about computer science, hacking and AI 
 While I learn with this free content, I am also beginning to work on Devolio, an open platform for developers to share, discuss and create. This is my biggest project for now as I want to let users customize their profile design with css and am building an API for users to integrate with Devolio in their own creative projects.
 
 I haven't launched yet, but you can check out the landing page at:
-- [http://www.devol.io](http://www.devol.io/?ref=blog)
+- [https://www.devol.io](https://www.devol.io/?ref=blog)
 
 I'm really excited about this website because I think it can become something really interesting and I might open source it if there is enough interest and I can sustain myself.
 
