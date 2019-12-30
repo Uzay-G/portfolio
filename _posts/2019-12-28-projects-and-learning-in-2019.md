@@ -38,7 +38,9 @@ I'm also thrilled to have built my tech blog which you are reading through right
 ### Progress with Devolio
 I am going to work on this project. I want to build an efficient server and develop the features outlined on the [landing page](https://devol.io/?ref=blog).
 
-The big challenge is going to be user acquisition because well, a social media site needs users before it is useful and I don't have much funds to advertise. I think I can pull it off if I really devote myself to making the platform welcoming. Open-sourcing the code would be a way to center the project around the users. I know that if I can grow an open source community the project will become amazing because the ability for any dev to just contribute and use their creativity to make the tool better for like-minded people is extremely powerful.
+The big challenge is going to be user acquisition because well, a social media site needs users before it is useful and I don't have much funds to advertise.
+
+The idea of open-sourcing the code is very alluring. I know that if I can grow an open source community the project will become amazing because the ability for any dev to just contribute and use their creativity to make the tool better for like-minded people is extremely powerful.
 
 ### Vue, WebAssembly and Node
 The stack I use for my webapps could be considered a bit "outdated" and I want to understand the big popularity surge of Node and Javascript frameworks like Vue or React. I found this nice [Node book](http://book.mixu.net/node/single.html) I will read when I have more time. [WebAssembly](https://webassembly.org) also seems like an interesting tool I could use while I learn Rust.
