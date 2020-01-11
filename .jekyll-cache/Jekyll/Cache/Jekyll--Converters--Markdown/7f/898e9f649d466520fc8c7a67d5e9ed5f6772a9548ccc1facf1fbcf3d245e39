@@ -1,79 +1,6 @@
-<!doctype html>
-<html lang="eng">
-  <head>
-    <link rel="stylesheet" href="/assets/css/dracula.css">   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/18bf0be4f4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/assets/css/aos.css" />
-    <link href="https://fonts.googleapis.com/css?family=Staatliches|Titillium+Web&display=swap" rel="stylesheet">     <link rel="stylesheet" href="/assets/css/main.css">
-    <title>UZPG | The Attic </title>
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>The Attic | UZPG</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="The Attic" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/attic.html" />
-<meta property="og:url" content="http://localhost:4000/attic.html" />
-<meta property="og:site_name" content="UZPG" />
-<script type="application/ld+json">
-{"headline":"The Attic","@type":"WebPage","url":"http://localhost:4000/attic.html","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
-<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
-</head>
-  <body>
-    <div class="nav">
-        
-<nav id="nav">
-    <a href="/">
-        
-            <h1 id="logo">UZPG</h1>
-        
-    </a>
-    <div class="Burger">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div id="links-container">
-                
-                    <a class="nav-links hover-underline" href="/about.html" >
-                        About
-                    </a>
-                
-                    <a class="nav-links hover-underline" href="/blog.html" >
-                        Blog
-                    </a>
-                
-                    <a class="nav-links hover-underline" href="/projects.html" >
-                        Projects
-                    </a>
-                
-                    <a class="nav-links hover-underline" href="/attic.html" class="current">
-                        The Attic
-                    </a>
-                
-                    <a class="nav-links hover-underline" href="/contact.html" >
-                        Contact
-                    </a>
-                
-            </div>
-    <div class="overlay">
-    
-</div>
-</nav>
-    </div>
-    <br><br><br><br>
-    <main class="page-content" aria-label="Content">
-        <p>I recently read an article on a website (I can’t find it online) that had an intriguing section named <code class="highlighter-rouge">the attic</code>. It was a collection of all the useful links or resources that the website owner had accumulated and wanted to share with others.</p>
+I"R<p>I recently read an article on a website (I can’t find it online) that had an intriguing section named <code class="highlighter-rouge">the attic</code>. It was a collection of all the useful links or resources that the website owner had accumulated and wanted to share with others.</p>
 
-<p>So I decided to add a markdown file to my website with all the useful or interesting things I’ve found online ordered by topic.
-All the resources included are totally free and I plan to add many more links and content as I learn more and explore new hidden corners of the internet!</p>
+<p>So I decided to add a markdown file to my website with all the useful or interesting things I’ve found online ordered by topic.</p>
 
 <p>You can comment down below if you found any of these useful and have any suggestions. Thanks!</p>
 
@@ -153,24 +80,4 @@ All the resources included are totally free and I plan to add many more links an
 <script src="https://utteranc.es/client.js" repo="Uzay-G/uzpg-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script></li>
 </ul>
-
-    </main>
-    <br>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="/assets/javascript/app.js"></script>
-    <!-- Ticksel v1.0 -->
-<script type="text/javascript">
-  var _tcfg = _tcfg || [];
-  (function() {
-    _tcfg.push(["tags", ""]);
-    var u="https://cdn.ticksel.com/js/analytics_v1.0.js"; _tcfg.push(["account_id", 4168377]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
-    g.type="text/javascript"; g.async=true; g.src=u; g.setAttribute("crossorigin", "anonymous");
-    g.setAttribute("integrity", "sha256-7grd8jMivCG0iCcJ7m/Ny4gvWb0mPVpFhRQovLkaUl8=");
-    s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><img src="https://beacon.ticksel.com/beam?account_id=4168377&referrer=&tags=" style="border:0;" width="0" height="0" alt="" /></noscript>
-<!-- End Ticksel Code -->
-  </body>
-</html>
+:ET
