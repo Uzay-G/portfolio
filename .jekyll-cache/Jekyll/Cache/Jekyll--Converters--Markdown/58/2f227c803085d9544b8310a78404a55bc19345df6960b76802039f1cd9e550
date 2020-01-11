@@ -1,0 +1,80 @@
+I"�<p>I recently read an article on a website (I can’t find it online) that had an intriguing section named <code class="highlighter-rouge">the attic</code>. It was a collection of all the useful links or resources that the website owner had accumulated and wanted to share with others.</p>
+
+<p>So I decided to add a markdown file to my website with all the useful or interesting things I’ve found online structured by topic.</p>
+
+<p>You can comment down below if you found any of these useful and have any suggestions. Thanks!</p>
+
+<h1 id="articles">Articles</h1>
+<p><a href="https://www.quora.com/What-is-the-most-sophisticated-piece-of-software-ever-written-1/answer/John-Byrd-2">The most sophisticated program ever written</a>: Just Wow…</p>
+
+<p><a href="https://slatestarcodex.com/2018/10/30/sort-by-controversial/">Sort by Controversial</a>: An amazingly creative story about AI.</p>
+
+<p><a href="https://www.bbc.com/news/stories-50435014">Cryptoqueen: How this woman scammed the world, then vanished</a>: How a cunning woman made billions tricking people into buying her fake cryptocurrency</p>
+
+<p><a href="https://www.existential-risk.org/concept.html">Existential Risk Prevention</a>
+<a href="http://www.datsi.fi.upm.es/~frosal/docs/25mdq.html">The 25 most difficult questions you’ll be asked on a job interview</a></p>
+
+<p><a href="https://medium.com/cantors-paradise/the-unparalleled-genius-of-john-von-neumann-791bb9f42a2d">The Unparalleled Genius of John von Neumann</a>: An incredibly detailed esssay about mathematician John Von Neumannan and his incredible talents.</p>
+
+<p><a href="https://minimaxir.com/2014/02/hacking-hacker-news/">A statistical analysis of all HN submissions</a>: Insightful comments on the open HN data by a data scientist.</p>
+
+<p><a href="https://rufposten.de/blog/2019/12/05/privacy-analysis-of-tiktoks-app-and-website/">Privacy Analysis of Tiktok’s App and Website</a>: A hacker’s inquiry into the illegal data collection of Tiktok that breaks the rules of GDPR and ignores our fundamental right to privacy.</p>
+
+<p><a href="https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf">🚀⚙️ JavaScript Visualized: the JavaScript Engine </a>: A detailed animated overwiew of lower-level javascript.</p>
+
+<p><a href="https://dev.to/sobolevn/i-am-a-mediocre-developer--30hn">I am a mediocre developer</a></p>
+
+<p><a href="https://dev.to/mfarajewicz/6-github-repos-for-instant-knowledge-boost-3mo0">6 github repos for instant knowledge boost</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=7J-wCHDJYmo">Why You Shouldn’t Go to Harvard (video)</a></p>
+
+<p><a href="https://write.privacytools.io/privacy-simplified/why-privacy-matters-even-if-you-have-nothing-to-hide">Why Privacy Matters Even if “you have nothing to hide”</a>: Interesting opinion on privacy in an era that disregards it more and more.</p>
+<h1 id="programming">Programming</h1>
+<div class="contact-line"></div>
+<p><span></span></p>
+<h2 id="general-resources">General Resources</h2>
+<ul>
+  <li><a href="https://github.com/EbookFoundation/free-programming-books">Open source collection of amazing free books</a></li>
+  <li><a href="http://carlcheo.com/compsci">40 Key Computer Science Concepts Explained In Layman’s Terms</a></li>
+  <li><a href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit#when-you-get-stuck">Best-websites-a-programmer-should-visit</a>
+-<a href="https://yangshun.github.io/tech-interview-handbook/">Tech Interview Handbook</a></li>
+  <li><a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">How to Contribute to Open Source</a></li>
+  <li><a href="https://news.ycombinator.com/item?id=21919465">Ask HN: How do I choose the right resource to learn CS fundamentals?</a></li>
+</ul>
+
+<h2 id="artificial-intelligence">Artificial Intelligence</h2>
+<ul>
+  <li><a href="https://elementsofai.com">Elements of AI</a></li>
+  <li><a href="https://snips.ai/content/intro-to-ai/#ai-symphony">6 min introduction to AI</a></li>
+  <li><a href="https://www.edx.org/course/introduction-to-artificial-intelligence-ai-2">Introduction to AI by EDX</a></li>
+</ul>
+
+<h1 id="design">Design</h1>
+<div class="contact-line"></div>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://colorhunt.co/">Color Hunt</a></li>
+  <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li><a href="https://undraw.co">Undraw</a></li>
+  <li><a href="https://illlustrations.co">Illlustrations</a></li>
+  <li><a href="https://www.opendoodles.com/">Open Doodles</a></li>
+  <li><a href="https://growth.design/">Growth Design</a></li>
+</ul>
+
+<h2 id="beautiful-websites">Beautiful Websites</h2>
+<ul>
+  <li><a href="https://igma.im/">Igma.im</a></li>
+  <li><a href="https://www.vincentsaisset.com/">vincentsaisset.com</a></li>
+  <li><a href="https://www.vincentsaisset.com/">burakaslan.me</a></li>
+  <li><a href="https://davideperozzi.com/">davideperozzi.com</a></li>
+  <li><a href="http://y78.fr">y78</a></li>
+</ul>
+
+<h2 id="other">Other</h2>
+<ul>
+  <li><a href="http://notpron.com/">Notpron by David </a>
+<script src="https://utteranc.es/client.js" repo="Uzay-G/uzpg-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script></li>
+</ul>
+:ET
