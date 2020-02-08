@@ -1,0 +1,52 @@
+I"¬
+<p>I started at the end of 2019 my work on Devolio, a social community for programmers! I found other alternatives sometimes too clickbait or dull (I just found this post:<em>Top 13 useful JavaScript array tips and tricks you should know</em>) or they were not focused on actual discussion (talking to people about tech is super interesting!).</p>
+
+<p>So I want to build this platform for programmers to share and engage with other fellow coders.
+I am building this with a Rails backend and the only JS framework I am using is Jquery (outdated stack but it works). All this will be hosted on Heroku for now but I will switch to more scalable alternatives later.</p>
+
+<p>I am really excited about the different features I am working on to make my project fun for me to build and for other hackers to use:</p>
+
+<ul>
+  <li>Design customization (think MySpace) secured with this <a href="https://github.com/rgrove/sanitize">great gem</a> (<a href="https://stackoverflow.com/questions/41925390/what-are-the-risks-associated-with-using-inline-styles">CSS can be dangerous!</a>)</li>
+  <li>public and open API with documentation (opens up avenues for data analysis and tons of interesting projects)</li>
+  <li>open source collaboration possibilities (creating a friendly environment to build a hopefully awesome project)</li>
+  <li>markdown everywhere with the <a href="https://github.com/vmg/redcarpet">Redcarpet parser</a></li>
+</ul>
+
+<h2 id="progress--pics">Progress &amp; Pics</h2>
+
+<p>School takes some time but I am very happy with my progress and the overall design and structure of the project.</p>
+
+<ul>
+  <li>Post layout and design:</li>
+</ul>
+
+<p><img src="/assets/images/post.png" alt="Post design" /></p>
+
+<ul>
+  <li>Profile page structure</li>
+</ul>
+
+<p><img src="/assets/images/profile.png" alt="Profile" /></p>
+
+<ul>
+  <li>Login and Oauth with Github handled with <a href="https://github.com/Sorcery/sorcery">Sorcery</a>.</li>
+</ul>
+
+<p><img src="/assets/images/github-login.png" alt="login" /></p>
+
+<ul>
+  <li>Avatars. I spent quite a bit of time trying to get the perfect user avatar setup. A banal user without a github username or a custom pic, is assigned an identicon from <a href="https://jdenticon.com/">this beautiful software</a> (this is what you see at the start of the gif). Then, if they give their github username, the github avatar will be displayed instead, and of course they can also add their own pics.</li>
+</ul>
+
+<p><img src="/assets/images/avatar.gif" alt="avatars!" /></p>
+
+<h2 id="future-goals">Future Goals</h2>
+
+<p>Here are the features and important parts of the project logic I need to work on:</p>
+
+<ul>
+  <li>Working on a comment model</li>
+  <li>Adding AJAX for follows and likes</li>
+</ul>
+:ET

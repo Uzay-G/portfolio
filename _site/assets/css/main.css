@@ -190,6 +190,8 @@ code { color: #e83e8c; word-break: break-word; }
 
 .content-container { width: 75%; margin: auto; }
 
+.content-container img { margin: auto; display: block; }
+
 .web-links { display: flex; width: 100%; justify-content: center; }
 
 .web-links a { margin: 8px; }
