@@ -46,7 +46,8 @@ Here are the features and important parts of the project logic I need to work on
 - Adding AJAX for follows and likes
 - setting up AWS S3 for image uploads in posts
 
-Of course, all this shiny functionality won't matter if people don't find the project useful (paradoxical considering community-based projects are only useful if they have users). I want to see if there is real interest in building this tool and would love to get the help of other devs for this product!
+It is really exciting to be working and deploying the first project I am really serious about! I can't wait. Of course, all this shiny functionality won't matter if people don't find the project useful (paradoxical considering community-based projects are only useful if they have users). I want to see if there is real interest in building this tool and would love to get the help of other devs for this product!
+
 
 You can sign up for updates on Devolio at my [landing page](http://bit.ly/devolio-landing) and you can chat about the project with me on [it's discussion page](https://www.devol.io/discuss).
 

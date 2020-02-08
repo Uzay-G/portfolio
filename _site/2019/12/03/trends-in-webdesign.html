@@ -16,14 +16,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This article is a collection of the little features and design aspects I’ve noticed are becoming more and more prominent in web design. I’ve also included beautiful examples and links to tutorials where you can learn how to replicate these patterns." />
 <meta property="og:description" content="This article is a collection of the little features and design aspects I’ve noticed are becoming more and more prominent in web design. I’ve also included beautiful examples and links to tutorials where you can learn how to replicate these patterns." />
-<link rel="canonical" href="http://localhost:4000/2019/12/03/trends-in-webdesign.html" />
-<meta property="og:url" content="http://localhost:4000/2019/12/03/trends-in-webdesign.html" />
+<link rel="canonical" href="http://0.0.0.0:4000/2019/12/03/trends-in-webdesign.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/2019/12/03/trends-in-webdesign.html" />
 <meta property="og:site_name" content="UZPG" />
-<meta property="og:image" content="http://localhost:4000/assets/images/y78.png" />
+<meta property="og:image" content="http://0.0.0.0:4000/assets/images/y78.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-12-03T00:00:00+01:00" />
+<meta property="article:published_time" content="2019-12-03T00:00:00+00:00" />
 <script type="application/ld+json">
-{"dateModified":"2019-12-03T00:00:00+01:00","datePublished":"2019-12-03T00:00:00+01:00","description":"This article is a collection of the little features and design aspects I’ve noticed are becoming more and more prominent in web design. I’ve also included beautiful examples and links to tutorials where you can learn how to replicate these patterns.","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/12/03/trends-in-webdesign.html"},"@type":"BlogPosting","url":"http://localhost:4000/2019/12/03/trends-in-webdesign.html","image":"http://localhost:4000/assets/images/y78.png","headline":"Web design trends during the past year","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Web design trends during the past year","dateModified":"2019-12-03T00:00:00+00:00","datePublished":"2019-12-03T00:00:00+00:00","url":"http://0.0.0.0:4000/2019/12/03/trends-in-webdesign.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2019/12/03/trends-in-webdesign.html"},"image":"http://0.0.0.0:4000/assets/images/y78.png","description":"This article is a collection of the little features and design aspects I’ve noticed are becoming more and more prominent in web design. I’ve also included beautiful examples and links to tutorials where you can learn how to replicate these patterns.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
 <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
@@ -192,19 +192,20 @@ If you want to learn how to code and design a loader, you should check out <a hr
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/assets/javascript/app.js"></script>
-    <!-- Ticksel v1.0 -->
-<script type="text/javascript">
-  var _tcfg = _tcfg || [];
-  (function() {
-    _tcfg.push(["tags", ""]);
-    var u="https://cdn.ticksel.com/js/analytics_v1.0.js"; _tcfg.push(["account_id", 4168377]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
-    g.type="text/javascript"; g.async=true; g.src=u; g.setAttribute("crossorigin", "anonymous");
-    g.setAttribute("integrity", "sha256-7grd8jMivCG0iCcJ7m/Ny4gvWb0mPVpFhRQovLkaUl8=");
-    s.parentNode.insertBefore(g,s);
-  })();
+    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, 'http://uzpg.me:3000/tracker.js', 'fathom');
+fathom('set', 'siteId', 'YJYRF');
+fathom('trackPageview');
 </script>
-<noscript><img src="https://beacon.ticksel.com/beam?account_id=4168377&referrer=&tags=" style="border:0;" width="0" height="0" alt="" /></noscript>
-<!-- End Ticksel Code -->
+<!-- / Fathom -->
   </body>
 </html>

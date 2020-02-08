@@ -1,4 +1,4 @@
-I"�<p>I started at the end of 2019 my work on Devolio, a social community for programmers! I found other online tech communities sometimes too clickbait or dull (Case in point of a post I just found:<em>Top 13 useful JavaScript array tips and tricks you should know</em>) or they were not focused on actual discussion (talking to people about tech is super interesting!).</p>
+I"<p>I started at the end of 2019 my work on Devolio, a social community for programmers! I found other online tech communities sometimes too clickbait or dull (Case in point of a post I just found:<em>Top 13 useful JavaScript array tips and tricks you should know</em>) or they were not focused on actual discussion (talking to people about tech is super interesting!).</p>
 
 <p>So I want to build this platform for programmers to share and engage with other fellow coders.
 I am building this with a Rails backend and the only JS framework I am using is Jquery (outdated stack but it works). All this will be hosted on Heroku for now but I will switch to more scalable alternatives later.</p>
@@ -51,9 +51,9 @@ I am building this with a Rails backend and the only JS framework I am using is 
   <li>setting up AWS S3 for image uploads in posts</li>
 </ul>
 
-<p>Of course, all this shiny functionality won’t matter if people don’t find the project useful (paradoxical considering community-based projects are only useful if they have users). I want to see if there is real interest in building this tool and would love to get the help of other devs for this product!</p>
+<p>It is really exciting to be working and deploying the first project I am really serious about! I can’t wait. Of course, all this shiny functionality won’t matter if people don’t find the project useful (paradoxical considering community-based projects are only useful if they have users). I want to see if there is real interest in building this tool and would love to get the help of other devs for this product!</p>
 
-<p>You can sign up for updates on Devolio at my <a href="https://www.devol.io">landing page</a> and you can chat about the project with me on <a href="https://www.devol.io/discuss">it’s discussion page</a>.</p>
+<p>You can sign up for updates on Devolio at my <a href="http://bit.ly/devolio-landing">landing page</a> and you can chat about the project with me on <a href="https://www.devol.io/discuss">it’s discussion page</a>.</p>
 
 <p>If you have any questions, please comment down below and I’d <strong>really appreciate to hear your thoughts!</strong></p>
 
