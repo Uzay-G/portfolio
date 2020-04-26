@@ -39,7 +39,7 @@ for filename in os.listdir("/home/uzay/Downloads/tmp/chall"):
     os.rename(filename, long_to_bytes(int(filename.split(".")[0])))
 ```
 
-I noticed after the program, each image consisted of 2 numbers like coordinates. All these images were very small, and with the name of the problem I guessed they were each one pixel that formed an image which would give me a flag. I then used the python `Pillow` library to assemble all the images together:
+I noticed after the program, each image consisted of 2 numbers like coordinates for example: `61 125`. All these images were very small, and with the name of the problem I guessed they were each one pixel that formed an image which would give me a flag. I then used the python `Pillow` library to assemble all the images together:
 
 ```python
 from PIL import Image
@@ -110,7 +110,7 @@ done < out.txt
 
 Now that we had the coordinates, I had to put them on a map to view the result. I decided to use [LeafletJs](https://leafletjs.com/) to do this.
 
-So the latitude longitude data of the images was stored in this format in exif: `X deg Y' Z" lat, X deg Y' Z" long` with Y being minutes and X being seconds.
+So the latitude longitude data of the images was stored in this format in exif: `X deg Y' Z" lat, X deg Y' Z" long` with Y being minutes and Z being seconds.
 
 So this was the html skeleton to display the map:
 
