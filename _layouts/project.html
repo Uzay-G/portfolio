@@ -18,7 +18,10 @@ layout: default
                     <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
             {% endif %} 
         </div>
-        <br>
+        {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+        {% endfor %}
+        <br><br>
         <img class="project-img" src="{{ page.feature_img }}" alt="{{ page.name }}">
         <applause-button color="#5d5b6a"/>
     </div>

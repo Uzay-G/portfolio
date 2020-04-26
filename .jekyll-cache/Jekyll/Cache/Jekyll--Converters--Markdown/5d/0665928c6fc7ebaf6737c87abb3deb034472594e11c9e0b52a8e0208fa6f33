@@ -1,0 +1,141 @@
+I"�<h2 id="wpictf-sigknock">WPICTF Sigknock</h2>
+
+<p>I recently attend my <a href="https://wpictf.xyz">first ctf</a> (where my team was 14th!), It was an awesome experience and I really liked the thrill of it. I especially liked one of the <code class="highlighter-rouge">linux</code> challenges named <code class="highlighter-rouge">$1gkn0ck</code>:</p>
+
+<p><img src="/assets/images/sigknock.png" alt="challenge desc" /></p>
+
+<p>So I started by researching what <a href="https://en.wikipedia.org/wiki/Port_knocking">Port Knocking</a> was, and I found out it’s a way of opening and closing ports on a machine by sending a pre-defined sequence of connection attempts. This helped me later to crack the puzzle.</p>
+
+<p>So I <code class="highlighter-rouge">ssh</code>ed into the VM, and didn’t notice anything at first. But then I noticed something interesting in the processes:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ <span class="nv">$ </span>ps aux
+PID   USER     TIME  COMMAND
+    1 wpictf    0:00 <span class="o">{</span>init_d<span class="o">}</span> /bin/sh /bin/init_d
+    6 wpictf    0:00 /usr/bin/irqknock
+    7 wpictf    0:00 /bin/sh
+    9 wpictf    0:00 ps aux
+~ <span class="nv">$ </span>
+</code></pre></div></div>
+
+<p>There was an interesting program conveniently named irq<strong>knock</strong>. When I launched the program, nothing was happening until I started fiddling around and noticed that when I inputted <code class="highlighter-rouge">CTRL+C</code>, the program would react:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ <span class="nv">$ </span>irqknock
+^CGot signal 2
+State advanced to 1
+</code></pre></div></div>
+
+<p>I then realized that the program only reacted when you triggered a <a href="https://www.computerhope.com/unix/signals.htm">signal interrupt</a> like CTRL+C or CTRL+Z. So I needed to find the right sequence of signal interrupts that would trigger the program like port knocking to make it give me the flag. Seeing the big list of <a href="https://www.computerhope.com/unix/signals.htm">64 Unix interrupts</a>, I decided to run a bash script to find the ones that made the program react:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="k">for </span>i <span class="k">in</span> <span class="si">$(</span><span class="nb">seq </span>1 64<span class="si">)</span>
+<span class="k">do
+    </span><span class="nb">echo</span> <span class="nv">$i</span>
+    /usr/bin/irqknock &amp;
+    <span class="nb">sleep </span>1
+    <span class="nb">kill</span> -<span class="nv">$i</span> <span class="nv">$!</span>
+    <span class="nb">echo</span> <span class="nv">$!</span>
+<span class="k">done</span>
+</code></pre></div></div>
+
+<p>This program starts irqknock as a daemon and then sends it a signal interruption command with <code class="highlighter-rouge">kill</code>. It <code class="highlighter-rouge">echo</code>es the output to the console so I can see if the program has reacted to my nudges.</p>
+
+<p>This was the output:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ <span class="nv">$ </span><span class="c">#!/bin/sh</span>
+~ <span class="nv">$ </span><span class="k">for </span>i <span class="k">in</span> <span class="si">$(</span><span class="nb">seq </span>1 64<span class="si">)</span>
+<span class="o">&gt;</span> <span class="k">do</span>
+<span class="o">&gt;</span>     <span class="nb">echo</span> <span class="nv">$i</span>
+<span class="o">&gt;</span>     /usr/bin/irqknock &amp;
+<span class="o">&gt;</span>     <span class="nb">sleep </span>1
+<span class="o">&gt;</span>     <span class="nb">kill</span> -<span class="nv">$i</span> <span class="nv">$!</span>
+<span class="o">&gt;</span>     <span class="nb">echo</span> <span class="nv">$!</span>
+<span class="o">&gt;</span> <span class="k">done
+</span>1
+12
+2
+14
+3
+Got signal 2
+State advanced to 1
+16
+4
+Got signal 3
+State advanced to 0
+18
+5
+20
+6
+22
+7
+24
+8
+26
+9
+28
+10
+30
+11
+32
+12
+Got signal 11
+State advanced to 0
+34
+13
+36
+14
+Got signal 13
+State advanced to 0
+38
+15
+40
+16
+42
+17
+44
+18
+Got signal 17
+State advanced to 0
+... <span class="c"># snipped for brevity</span>
+</code></pre></div></div>
+
+<p>This script revealed exactly which signals could induce a reaction: <code class="highlighter-rouge">[2, 3, 11, 13, 17]</code></p>
+
+<p>With this information, I tried sending these signals to irqknock in a linear order:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~ <span class="nv">$ </span>irqknock <span class="c"># start new irqknock instance</span>
+^Z[2]+  Stopped                    irqknock
+~ <span class="nv">$ </span><span class="nb">bg</span>
+<span class="o">[</span>2] irqknock <span class="c"># retrieve pid of new instance</span>
+~ <span class="nv">$ </span>ps aux
+PID   USER     TIME  COMMAND
+    1 wpictf    0:00 <span class="o">{</span>init_d<span class="o">}</span> /bin/sh /bin/init_d
+    6 wpictf    0:00 /usr/bin/irqknock
+    7 wpictf    0:00 /bin/sh
+   10 wpictf    0:00 irqknock
+   80 wpictf    0:00 irqknock
+   81 wpictf    0:00 ps aux
+~ <span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-2</span> 80 <span class="c"># send signals in linear order</span>
+~ <span class="nv">$ </span>Got signal 2
+State advanced to 1
+
+~ <span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-3</span> 80
+~ <span class="nv">$ </span>Got signal 3
+State advanced to 2
+^C
+~ <span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-11</span> 80
+~ <span class="nv">$ </span>Got signal 11
+State advanced to 3
+
+~ <span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-13</span> 80
+Got signal 13
+State advanced to 4
+~ <span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-17</span> 80
+Got signal 17
+State advanced to 5
+WPI<span class="o">{</span>1RQM@St3R<span class="o">}</span>
+</code></pre></div></div>
+
+<p>As you can see, it worked! These signals made the program react and send me back the flag in <code class="highlighter-rouge">WPI{...}</code> format.</p>
+
+<p>Big thanks to acurless who made this epic challenge!=</p>
+:ET
