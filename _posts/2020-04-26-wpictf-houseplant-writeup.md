@@ -148,7 +148,7 @@ So this was the html skeleton to display the map:
 
 ```
 
-Now me and my friend [doggo](https://diogos.cf) had to parse the latitudes and longitudes of each image in js (the `text` variable is all the unparsed lat / long data):
+Now me and my teammate [diogo](https://diogos.cf) had to parse the latitudes and longitudes of each image in js (the `text` variable is all the unparsed lat / long data):
 
 ```js
 // load map
@@ -179,7 +179,7 @@ We got some weird garbled text after this code:
 
 ![](/assets/images/catography2.png)
 
-We noticed some sort of shift in the longitude at the middle so me and doggo deduced that there must be two different strings spelled out on top of each other. 
+We noticed some sort of shift in the longitude at the middle so me and diogo deduced that there must be two different strings spelled out on top of each other. 
 
 The first half of coordinates spelled the first half of the flag backwords (`rtcp{}`) format:
 
