@@ -21,7 +21,23 @@ So this challenge consisted of a login portal that used the discord api to login
 
 ![chall1-2](/assets/images/selfhost-all2.png)
 
-So after fiddling a bit with the chat, I noticed it was vulnerable to XSS, and then I tried many different hacky ways to attempt to find the flag. After lots of time lots looking at this red herring, I though of changing the value of the provider (see above) to `flag` instead of `discord` based on the hint that says: "discord, more like flag". This worked and I really did kick myself once I saw how simple this time-consuming challenge was.
+So after fiddling a bit with the chat, I noticed it was vulnerable to XSS, and then I tried many different hacky ways to attempt to find the flag. After lots of time lots looking at this red herring. I decided to focus on the login page (above). It consisted of a checkbox html input like this:
+
+```html
+<input type="radio" name="with" value="discord" id="p-discord">
+                        <label for="p-discord">discord</label>
+```
+
+Based on the hint (`discord, more like flag`), I decided to change the value of the input to `flag`: 
+
+```html
+<input type="radio" name="with" value="flag" id="p-discord">
+                        <label for="p-discord">discord</label>
+```
+
+This worked and once i logged in I got the flag!
+
+I really did kick myself once I saw how simple this time-consuming challenge was.
 
 ## Satanic Jigsaw
 
@@ -69,7 +85,7 @@ All I had to do then was scan the QRs to get the flag.
 
 ## [Catography](http://challs.houseplant.riceteacatpanda.wtf:30003)
 
-Now this one was devilish. Figuring it out was not easy but implementing the solution took me quite some time.
+Now this one was devilish. Figuring it out was not too difficult but implementing the solution took me quite some time.
 
 ![](/assets/images/catography.png)
 
@@ -80,7 +96,7 @@ const e = await fetch("/api?page=" + ++n),
                 t = await e.json();
 ```
 
-So my [friend](https://aadibajpai.com) started looking at the images and noticed similar coordinates in the exif data for every image. We realised that we must need to gather all the cat images and put them on a map to decode the flag.
+So my [teammate Aadi](https://aadibajpai.com) started looking at the images and noticed similar coordinates in the exif data for every image. We realised that we needed to gather all the cat images and put them on a map to decode the flag.
 
 I started off by gathering all the images together with a simple ruby script and the api:
 
@@ -104,6 +120,7 @@ With this information, I then wrote a bash script to store all the exif data by 
 #!/bin/sh
 while read line; do
 # send curl data to exif tool and then store only the relevant gps position data
+# thanks to my teammate Nils for tips on how to process the input :)
 echo $(exiftool <(curl --silent $line) | tail -n 1 | cut -d ':' -f2 | tail -c +2)$'\r' >> exif.txt
 done < out.txt
 ```
@@ -172,7 +189,7 @@ And then the other half gave us the end:
 
 ![](/assets/images/catography4.png)
 
-This was a SUPER fun and satisfying challenge and the whole ctf in general was awesome. Our team placed fourth!!!
+This was a SUPER fun and satisfying challenge and the whole ctf in general was awesome. Our team tied first!!!
 
 Comment down below if you had other strategies to complete the challenges :)
 
