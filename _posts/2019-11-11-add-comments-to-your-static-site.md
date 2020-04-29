@@ -2,6 +2,7 @@
 layout: post
 title: How to add a comments section to your static blog
 tags: [learning, static]
+category: tech
 image: https://my.remarkbox.com/static/img/remarkbox-logo.png
 alt: remarkbox logo
 ---

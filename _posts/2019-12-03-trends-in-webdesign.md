@@ -3,6 +3,7 @@ title: Web design trends during the past year
 tags: design
 image: /assets/images/y78.png
 image_alt: y78 portfolio
+category: tech
 ---
 This article is a collection of the little features and design aspects I've noticed are becoming more and more prominent in web design. I've also included beautiful examples and links to tutorials where you can learn how to replicate these patterns.
 

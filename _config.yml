@@ -15,7 +15,7 @@ social_links:
   #twitter: user
   github: Uzay-G
   #facebook: user
-  #linkedin: user
+  linkedin: uzay-girit-a208161a2
   #dribbble: user
     # flickr:   user
     # instagram: user
@@ -34,7 +34,8 @@ collections:
   projects:
     sort_by: value
     output: true
-
+  categories:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -50,3 +51,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "category"

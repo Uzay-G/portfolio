@@ -2,6 +2,7 @@
 layout: post
 title: Learn how to code a well-designed pre-loader
 tags: [learning, design, tech-tutorials]
+category: tech
 image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdesire4travels.com%2Fimg%2Fgif.gif&f=1&nofb=1
 image_alt: preloader
 ---

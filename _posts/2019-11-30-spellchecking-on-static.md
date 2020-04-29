@@ -3,6 +3,7 @@ title: Implement automatic spellchecking on your static blog
 tags: [static, learning, webdev]
 image: https://raw.githubusercontent.com/hcodes/yaspeller/master/images/cli.en.png
 image_alt: yaspeller output
+category: tech
 ---
 Have you ever made a huge spelling error on your blog and never noticed? It's a common mistake I've done because errors are hard to check for in markdown files. This post will teach you how to use <a href="https://www.thoughtworks.com/continuous-integration" target="_blank" rel="noopener">Continuous Integration</a> to find spelling mistakes in your posts and even get tips on how to improve your writing.
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Useful tools and repositories for development open-sourced on github
-categories: [webdev, python]
-tags: [learning, github]
+category: tech
+tags: [learning, github, webdev, python]
 ---
 Github is a marvelous tools that allows developers to host their code for free online on repositories. This code is often open-source, which means it encourages open collaboration and use. Open-source is a great aspect of software development that has led to the creation of several free projects (libs, frameworks, packages...). Today we'll be looking at which useful repositories can help you for web development and computer science
 
