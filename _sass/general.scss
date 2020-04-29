@@ -1,6 +1,7 @@
 // typography
 html {
     font-size: 0.8rem;
+    background-color: #363636;
   }
 
 a {
@@ -10,6 +11,7 @@ a {
 p, li  {
     font-family: $text-font;
     font-size: 17px;
+    color: #ffaaa5;
 }
 h1 {
     font-size: 38px;
@@ -29,6 +31,7 @@ h5 {
 h6, h5, h4, h3, h2, h1 {
     font-family: $bold-font;
     font-weight: normal;
+    color: $pale_violet;
     margin: 0;
 }
 
