@@ -1,7 +1,7 @@
 ---
 layout: post
-categories: [learning]
-tags: [programming, problem-solving]
+category: tech
+tags: [problem-solving]
 title: Project Euler - Improve your coding skills while having a blast
 image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsmexyyweby.files.wordpress.com%2F2012%2F09%2Feuler_portrait.png%3Fw%3D630&f=1&nofb=1
 image_alt: leonhard euler

@@ -3,6 +3,7 @@ title: Interesting Podcasts for developers, designers and entrepreneurs
 tags: [learning, design]
 image: https://is2-ssl.mzstatic.com/image/thumb/Podcasts113/v4/40/b9/e3/40b9e34e-224a-9448-8858-1b60c34de1da/mza_1480841263198296123.jpg/1200x630wp.png
 image_alt: how I built this
+category: tech
 ---
 
 Podcasts can be fascinating, they are also sometimes very dull. I've listened to many on my daily commute and here are some of those that caught my interest the most or taught me new things about design, programming and entrepreneurship.

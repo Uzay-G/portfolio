@@ -1,6 +1,7 @@
 ---
 title: Writeup for WPICTF Sigknock challenge
 tags: [ctf]
+category: cyber-security
 ---
 
 ## WPICTF Sigknock

@@ -19,9 +19,7 @@
     width: 80%;
     margin: 20px 0px;
     }
-    h3 {
-        color: black;
-    }
+
     img {
         width: 50%;
         padding: 20px 0px;
@@ -41,27 +39,18 @@
 .post-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
     width: 100%;
     flex-wrap: wrap;
     margin: auto;
-    li {
-        width: 50%;
+    figure {
+        margin: 0px;
     }
-    img {
-        padding: 40px;
-        max-height: 300px;
-    }
-    /*
-    .left {
-        height: 500px;
-    }
-    .right {
-        height: 350px;
-    }*/
+
 }
 
-
+.cat-title {
+        color: #f6d186;
+}
 // both
 .date {
     color: $pale_violet;
@@ -94,4 +83,15 @@ applause-button, .fa-comments {
 }
 applause-button {
     top: 24%;
+}
+
+.categories {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    figcaption {
+        text-align: center;
+    }
 }

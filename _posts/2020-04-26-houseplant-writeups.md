@@ -1,6 +1,7 @@
 ---
 title: Houseplant CTF 2020 Writeups
-tags: [ctf, cybersec]
+tags: [ctf]
+category: cyber-security
 ---
 
 ## HousePlant 2020

@@ -4,6 +4,7 @@ layout: post
 tags: [learning]
 image: /assets/images/github-graph-2019.png
 image_alt: github contributions
+category: tech
 ---
 ![github contributions](/assets/images/github-graph-2019.png)
 

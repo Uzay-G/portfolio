@@ -1,6 +1,7 @@
 ---
 title: "Starting my first real project - Devlog #1"
 tags: [goals, devlog, learning]
+category: tech
 ---
 
 I started at the end of 2019 my work on Devolio, a social community for programmers! I found other online tech communities sometimes too clickbait or dull (Case in point of a post I just found:_Top 13 useful JavaScript array tips and tricks you should know_) or they were not focused on actual discussion (talking to people about tech is super interesting!).
