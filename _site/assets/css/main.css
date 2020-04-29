@@ -1,7 +1,7 @@
 /* You can define new variables here for your css files */
 #nav { width: 80%; margin: auto; text-align: right; font-size: 1.2rem; }
 
-#nav .nav-links { padding: 5px; font-size: 25px; font-family: Staatliches, cursive; opacity: 1; color: black; }
+#nav .nav-links { padding: 5px; font-size: 25px; font-family: Staatliches, cursive; opacity: 1; color: #f6d186; }
 
 #nav #logo { float: left; }
 
@@ -41,7 +41,7 @@
 
 .hover-underline:hover::before, .hvr-underline-from-center:focus::before, .hvr-underline-from-center:active::before { left: 0; right: 0; }
 
-.hover-underline::before { content: ""; position: absolute; z-index: -1; left: 51%; right: 51%; top: 31px; height: 2px; background: black; -webkit-transition-property: left, right; transition-property: left, right; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
+.hover-underline::before { content: ""; position: absolute; z-index: -1; left: 51%; right: 51%; top: 31px; height: 2px; background: #f6d186; -webkit-transition-property: left, right; transition-property: left, right; -webkit-transition-duration: 0.4s; transition-duration: 0.4s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; }
 
 .hover-underline { display: inline-block; vertical-align: middle; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); position: relative; overflow: hidden; }
 
@@ -75,11 +75,11 @@ img[alt="about"] { width: 300px; margin: auto; display: block; }
 
 .icons { display: inline; padding: 5px; float: left; width: 25px; }
 
-html { font-size: 0.8rem; }
+html { font-size: 0.8rem; background-color: #363636; }
 
-a { text-decoration: none; color: #6807f9; }
+a { text-decoration: none; color: #827397; }
 
-p, li { font-family: Titillium Web, sans-serif; font-size: 17px; }
+p, li { font-family: Titillium Web, sans-serif; font-size: 17px; color: #ffaaa5; }
 
 h1 { font-size: 38px; }
 
@@ -91,7 +91,7 @@ h4 { font-size: 19px; }
 
 h5 { font-size: 18px; }
 
-h6, h5, h4, h3, h2, h1 { font-family: Staatliches, cursive; font-weight: normal; margin: 0; }
+h6, h5, h4, h3, h2, h1 { font-family: Staatliches, cursive; font-weight: normal; color: #827397; margin: 0; }
 
 blockquote { border-left-width: 4px; margin: 15px 0; border-left: 2px solid #2A2F36; padding: 3px 0 3px 15px; font-weight: 300; letter-spacing: -.02em; line-height: 1.6; width: 96%; }
 
@@ -125,7 +125,7 @@ body, html { padding: 0; margin: 0; }
 
 .animated { animation-duration: 1s; animation-fill-mode: both; }
 
-.contact-line { width: 60px; height: 4px; margin: 5px; background: #6807f9; }
+.contact-line { width: 60px; height: 4px; margin: 5px; background: #827397; }
 
 .line-1 { margin: auto; margin-right: 50%; }
 
@@ -143,7 +143,7 @@ body, html { padding: 0; margin: 0; }
 
 #contact textarea, #contact input { border: 2.5px solid #c6cbef; width: 50%; box-shadow: none; border-radius: 5px; transition: border 1s; }
 
-#contact textarea::placeholder, #contact input::placeholder { color: #6807f9; font-family: Titillium Web, sans-serif; font-size: 17px; padding: 0; margin: 0; }
+#contact textarea::placeholder, #contact input::placeholder { color: #827397; font-family: Titillium Web, sans-serif; font-size: 17px; padding: 0; margin: 0; }
 
 #contact textarea:focus, #contact input:focus { border-color: #484c7f; }
 
@@ -186,7 +186,7 @@ code { color: #e83e8c; word-break: break-word; }
 
 .post-list img { padding: 40px; max-height: 300px; }
 
-.date { color: #6807f9; font-family: Titillium Web, sans-serif; }
+.date { color: #827397; font-family: Titillium Web, sans-serif; }
 
 .content-container { width: 75%; margin: auto; }
 
