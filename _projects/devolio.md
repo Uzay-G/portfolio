@@ -2,10 +2,11 @@
 name: Devolio
 description: Social space for developers to discuss with like-minded people and share their creations.
 dates: December 2019 - now
-value: 1
+value: 2
 tags: [rails, webdev, community, heroku]
 link: https://devol.io
 feature_img: /assets/images/showcase.png
+github: https://github.com/Uzay-G/devolio
 ---
 
 Devolio is a social space for aspiring and expert developers. We are building it as an alternative to other dev communities that we believe limit developers in their creativity and discussion.
