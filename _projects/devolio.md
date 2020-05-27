@@ -4,7 +4,7 @@ description: Social space for developers to discuss with like-minded people and 
 dates: December 2019 - now
 value: 2
 tags: [rails, webdev, community, heroku]
-link: https://devol.io
+link: http://devol.io
 feature_img: /assets/images/showcase.png
 github: https://github.com/Uzay-G/devolio
 ---
