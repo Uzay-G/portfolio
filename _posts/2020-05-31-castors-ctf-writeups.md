@@ -379,6 +379,7 @@ To find the second, we do the same routine except we send a 14-bit string and th
 
 So on and so forth until we get the flag, bit by bit.
 
+Flag: `castorsCTF{I_L1k3_muh_b4G3l5_3x7r4_cr15pY}`
 **SCRIPT TOMORROW**
 
 ## Reversing
