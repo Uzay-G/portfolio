@@ -421,6 +421,8 @@ Flag: `castorsCTF{r1cK_D1e_R1cKp3aT_x0r}`
 
 # Web
 
+## Car Lottery
+
 All this challenge had was a url, http://web1.cybercastors.com:14435.
 
 When you landed on the web page, you would see this text:
