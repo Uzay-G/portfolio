@@ -1,6 +1,7 @@
 ---
 title: TJCTF 2020 FB Library Writeup
 category: cyber-security
+tags: [ctf]
 ---
 
 I want to make a writeup for this one because it was one of my favourites and I can't find a writeup for it yet on [CTFTime](https://ctftime.org/event/928/tasks/).
