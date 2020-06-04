@@ -379,6 +379,7 @@ To find the second, we do the same routine except we send a 14-bit string and th
 
 So on and so forth until we get the flag, bit by bit.
 
+Flag: `castorsCTF{I_L1k3_muh_b4G3l5_3x7r4_cr15pY}`
 **SCRIPT TOMORROW**
 
 ## Reversing
@@ -419,6 +420,8 @@ So what we had to do here was to decode that base64 `ExMcGQAABzohNQ0TRQwtPidYAS8
 Flag: `castorsCTF{r1cK_D1e_R1cKp3aT_x0r}`
 
 # Web
+
+## Car Lottery
 
 All this challenge had was a url, http://web1.cybercastors.com:14435.
 
@@ -578,4 +581,7 @@ We cracked these hashes and found that the password for the first account was `n
 We had run `gobuster` earlier and found a login page at `/dealer`. So I just had to login with that email and `naruto` to solve it:
 
 ![sol](/assets/images/car-sol.gif)
+<<<<<<< HEAD
 
+=======
+>>>>>>> c7333aa2b9bcc656d030b62d7f700054dcedce51
