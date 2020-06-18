@@ -581,7 +581,4 @@ We cracked these hashes and found that the password for the first account was `n
 We had run `gobuster` earlier and found a login page at `/dealer`. So I just had to login with that email and `naruto` to solve it:
 
 ![sol](/assets/images/car-sol.gif)
-<<<<<<< HEAD
 
-=======
->>>>>>> c7333aa2b9bcc656d030b62d7f700054dcedce51
