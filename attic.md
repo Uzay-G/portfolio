@@ -17,25 +17,23 @@ You can comment down below if you found any of these useful and have any suggest
 - [I am a mediocre developer](https://dev.to/sobolevn/i-am-a-mediocre-developer--30hn)
 - [My First Year as a Freelance AI Engineer](http://masatohagiwara.net/202002-my-first-year-as-a-freelance-ai-engineer.html)
 [Why Privacy Matters Even if "you have nothing to hide"](https://write.privacytools.io/privacy-simplified/why-privacy-matters-even-if-you-have-nothing-to-hide): Interesting opinion on privacy in an era that disregards it more and more.
-- [2019 into 2020 – Tania Rascia](https://www.taniarascia.com/2019-into-2020/)
+- [2019 into 2020 Tania Rascia](https://www.taniarascia.com/2019-into-2020/)
 - [The Bus Ticket Theory of Genius](http://paulgraham.com/genius.html)
-- [My Decade in Review — Overreacted](https://overreacted.io/my-decade-in-review/)
-- [Doubting death: how our brains shield us from mortal truth | Psychology | The Guardian](https://www.theguardian.com/science/2019/oct/19/doubting-death-how-our-brains-shield-us-from-mortal-truth)
-- [Ask HN: What, in your opinion, are the greatest and most useful textbooks? | Hacker News](https://news.ycombinator.com/item?id=23485477)
-- [I sell onions on the Internet | Deep South Ventures](https://www.deepsouthventures.com/i-sell-onions-on-the-internet/)
-- [Ask HN: Mind bending books to read and never be the same as before? | Hacker News](https://news.ycombinator.com/item?id=23151144)
-- [Ask HN: What are less known hard Sci-Fi books to read? | Hacker News](https://news.ycombinator.com/item?id=23131001)
+- [My Decade in Review Overreacted](https://overreacted.io/my-decade-in-review/)
+- [Doubting death: how our brains shield us from mortal truth](https://www.theguardian.com/science/2019/oct/19/doubting-death-how-our-brains-shield-us-from-mortal-truth)
+- [Ask HN: What, in your opinion, are the greatest and most useful textbooks?](https://news.ycombinator.com/item?id=23485477)
+- [I sell onions on the Internet](https://www.deepsouthventures.com/i-sell-onions-on-the-internet/)
+- [Ask HN: Mind bending books to read and never be the same as before?  Hacker News](https://news.ycombinator.com/item?id=23151144)
+- [Ask HN: What are less known hard Sci-Fi books to read?  Hacker News](https://news.ycombinator.com/item?id=23131001)
 
-# Programming
+# Programming in General
 <div class="contact-line"></div>
 <span>
 
-# Programming in General
-
-- [Git Basics | The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/git-basics?ref=lnav)
+- [Git Basics  The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/git-basics?ref=lnav)
 - [EbookFoundation/free-programming-books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books)
-- [How to Contribute to Open Source | Open Source Guides](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source)
-- [A Very Brief Intro to CS | The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/a-very-brief-intro-to-cs?ref=lnav)
+- [How to Contribute to Open Source  Open Source Guides](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source)
+- [A Very Brief Intro to CS  The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/a-very-brief-intro-to-cs?ref=lnav)
 - [40 Key Computer Science Concepts Explained In Layman’s Terms](http://carlcheo.com/compsci)
 - [greghub/website-launch-checklist: Things to double-check before launching a website](https://github.com/greghub/website-launch-checklist#website-is-allowed-for-indexing)
 - [SQL Teaching - The easiest tutorial to learn SQL](https://www.sqlteaching.com/#!table_alias)
@@ -44,18 +42,18 @@ You can comment down below if you found any of these useful and have any suggest
 - [yangshun/tech-interview-handbook: 💯 Materials to help you rock your next coding interview](https://github.com/yangshun/tech-interview-handbook)
 - [A free online introduction to artificial intelligence for non-experts](https://www.elementsofai.com/)
 - [How To Learn Data Structures And Algorithms (An Ultimate Guide For Beginners) - DEV Community 👩‍💻👨‍💻](https://dev.to/snj/how-to-learn-data-structures-and-algorithms-an-ultimate-guide-for-beginners-2h9c)
-- [Ask HN: How do I choose the right resource to learn CS fundamentals? | Hacker News](https://news.ycombinator.com/item?id=21919465)
+- [Ask HN: How do I choose the right resource to learn CS fundamentals?  Hacker News](https://news.ycombinator.com/item?id=21919465)
 - [Programming book list](https://danluu.com/programming-books/)
 - [John Byrd's answer to What is the most sophisticated piece of software ever written? - Quora](https://www.quora.com/What-is-the-most-sophisticated-piece-of-software-ever-written-1/answer/John-Byrd-2)
-- [Ask HN: Does anyone record themselves while programmming? | Hacker News](https://news.ycombinator.com/item?id=22182969)
+- [Ask HN: Does anyone record themselves while programmming?  Hacker News](https://news.ycombinator.com/item?id=22182969)
 - [Coding Horror](https://blog.codinghorror.com/)
 - [AchoArnold/discount-for-student-dev: This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students](https://github.com/AchoArnold/discount-for-student-dev#source-code-repos)
 - [About - Recurse Center](https://www.recurse.com/about)
 
 # Ethical Hacking
 
-- [Hacker101 - Learn How To Hack - Free Online Course | HackerOne](https://www.hackerone.com/hacker101)
-- [The Worst Hacks of the Decade | WIRED](https://www.wired.com/story/worst-hacks-of-the-decade/)
+- [Hacker101 - Learn How To Hack - Free Online Course  HackerOne](https://www.hackerone.com/hacker101)
+- [The Worst Hacks of the Decade  WIRED](https://www.wired.com/story/worst-hacks-of-the-decade/)
 - [Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks](https://github.com/Kayzaks/HackingNeuralNetworks)
 - [Darknet Diaries – True stories from the dark side of the Internet.](https://darknetdiaries.com/)
 - [Coding Stories: Me vs. The VNC Guy](https://martinrue.com/coding-stories-me-vs-vnc/)
@@ -101,25 +99,25 @@ You can comment down below if you found any of these useful and have any suggest
 - [Can you hack it?](https://hack.ainfosec.com/)
 - [Hacker 101](https://www.hacker101.com)
 - [The 25 most difficult questions](http://www.datsi.fi.upm.es/~frosal/docs/25mdq.html)
-- [Preparing to Interview and Interviewing | The Odin Project](https://www.theodinproject.com/courses/getting-hired/lessons/preparing-to-interview-and-interviewing?ref=lnav)
+- [Preparing to Interview and Interviewing  The Odin Project](https://www.theodinproject.com/courses/getting-hired/lessons/preparing-to-interview-and-interviewing?ref=lnav)
 
 # Mathematics
 
 - [Concrete Mathematics 2e.pdf](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)
 - [How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
 - [European Summer Program in Rationality](https://espr-camp.org/)
-- [About PROMYS | PROMYS: Program in Mathematics for Young Scientists](https://promys.org/about-promys)
+- [About PROMYS  PROMYS: Program in Mathematics for Young Scientists](https://promys.org/about-promys)
 - [Fermat's Last Theorem, Simon Singh - Amazon.com](https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh-ebook/dp/B009UKUGXC)
 - [Concrete Mathematics - Wikipedia](https://en.wikipedia.org/wiki/Concrete_Mathematics)
-- [Apply | SPARC](https://sparc-camp.org/apply/)
+- [Apply  SPARC](https://sparc-camp.org/apply/)
 
 # Marketing
 
 - [How to get your first 500–1000 users for your product, project, and/or service for free.](https://medium.com/sideprojects/how-to-get-your-first-500-1000-users-for-your-product-project-and-or-service-for-free-41a888a08764)
 - [How successful companies got their first users – Early User Growth](https://earlyusergrowth.com/startups/#apple)
-- [Scaling to 100k Users | Alex Pareto](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html)
+- [Scaling to 100k Users  Alex Pareto](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html)
 - [Marketing-for-Engineers/README.md at master · LisaDziuba/Marketing-for-Engineers](https://github.com/LisaDziuba/Marketing-for-Engineers/blob/master/README.md#-user-research)
-- [How to run a startup for free ($6/yr)? | Hacker News](https://news.ycombinator.com/item?id=22354060)
+- [How to run a startup for free ($6/yr)?  Hacker News](https://news.ycombinator.com/item?id=22354060)
 - [My Second Year as a Solo Developer · mtlynch.io](https://mtlynch.io/solo-developer-year-2/)
 - [Finding your first users without spending on ads](https://www.indiehackers.com/post/finding-your-first-users-without-spending-on-ads-69d79d88ba)
 - [dehenne/awesome-visibility: Curated list to achieve visibility for your product](https://github.com/dehenne/awesome-visibility)

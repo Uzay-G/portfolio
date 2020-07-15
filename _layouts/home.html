@@ -19,9 +19,9 @@ title: home
 <div class="content">
 	<div id="links-container" style="text-align: center; width: 100%">
 		{% for item in site.data.navigation %}
-			<p class="nav-links hover-underline" id="{{ item.link }}">
+			<a class="nav-links hover-underline" href="{{ item.link }}">
 				{{ item.name }}
-			</p>
+			</a>
 		{% endfor %}
 	</div>
 </div>

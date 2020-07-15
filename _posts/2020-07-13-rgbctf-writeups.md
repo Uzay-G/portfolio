@@ -1,6 +1,6 @@
 ---
 title: RGBCTF 2020 Writeups
-category: cybersecurity
+category: cyber-security
 tags: [ctf, web, algo]
 ---
 
