@@ -6,18 +6,18 @@
   font-size: 1.2rem;
 
 
-  .nav-links {
+
+  #logo {
+    float: left;
+  }
+}
+.nav-links {
     padding: 5px;
     font-size: 25px;
     font-family: $bold_font;
     opacity: 1;
     color: #f6d186;
   }
-  #logo {
-    float: left;
-  }
-}
-
 .nav {
   margin-top: 4px;
 }

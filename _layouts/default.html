@@ -3,7 +3,9 @@
   {% include head.html %}
   <body>
     <div class="nav">
-        {% include header.html %}
+		{% if page.url != "/" %}
+	        {% include header.html %}
+		{% endif %}
     </div>
     <br><br><br><br>
     <main class="page-content" aria-label="Content">
@@ -12,7 +14,6 @@
     <br>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/assets/javascript/app.js"></script>
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 <script>
 (function(f, a, t, h, o, m){
 	a[h]=a[h]||function(){

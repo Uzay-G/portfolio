@@ -223,3 +223,14 @@ code {
 	font-size: 14px;
 	word-break: break-word;
 }
+
+@keyframes fadeOut {
+	100% {
+		opacity: 0%;
+		margin-top: -12000px;
+	}
+}
+
+.fade-anim {
+	animation: fadeOut 1s 1;
+}
