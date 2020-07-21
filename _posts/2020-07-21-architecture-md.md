@@ -8,7 +8,7 @@ Open Source Software and especially large projects have a few defined standards 
 
 Despite this, even in popular projects, there is a disconcerting lack of guidance on the actual structure of the software and its inner workings
 
-For example, as a part of the [open source Google Code-In event](https://codein.withgoogle.com/archive/), last winter I started contributing and still contribute to [Publiclab](https://github.com/publiclab/), an environmental community that develops mapping software and also develops an online forum about environmental science.
+For example, as a part of the [open source Google Code-in event](https://codein.withgoogle.com/archive/), last winter I started contributing and still contribute to [Public Lab](https://github.com/publiclab/), an environmental community that develops environmental software.
 
 This forum's code base is relatively large, especially for an open source beginner. It has about ~25 controllers, ~30 models and a very complete testing suite with functional, unit and system testing all automated with Travis.
 
