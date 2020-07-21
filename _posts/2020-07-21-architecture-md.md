@@ -27,7 +27,7 @@ Putting this information would be helpful to not put off curious contributors th
 These frustrations are pushing me to propose a new "standard" for welcoming open source contribution, an `ARCHITECTURE.md` file, that would work on top of `CONTRIBUTING.md` to inform on:
 
 - The tech stack, the backend / frontend / db / middleware technologies used
-- The structure of the code and its logical links (diagrams :)), ie frontend views are in `app/views`, backend endpoints in `app/controllers`...
+- The structure of the code and its logical links (diagrams :)), for example, crystal's code is organised with `/src/modulename/submodule.cr` structure (ie [`/src/csv/parser.cr`](https://github.com/crystal-lang/crystal/blob/master/src/csv/parser.cr) 
 - Specifications for testing and general guidelines on testing constraints for said project paired with details on the CI process
 - Code style requirements
 
