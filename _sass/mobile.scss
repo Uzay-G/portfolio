@@ -53,18 +53,6 @@
             width: 100%;
         }
     }
-    // responsive navigation
-    #links-container {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        right: 0;
-        top: 25%; /* 25% from the top */
-        width: 130px; /* 100% width */
-        text-align: center; /* Centered text/links */
-        margin:auto;
-        
-    }
     #nav .nav-links {
         opacity: 0;
         color: #818181;
