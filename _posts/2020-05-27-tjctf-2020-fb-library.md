@@ -22,7 +22,7 @@ This meant, the only way I could execute my cookie stealer would be by embedding
 
 Building a cookie stealer in 20 characters would be impossible, so we had to find another way. Some [funny posts](https://jlajara.gitlab.io/posts/2019/11/30/XSS_20_characters.html) had the idea of buying a short domain, but the admins told us no purchase was required. 
 
-My teammate [Techno-Disaster](http://technodisaster.me) 	scoured the web and found the very interesting `window.name` [property](https://developer.mozilla.org/en-US/docs/Web/API/Window/name). This allows you to store a string across different websites. So for example, I can set its value on my own, and then if I redirect to their website, its value will stay the same. Do you see where I am going? :)
+My teammate [Techno-Disaster](https://technodisaster.wtf) 	scoured the web and found the very interesting `window.name` [property](https://developer.mozilla.org/en-US/docs/Web/API/Window/name). This allows you to store a string across different websites. So for example, I can set its value on my own, and then if I redirect to their website, its value will stay the same. Do you see where I am going? :)
 
 So our trick was to make it go to our website and then have a script that would change the `window.name` property to our payload, and then redirect it to the vulnerable search page by setting the query parameter to `<script>eval(name)`. This evaluates our payload stored in the `window.name` property and executes our cookie stealing payload.
 
