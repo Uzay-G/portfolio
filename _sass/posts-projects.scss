@@ -1,29 +1,32 @@
 // Projects css
 .project {
-    display: flex;
-    margin: auto;
-    justify-content: space-between;    
-}
-.project-img, .project img {
-    max-width: 70%;
-    margin: auto;
-    min-width: 50%;
-    max-height: 450px;
+	width: 50%;
+	height: 300px;
+	.img-cont {
+		height: 100px;
+		width: 100px;
+		position: relative;
+	}
+	img {
+	    position: absolute;
+   		top: 0;
+    	bottom: 0;
+		margin: auto;
+	}
 }
 .project-masthead {
     text-align: center;
 }
 // "/projects" page
 #project-list {
+	display: flex;
+	flex-wrap:wrap;
+    justify-content: space-between;    
     figure {
     width: 80%;
     margin: 20px 0px;
     }
 
-    img {
-        width: 50%;
-        padding: 20px 0px;
-    }
     .left {
         float: left;
     }

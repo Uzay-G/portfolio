@@ -6,12 +6,12 @@ html {
 
 a {
     text-decoration: none;
-    color: $pale_violet;
+    color: $orange;
 }
 p, li  {
     font-family: $text-font;
     font-size: 17px;
-    color: #ffaaa5;
+    color: white;
 }
 h1 {
     font-size: 38px;
@@ -31,7 +31,7 @@ h5 {
 h6, h5, h4, h3, h2, h1 {
     font-family: $bold-font;
     font-weight: normal;
-    color: $pale_violet;
+    color: #f6d186;
     margin: 0;
 }
 
@@ -64,19 +64,15 @@ figure img {
 	padding: 10px;
 	width: 30px;
 	text-decoration: none;
-    color: #504658
+    color: white;
 }
-.fa:hover, .fab:hover {
-	transition: all 1s;
-	color: #ffaaa5;
-}
-
 // main page content
 #logo {
     max-width: 140px;
 }
 .page-content {
-    width: 80%;
+    width: 55%;
+	padding-top: 60px;
     margin: auto;
     img {
         max-width: 100%;
@@ -219,7 +215,7 @@ body, html {
     }
 }
 code {
-	color: #e83e8c;
+	color: #f6d186;
 	font-size: 14px;
 	word-break: break-word;
 }

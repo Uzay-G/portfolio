@@ -7,7 +7,7 @@ dates: September 2019 - December 2019
 value: 4
 tags: [rails, webdev, tech]
 link: http://metadigest.uzpg.me   
-github: https://github.com/Uzay-G/metadigest
+github: Uzay-G/metadigest
 
 ---
 

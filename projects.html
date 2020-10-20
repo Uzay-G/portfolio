@@ -2,44 +2,22 @@
 title: Projects
 layout: default
 ---
-<div id="project-list">
-  <br>
 <h1>Projects</h1>
+<br><br>
+<div id="project-list">
 {% for project in site.projects %}
-    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == "even" %}
-      <figure class="project right">
-        <figcaption>
-          <a href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
-          <h3>{{ project.description }}</h3>
-          <br>  
-          <a href="{{ project.url }}" class="more-button">View</a>
-          {% if project.link %}
-            <a href="{{ project.link }}" class="more-button" target="_blank">Live</a>    
-            <br><br> 
-            {% endif %}
-            {% if project.github %}
-                <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
-            {% endif %}
-        </figcaption>
-        <img src="{{ project.feature_img }}" alt="{{ project.name }}">
-        </figure>
-      {% else %}
-        <figure class="project left">
-          <img src="{{ project.feature_img }}" alt="{{ project.name }}">
-          <figcaption>
-          <a href="{{ project.url }}"><h2>{{ project.name }}</h2></a>
-            <h3>{{ project.description }}</h3>
-            <br>
-            <a href="{{ project.url }}" class="more-button">View</a>
-            {% if project.link %}
-              <a href="{{ project.link }}" class="more-button" target="_blank">Live</a>
-              <br><br>               
-            {% endif %}
-            {% if project.github %}
-                <a href="{{ project.github }}" style="background: #6807f9" class="more-button" target="_blank">Github Repository</a>
-            {% endif %} 
-        </figure>
-      {% endif %}   
+	<div class="project">
+		{% if project.feature_img %}
+			<div class="img-cont">
+		  		<img src="{{ project.feature_img }}" alt="{{ project.name }}">
+			</div>
+		{% endif %}
+		<h2>{{ project.title }}</h2>
+		<p>{{ project.description }}</p>
+		{% if project.github %}
+			<a href="https://github.com/{{ project.github }}" target="_blank" class="fab fa-github"></a>
+		{% endif %} 
+		<a href="{{project.link}}" class="fas fa-link"></a>
+	</div>
 {% endfor %}
 </div>

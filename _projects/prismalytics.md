@@ -2,10 +2,11 @@
 title: Prismalytics
 description: Analytics for your discord bots
 feature_img: https://prismalytics.herokuapp.com/dist/images/logo.svg
-dates: March 2020 - now
+dates: March 2020 - august 2020
 value: 1
 tags: [crystal, webdev, discord]
 link: https://prismalytics.herokuapp.com
+github: Uzay-G/prismalytics
 ---
 
 Prismalytics is a web application and a set of client-side libraries that allow you to gather analytics about how your bots are being used.

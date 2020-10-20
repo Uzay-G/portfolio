@@ -6,7 +6,7 @@ value: 1
 tags: [flask, webdev, github]
 link: https://reposi.0cdn.me/
 feature_img: /assets/images/reposi.png
-github: https://github.com/N1ght-Owls/reposi
+github: N1ght-Owls/reposi
 ---
 
 Reposi is a plug and play integration to embed **all** of your repository data onto a webpage:

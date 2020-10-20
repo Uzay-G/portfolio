@@ -6,7 +6,7 @@ value: 2
 tags: [rails, webdev, community, heroku]
 link: http://devol.io
 feature_img: /assets/images/showcase.png
-github: https://github.com/Uzay-G/devolio
+github: Uzay-G/devolio
 ---
 
 Devolio is a social network for developers I built as a hobby in January and March 2020. It taught me a lot about complex Rails infrastructures, building clean interfaces with Javascript, and how to use Active Storage to allow image uploads.

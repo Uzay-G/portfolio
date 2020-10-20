@@ -29,7 +29,6 @@
 
 // mobile screen
 @media only screen and (max-width: 450px) {
-  // home page content
     .content {
         flex-direction: column;
         width: 100%;
@@ -48,9 +47,7 @@
     #project-list {
         .project {
             flex-direction: column;
-        }
-        .project, img, figcaption {
-            width: 100%;
+			width: 100%;
         }
     }
     #nav .nav-links {
@@ -83,6 +80,18 @@
       margin-top: -310px;  
       text-align: left;
       margin-left: -100px;
+    }
+	// responsive navigation
+    #links-container {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 25%; /* 25% from the top */
+        width: 130px; /* 100% width */
+        text-align: center; /* Centered text/links */
+        margin:auto;
+
     }
 }
 
