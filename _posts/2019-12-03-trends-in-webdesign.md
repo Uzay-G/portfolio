@@ -31,7 +31,7 @@ _Screenshot from Bruno Simon's <a target="_blank" rel="noopener" href="https://b
 ## Skeleton Loaders and preloaders
 It's often useful to display placeholder content while your data-heavy images or embeds are loading. New techniques like skeleton screens and spinners have become the go-to solution to deal with these problems. 
 They let the user know that something is going on behind the screen and they aren't staring at a dead website.
-If you want to learn how to code and design a loader, you should check out [this post](http://uzpg.me/2019/09/22/design-preloader.html). This is what should have by the end of the tutorial:
+If you want to learn how to code and design a loader, you should check out [this post](https://uzpg.me/2019/09/22/design-preloader.html). This is what should have by the end of the tutorial:
 <pre><code>
 
 <div id="loader">

