@@ -14,7 +14,7 @@ layout: default
 {% unless words contains "-" %}
 <p>{{ words | plus: 250 | divided_by: 180 | append: " minute read" }}</p>
 {% endunless %}
-{{ content }}
+{% include anchor_headings.html html=content anchorBody="#" %}
 <br>
 <hr id="bottom" style="visibility: hidden;">
 <br>
