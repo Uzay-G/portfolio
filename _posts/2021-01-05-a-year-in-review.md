@@ -4,6 +4,8 @@ tags: [learning, life]
 category: tech
 ---
 
+{% include toc.md %}
+
 # 2020 into 2021
 
 Inspired by [this post](http://blog.fogus.me/2020/12/31/the-best-things-and-stuff-of-2020/) and [this one](https://www.taniarascia.com/2019-into-2020/).
@@ -54,7 +56,7 @@ I read the [Selfish Gene](https://en.wikipedia.org/wiki/The_Selfish_Gene) and fo
 
 ### Programming Languages
 
-Functional Programming is a super intriguing paradigm for me and learning Haskell has been super fun.  It has some really cool concepts that I might write about coming from OOP. Reading [Get Programming with Haskell](https://www.manning.com/books/get-programming-with-haskell)
+Functional Programming is a super intriguing paradigm for me and learning Haskell has been super fun.  It has some really cool concepts that I might write about coming from OOP. Reading [Get Programming with Haskell](https://www.manning.com/books/get-programming-with-haskell).
 
 I'm also learning Rust a bit more slowly because it strikes me as an extremely elegant and efficient language that also brings some enriching new ideas to the PL game.
 
@@ -89,9 +91,11 @@ It's a knowledge base tool that takes a [novel](https://archivy.github.io/differ
 
 I plan on releasing a release candidate for 1.0 with a [new design](https://github.com/archivy/archivy/pull/161) and many other features soon (end of January?).
 
-### Prismalytics
+### AdiosCorona
 
-[Prismalytics](https://prismalytics.herokuapp.com/) is a more minor project I worked on that got me some experience with Crystal and its ecosystem. It's a simple analytics framework for discord bots.
+[AdiosCorona](https://adioscorona.org) is a project I built with a team of researchers to provide clear, factual information on the pandemic. I'm happy to have done my part by building the frontend and backend for the scientists that allowed them to write and publish quality content for hundreds of thousands of people.
+
+This wasn't the most *fun* project to do, but it's definitely a website I'm happy I made.
 
 ### Devolio
 
@@ -104,6 +108,7 @@ Unfortunately, my goals were dismayed here because I underestimated the difficul
 - [Garret](https://github.com/Uzay-G/garret)
 - [Reposi](https://github.com/N1ght-Owls/reposi)
 - [Onyx](https://github.com/Uzay-G/onyx)
+- [Prismalytics](https://prismalytics.herokuapp.com/)
 
 ### Projects in 2021
 
@@ -200,6 +205,6 @@ In the near future, I plan on reading:
 
 In no particular order:
 
-[Nils Andre](https://www.nilsand.re/), [Aadi Bajpai](https://aadibajpai.com), [siraben](https://siraben.github.io/), [Dylan Iskandar](https://terminal.dylaniskandar.com/). [Aayushman](https://www.aayushman.me/) and many others,
+[Nils Andre](https://www.nilsand.re/), [Aadi Bajpai](https://aadibajpai.com), [siraben](https://siraben.github.io/), [Dylan Iskandar](https://terminal.dylaniskandar.com/), [Aayushman](https://www.aayushman.me/) and many others.
 
 [^1]: A capture the flag event is a cybersecurity event where several teams compete to solve a set of challenges created by the event organizers the fastest. These can be on several subjects like cryptography, web exploitation, reversing, blockchain, etc...
