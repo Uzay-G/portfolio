@@ -10,9 +10,9 @@ At the beginning of 2021 I set out to cultivate a new habit: finding one article
 
 This seemingly innocuous challenge started out as a joke, inspired by the "quote-of-the-day" some people infrequently sent, but has turned into a fun way to share and also learn from my classmates.
 
-I think this new habit can actually be useful for many people, and is worth trying out.
+This new habit can actually be useful for many people, and is worth trying out.
 
-For now I've just been sharing the articles I find with my class group on Whatsapp, and I think having a personal audience, as in people you know and not just strangers on the Internet, is a way to encourage interesting discussions and more active dialogue than just posting something on Twitter, for example.
+For now I've just been sharing the articles I find with my class group on Whatsapp, and having a personal audience, as in people you know and not just strangers on the Internet, is a way to encourage interesting discussions and more active dialogue than just posting something on Twitter, for example.
 
 Generally, this should be worthwhile with an audience you can easily discuss with and that you understand, so you can find articles that not only interest you, but also the people you're sharing with.
 
