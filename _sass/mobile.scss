@@ -24,6 +24,7 @@
     }
     #nav .nav-links {
       opacity: 1;
+	  display: block;
     }
   }
 
@@ -93,5 +94,9 @@
         margin:auto;
 
     }
+	.nav-links {
+		display: none;
+		opacity: 0;
+	}
 }
 
