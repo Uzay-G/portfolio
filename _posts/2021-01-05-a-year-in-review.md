@@ -1,7 +1,7 @@
 ---
 title: 2020 into 2021
 tags: [learning, life]
-category: tech
+category: general
 ---
 
 {% include toc.md %}

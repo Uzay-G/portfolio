@@ -1,6 +1,6 @@
 ---
 title: cyber-security
-icon: /assets/images/cybersec.png
+priority: 1000
 ---
 
 Collections of writeups for different CTFs I participate in.

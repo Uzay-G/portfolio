@@ -1,7 +1,7 @@
 ---
 title: Challenge - An Article a Day for 2021
-category: life
-tags: [knowledge, community]
+category: general
+tags: [knowledge, community, life]
 ---
 
 {% include toc.md %}

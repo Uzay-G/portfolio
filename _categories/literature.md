@@ -1,6 +1,6 @@
 ---
 title: literature
-icon: /assets/images/literature.png
+priority: 3
 ---
 
 Book reviews, my thoughts on the world of literature and even an attempt at writing my own **very** short story.
