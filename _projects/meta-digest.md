@@ -4,7 +4,7 @@ description: A weekly tech newsletter that fetches the best content from sites l
 feature_img: /assets/images/synop.svg
 dates: September 2019 - December 2019
 # You can assign value to your projects, the lower the value, the higher the project will be
-value: 4
+value: 20
 tags: [rails, webdev, tech]
 link: http://metadigest.uzpg.me   
 github: Uzay-G/metadigest

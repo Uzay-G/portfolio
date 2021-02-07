@@ -5,7 +5,8 @@ layout: default
 <h1>Projects</h1>
 <br><br>
 <div id="project-list">
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: "value" %}
+{% for project in projects %}
 	<div class="project">
 		{% if project.feature_img %}
 			<div class="img-cont">

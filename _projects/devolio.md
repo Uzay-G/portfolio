@@ -2,7 +2,7 @@
 name: Devolio
 description: Social space for developers to discuss with like-minded people and share their creations.
 dates: December 2019 - February 2020
-value: 2
+value: 10
 tags: [rails, webdev, community, heroku]
 link: http://devol.io
 feature_img: /assets/images/showcase.png
