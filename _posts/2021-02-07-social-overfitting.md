@@ -8,7 +8,7 @@ tags: [life, essays]
 
 Human beings are social animals. For the most part, we seek social connection and discussion with others in our lives. This tendency is one of the traits that propels our species forward, but it can also be dangerous.
 
-Indeed, the measure to which we can satisfy this desire has increased with social media, with new tools that put an entire world of people at our fingertips, but also expose us to a new weakness.
+The measure to which we can satisfy this desire has increased with social media, with new tools that put an entire world of people at our fingertips, but also expose us to a new weakness.
 
 One of the fundamental features of these social networks is the idea of **liking and commenting**: people read your post and then show their appreciation by liking it or initiate a conversation by writing a comment.
 
@@ -18,7 +18,7 @@ This caters to our social inclination, a useful evolutionary trait for humanity 
 
 These social interactions trigger a dopamine rush in our brains. But the virtual social environments we've developed multiply the opportunity to enjoy these dopamine rewards. In a situation where every like or feedback or validation triggers a new boost in your brain, they become ubiquitous and sometimes over-absorbing.
 
-This can lead to **social overfitting**: consciously or unconsciously being powered and influenced by your desire to be seen and appreciated to an extent that you create content that is not a true reflection of what you're interested in or want to share but content that will get you more reaction and validation. This overfitting is a form of excess, and in over-adapting to cause reactions, you might no longer have the appeal you once had. This happens if you produce to provoke interest rather than create something that is truly interesting, and that you're interested in.
+This can lead to **social overfitting**: consciously or unconsciously being powered and influenced by your desire to be seen and appreciated to an extent that you create content that is not a true reflection of what you're interested in or want to share. Instead, your intent is to produce content that will get you more reaction and validation. This overfitting is a form of excess, and in over-adapting to cause reactions, you might no longer have the appeal you once had. This happens if you produce to provoke interest rather than create something that is truly interesting, and that you're interested in.
 
 ## What is overfitting? 
 
@@ -28,9 +28,9 @@ The idea of **overfitting** I'm borrowing here actually comes from the field of 
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Overfitting)
 
-The analogy I'm drawing is that we as social beings, can sometimes grow so drawn to the reactions and feedback we get online, that instead of continuing to do what we like and sharing what we really want, we turn these social interactions into almost a strategy, a strategy that aims to attract the most validation for the author and his content.
+The analogy I'm drawing is that we as social beings, can sometimes grow so drawn to the reactions and feedback we get online, that instead of continuing to do what we like and sharing what we really want to, we try to over-optimize social sharing into a strategy. This strategy aims to attract the most validation for the author and his content, be it in the form of views, likes or comments.
 
-That's not all, though; in the same way an overfitted model is no longer able to reason well with the data we give it, often when content creation becomes powered by a "science of popularity" instead of authenticity, people will not be attracted to your content, and you'll have the opposite of what you were looking for.
+That's not all, though; in the same way an overfit model is no longer able to reason well with the data we give it, often when content creation becomes powered by a "science of popularity" instead of authenticity, people will not be attracted to your content, and you'll have the opposite of what you were looking for.
 
 Genuinely trying to understand your audience is by no means something negative, but just be wary not to practise this "social overfitting", and become too motivated by the temporary spotlight of online attention.
 
@@ -39,6 +39,6 @@ Even as I write this post, I'm at least a little bit motivated by the knowledge 
 
 ## Reference
 
-- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889690/
-- http://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/
-- https://en.wikipedia.org/wiki/Overfitting
+- <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889690/>
+- <http://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/>
+- <https://en.wikipedia.org/wiki/Overfitting>
