@@ -6,12 +6,10 @@ title: The Attic
 I recently read an article on a website (I can't find it online) that had an intriguing section named `the attic`. It was a collection of all the useful links or resources that the website owner had accumulated and wanted to share with others.
 
 So I decided to add a markdown file to my website with all the useful or interesting things I've found online ordered by topic.
-All the resources included are totally free and I plan to add many more links and content as I learn more and explore new hidden corners of the internet!
 
-You can comment down below if you found any of these useful and have any suggestions. Thanks!
+See [this post](http://localhost:4000/tech/2020/12/21/building-your-digital-attic.html) for more context.
 
 ## Articles
-
 - [Sort By Controversial - Slate Star Codex](https://slatestarcodex.com/2018/10/30/sort-by-controversial/)
 - [Giving What We Can](https://www.givingwhatwecan.org/)
 - [The Bus Ticket Theory of Genius](http://paulgraham.com/genius.html)
@@ -34,6 +32,24 @@ You can comment down below if you found any of these useful and have any suggest
 - [What You'll Wish You'd Known](http://www.paulgraham.com/hs.html)
 - [The Gods on HackerNews](https://www.riknieu.com/the-gods-on-hackernews/)
 - [Supererogation - Wikipedia](https://en.wikipedia.org/wiki/Supererogation)
+- [How Creativity Changes as We Age - The Walrus](https://thewalrus.ca/older-wiser-better-aging-artists-are-at-their-peak/)
+- [Nadia Eghbal - Shamelessness as a strategy](https://nadiaeghbal.com/shameless)
+- [But You Dont Look Sick? support for those with invisible illness or chronic illness The Spoon Theory written by Christine Miserandino - But You Dont Look Sick? support for those with invisible illness or chronic illness](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/)
+- [Be impatient - benkuhn.net](https://www.benkuhn.net/impatient/)
+- [Chesterton’s Fence: A Lesson in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/)
+- [Qualia - Wikipedia](https://en.wikipedia.org/wiki/Qualia)
+- [Reflections on 2020 as an independent researcher - Andy Matuschak](https://andymatuschak.org/2020/)
+- [The Lesson to Unlearn](http://paulgraham.com/lesson.html)
+- [Meditations On Moloch - Slate Star Codex](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/)
+- [Proof of X « julian.digital](https://julian.digital/2020/08/06/proof-of-x/)
+- [The Fable of the Dragon-Tyrant](https://www.nickbostrom.com/fable/dragon.html)
+- [Becoming a magician – Autotranslucence](https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/)
+- [Universal Love, Said The Cactus Person - Slate Star Codex](https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/)
+- [The Bookmaking Habits of Select Species - Lightspeed Magazine](https://www.lightspeedmagazine.com/fiction/the-bookmaking-habits-of-select-species/)
+- [I Really Blew It - Interactive Storytelling Tools for Writers - Chris Crawford](http://www.erasmatazz.com/personal/self/i-really-blew-it.html)
+- [The Parable Of The Talents - Slate Star Codex](https://slatestarcodex.com/2015/01/31/the-parable-of-the-talents/)
+- [This Page is Designed to Last: A Manifesto for Preserving Content on the Web](https://jeffhuang.com/designed_to_last/)
+- [a piano and you](https://thesephist.com/you/)
 
 ## Computer Science
 
@@ -57,7 +73,7 @@ You can comment down below if you found any of these useful and have any suggest
 - [dwmkerr/hacker-laws: 💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws](https://github.com/dwmkerr/hacker-laws#kernighans-law)
 - [ossu/computer-science: Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 - [How is search so goddamn bad? A ‘Case Study’ - Svilen Todorov](https://svilentodorov.xyz/blog/bad-search/)
-
+- [The 4 Biggest Open Problems in NLP](https://ruder.io/4-biggest-open-problems-in-nlp/)
 
 ## Cool Websites
 
@@ -77,8 +93,48 @@ You can comment down below if you found any of these useful and have any suggest
 - [Vincent Saïsset - Freelance Interactive Developer](https://www.vincentsaisset.com/)
 - [Burak Aslan](https://burakaslan.me/)
 - [Ely Fornoville - This is my journey to $50,000 in revenue](https://elyfornoville.com/)
-- [madebylee](https://madebylee.dev/)
 
+
+
+## Competitive Programming
+
+- [Mathématiques et informatique - Olympiades nationales de mathématiques - Éduscol](https://eduscol.education.fr/cid46901/olympiades-nationales-de-mathematiques.html#lien4)
+- [ioi-syllabus.pdf](https://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus.pdf)
+- [Prologin, the French National Computer Science Contest](https://prologin.org/)
+- [What are some good resources to learn C++ for competitive programming? - Quora](https://www.quora.com/What-are-some-good-resources-to-learn-C++-for-competitive-programming?share=1)
+- [Hash Code - Google’s Coding Competitions](https://codingcompetitions.withgoogle.com/hashcode)
+- [Floyd–Warshall algorithm - Wikipedia](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm#Algorithm)
+- [Minimax - Wikipedia](https://en.wikipedia.org/wiki/Minimax)
+- [Ford-Fulkerson Algorithm - Brilliant Math & Science Wiki](https://brilliant.org/wiki/ford-fulkerson-algorithm/)
+
+## Mathematics
+- [notes.pdf](http://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf)
+- [Aaron Swartz](http://www.aaronsw.com/)
+- [Mathematics for programmers (early draft) - Math-for-programmers.pdf](https://yurichev.com/writings/Math-for-programmers.pdf)
+- [Concrete Mathematics 2e.pdf](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)
+- [Concrete Mathematics - Wikipedia](https://en.wikipedia.org/wiki/Concrete_Mathematics)
+- [How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
+- [Involution (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Involution_(mathematics))
+- [Fermat's Last Theorem, Simon Singh - Amazon.com](https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh-ebook/dp/B009UKUGXC)
+- [European Summer Program in Rationality](https://espr-camp.org/)
+- [About PROMYS - PROMYS: Program in Mathematics for Young Scientists](https://promys.org/about-promys)
+- [Apply - SPARC](https://sparc-camp.org/apply/)
+- [Partitions into Consecutive Integers](https://www.mathpages.com/home/kmath107.htm)
+- [Microsoft PowerPoint - geometrie_intro.ppt - geometrie_intro_2.pdf](http://data.france-ioi.org/Course/aero_intro/geometrie_intro_2.pdf)
+- [That XOR Trick](https://florian.github.io/xor-trick/)
+- [[Tutorial] Math note — linear sieve - Codeforces](https://codeforces.com/blog/entry/54090)
+- [Mathematician Solves Computer Science Conjecture in Two Pages - Quanta Magazine](https://www.quantamagazine.org/mathematician-solves-computer-science-conjecture-in-two-pages-20190725/)
+- [First-order logic - Wikipedia](https://en.wikipedia.org/wiki/First-order_logic)
+
+## Design
+
+- [Color Hunt - Color Palettes for Designers and Artists](https://colorhunt.co/)
+- [illlustrations - open source illustrations kit](https://illlustrations.co/)
+- [Airbnb: How To Reduce Churn With Personalization](https://growth.design/case-studies/airbnb-personalization/)
+- [How Stripe Designs Beautiful Websites – Lee Robinson](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
+- [Carbon](https://carbon.now.sh/)
+- [Google Fonts](https://fonts.google.com/)
+- [Free illustrations resources for the web - Make your next project cooler!😎 - DEV Community 👩‍💻👨‍💻](https://dev.to/kedark/free-illustrations-resources-for-the-web-make-your-next-project-cooler-525c)
 
 ## AI
 
@@ -88,7 +144,6 @@ You can comment down below if you found any of these useful and have any suggest
 - [Surprise · A Python scikit for recommender systems.](http://surpriselib.com/)
 - [ReBeL: A general game-playing AI bot that excels at poker and more](https://ai.facebook.com/blog/rebel-a-general-game-playing-ai-bot-that-excels-at-poker-and-more/)
 - [Recent advances in Natural Language Processing- Some Woolly speculations – DePonySum](https://deponysum.com/2020/01/16/recent-advances-in-natural-language-processing-some-woolly-speculations/)
-- [Building AI Trading Systems](https://dennybritz.com/blog/ai-trading)
 - [fast.ai · Making neural nets uncool again](https://www.fast.ai/)
 - [karpathy (Andrej)](https://github.com/karpathy)
 - [cjhutto/vaderSentiment: VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.](https://github.com/cjhutto/vaderSentiment)
@@ -100,34 +155,6 @@ You can comment down below if you found any of these useful and have any suggest
 - [gwc16-intensity-variant.pdf](https://www.cse.iitb.ac.in/~pb/papers/gwc16-intensity-variant.pdf)
 - [NLP: How does NLTK.Vader Calculate Sentiment? - by Ying Ma - Ro Data Team Blog - Medium](https://medium.com/ro-data-team-blog/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b)
 - [emnlp15-adj-intensity.pdf](https://www.cse.iitb.ac.in/~pb/papers/emnlp15-adj-intensity.pdf)
-
-
-## Learning / New Content
-
-- [blogroll - benkuhn.net](https://www.benkuhn.net/blogroll/)
-- [Learning How to Learn: Powerful mental tools to help you master tough subjects - Coursera](https://www.coursera.org/learn/learning-how-to-learn)
-- [Programming book list](https://danluu.com/programming-books/)
-- [EbookFoundation/free-programming-books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books)
-- [Writing for Software Developers](https://philipkiely.com/wfsd/)
-- [BOOKS - Derek Sivers](https://sive.rs/book)
-- [Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks](https://github.com/Kayzaks/HackingNeuralNetworks)
-- [The Complete Guide to Effective Reading - Maarten van Doorn](https://maartenvandoorn.nl/reading-guide/)
-- [How I read books: a guide on how to learn - by Denys Zhadanov - Dec, 2020 - denzhadanov](https://denzhadanov.com/how-i-read-books-a-guide-on-how-to-learn-a943123a4aeb)
-- [6 GitHub Repos For Instant Knowledge Boost - DEV Community 👩‍💻👨‍💻](https://dev.to/mfarajewicz/6-github-repos-for-instant-knowledge-boost-3mo0)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-
-
-## Mathematics
-
-- [notes.pdf](http://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf)
-- [Aaron Swartz](http://www.aaronsw.com/)
-- [Mathematics for programmers (early draft) - Math-for-programmers.pdf](https://yurichev.com/writings/Math-for-programmers.pdf)
-- [Concrete Mathematics 2e.pdf](https://www.csie.ntu.edu.tw/~r97002/temp/Concrete%20Mathematics%202e.pdf)
-- [Concrete Mathematics - Wikipedia](https://en.wikipedia.org/wiki/Concrete_Mathematics)
-- [How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
-- [Involution (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Involution_(mathematics))
-- [Fermat's Last Theorem, Simon Singh - Amazon.com](https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh-ebook/dp/B009UKUGXC)
-
 
 ## Career
 
@@ -146,12 +173,16 @@ You can comment down below if you found any of these useful and have any suggest
 - [dehenne/awesome-visibility: Curated list to achieve visibility for your product](https://github.com/dehenne/awesome-visibility)
 
 
-## Design
+## Learning / New Content
 
-- [Color Hunt - Color Palettes for Designers and Artists](https://colorhunt.co/)
-- [illlustrations - open source illustrations kit](https://illlustrations.co/)
-- [Airbnb: How To Reduce Churn With Personalization](https://growth.design/case-studies/airbnb-personalization/)
-- [How Stripe Designs Beautiful Websites – Lee Robinson](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
-- [Carbon](https://carbon.now.sh/)
-- [Google Fonts](https://fonts.google.com/)
-- [Free illustrations resources for the web - Make your next project cooler!😎 - DEV Community 👩‍💻👨‍💻](https://dev.to/kedark/free-illustrations-resources-for-the-web-make-your-next-project-cooler-525c)
+- [blogroll - benkuhn.net](https://www.benkuhn.net/blogroll/)
+- [Learning How to Learn: Powerful mental tools to help you master tough subjects - Coursera](https://www.coursera.org/learn/learning-how-to-learn)
+- [Programming book list](https://danluu.com/programming-books/)
+- [EbookFoundation/free-programming-books: Freely available programming books](https://github.com/EbookFoundation/free-programming-books)
+- [Writing for Software Developers](https://philipkiely.com/wfsd/)
+- [BOOKS - Derek Sivers](https://sive.rs/book)
+- [Kayzaks/HackingNeuralNetworks: A small course on exploiting and defending neural networks](https://github.com/Kayzaks/HackingNeuralNetworks)
+- [The Complete Guide to Effective Reading - Maarten van Doorn](https://maartenvandoorn.nl/reading-guide/)
+- [How I read books: a guide on how to learn - by Denys Zhadanov - Dec, 2020 - denzhadanov](https://denzhadanov.com/how-i-read-books-a-guide-on-how-to-learn-a943123a4aeb)
+- [6 GitHub Repos For Instant Knowledge Boost - DEV Community 👩‍💻👨‍💻](https://dev.to/mfarajewicz/6-github-repos-for-instant-knowledge-boost-3mo0)
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
