@@ -1,9 +1,11 @@
 {%- assign social = site.social_links -%}
 <div id="share">
     {% if social.facebook %}<a target="_blank" href="https://facebook.com/{{ social.facebook | cgi_escape | escape }}" class="fab fa-facebook" rel="noopener"></a>{% endif %}
+
+    {% if social.github %}<a target="_blank" href="https://github.com/{{ social.github | cgi_escape | escape }}" class="fab fa-github" rel="noopener"></a>{% endif %}
+	{% if social.email %}<a href="mailto:{{ social.email }}" class="fas fa-envelope" rel="noopener"></a>{% endif %}
     {% if social.twitter %}<a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" target="_blank" rel="noopener" class="fab fa-twitter"></a>{% endif %}
     {% if social.linkedin %}<a href="https://linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" target="_blank" class="fab fa-linkedin"></a>{% endif %}
-    {% if social.github %}<a target="_blank" href="https://github.com/{{ social.github | cgi_escape | escape }}" class="fab fa-github" rel="noopener"></a>{% endif %}
     {% if social.dribbble %}<a target="_blank" href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" class="fab fa-dribbble" rel="noopener"></a>{% endif %}
     {% if social.flickr %}<a target="_blank" href="https://flickr.com/photos/{{ social.flickr | cgi_escape | escape }}" class="fab fa-flickr" rel="noopener"></a>{% endif %}
     {% if social.instagram %}<a target="_blank" href="https://instagram.com/{{ social.instagram | cgi_escape | escape }}" class="fab fa-instagram" rel="noopener"></a>{% endif %}

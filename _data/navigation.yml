@@ -5,7 +5,5 @@
   link: /blog.html
 - name: Projects
   link: /projects.html
-- name: The Attic
-  link: /attic.html
-- name: Contact
-  link: /contact.html
+- name: Wiki
+  link: https://knowledge.uzpg.me
